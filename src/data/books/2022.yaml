@@ -1,0 +1,782 @@
+year: 2022
+total_books: 41
+
+books:
+  - order: 1
+    title: "The Salt Path"
+    author: "Raynor Winn"
+    pages: 272
+    date_started: "2021-12-30"
+    date_finished: "2022-01-02"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 2
+    title: "The Unremembered Places"
+    author: "Patrick Baker"
+    pages: null
+    date_started: "2022-01-03"
+    date_finished: "2022-01-14"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 3
+    title: "The Crying of Lot 49"
+    author: "Thomas Pynchon"
+    pages: 142
+    date_started: "2022-01-15"
+    date_finished: "2022-01-24"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 4
+    title: "Short Walks from Bogotá"
+    author: "Tom Feiling"
+    pages: 266
+    date_started: "2022-01-24"
+    date_finished: "2022-01-31"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 5
+    title: "How to Blow Up a Pipeline"
+    author: "Andreas Malm"
+    pages: 161
+    date_started: "2022-02-01"
+    date_finished: "2022-02-12"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 6
+    title: "The Adventures of China Iron"
+    author: "Gabriela Cabezón Cámara; Fiona J Mackintosh"
+    pages: 188
+    date_started: "2022-02-12"
+    date_finished: "2022-02-19"
+    format: print
+    year_published: null
+    genre: null
+    publisher: "Charco"
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 7
+    title: "Holloway"
+    author: "Robert Macfarlane; Stanley Donwood; Dan Richards"
+    pages: 132
+    date_started: "2022-02-19"
+    date_finished: "2022-02-24"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 8
+    title: "Island on the Edge of the World"
+    author: "Charles Maclean"
+    pages: 183
+    date_started: "2022-02-25"
+    date_finished: "2022-03-03"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 9
+    title: "Hogfather"
+    author: "Terry Pratchett"
+    pages: 445
+    date_started: "2022-03-03"
+    date_finished: "2022-03-13"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 10
+    title: "In Evil Hour"
+    author: "Gabriel García Márquez"
+    pages: 140
+    date_started: "2022-03-13"
+    date_finished: "2022-03-17"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: "Stopped at p.135."
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 11
+    title: "The Last Continent"
+    author: "Terry Pratchett"
+    pages: 412
+    date_started: "2022-03-17"
+    date_finished: "2022-03-29"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 12
+    title: "The Rise of Ransom City"
+    author: "Felix Gilman"
+    pages: 368
+    date_started: "2022-03-30"
+    date_finished: "2022-04-27"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 13
+    title: "Dead Man's Walk (Lonesome Dove 1)"
+    author: "Larry McMurtry"
+    pages: 429
+    date_started: "2022-04-28"
+    date_finished: "2022-05-14"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 14
+    title: "At Night All Blood Is Black"
+    author: "David Diop"
+    pages: 145
+    date_started: "2022-05-06"
+    date_finished: "2022-05-09"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 15
+    title: "The Dangers of Smoking in Bed"
+    author: "Mariana Enriquez"
+    pages: 187
+    date_started: "2022-05-15"
+    date_finished: "2022-05-18"
+    format: print
+    year_published: null
+    genre: null
+    publisher: "Granta Books"
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 16
+    title: "Sea of Tranquility"
+    author: "Emily St John Mandel"
+    pages: 255
+    date_started: "2022-05-19"
+    date_finished: "2022-05-22"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 17
+    title: "The Black Dahlia"
+    author: "James Ellroy"
+    pages: 383
+    date_started: "2022-05-23"
+    date_finished: "2022-06-15"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 18
+    title: "Butcher's Crossing"
+    author: "John Williams"
+    pages: 326
+    date_started: "2022-06-06"
+    date_finished: "2022-06-11"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 19
+    title: "Entangled Life"
+    author: "Merlin Sheldrake"
+    pages: 252
+    date_started: "2022-06-14"
+    date_finished: "2022-06-18"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 20
+    title: "Outpost"
+    author: "Dan Richards"
+    pages: 297
+    date_started: "2022-06-19"
+    date_finished: "2022-06-29"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 21
+    title: "The Sisters Brothers"
+    author: "Patrick DeWitt"
+    pages: 325
+    date_started: "2022-06-30"
+    date_finished: "2022-07-05"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 22
+    title: "The Truth"
+    author: "Terry Pratchett"
+    pages: 442
+    date_started: "2022-07-05"
+    date_finished: "2022-07-17"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 23
+    title: "Slum Virgin"
+    author: "Gabriela Cabezón Cámara"
+    pages: 145
+    date_started: "2022-07-17"
+    date_finished: "2022-07-27"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 24
+    title: "A Journey in Ladakh"
+    author: "Andrew Harvey"
+    pages: 236
+    date_started: "2022-07-27"
+    date_finished: "2022-08-11"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 25
+    title: "Prosper's Demon"
+    author: "K J Parker"
+    pages: 101
+    date_started: "2022-08-12"
+    date_finished: "2022-08-13"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 26
+    title: "Train Dreams"
+    author: "Denis Johnson"
+    pages: 116
+    date_started: "2022-08-14"
+    date_finished: "2022-08-16"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 27
+    title: "Southern Mail / Night Flight"
+    author: "Antoine de Saint-Exupéry"
+    pages: 200
+    date_started: "2022-08-18"
+    date_finished: "2022-08-23"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 28
+    title: "Carpe Jugulum"
+    author: "Terry Pratchett"
+    pages: 425
+    date_started: "2022-08-25"
+    date_finished: "2022-09-10"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 29
+    title: "Winter"
+    author: "Ali Smith"
+    pages: 319
+    date_started: "2022-08-11"
+    date_finished: "2022-09-14"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 30
+    title: "Nights at the Circus"
+    author: "Angela Carter"
+    pages: 350
+    date_started: "2022-09-15"
+    date_finished: "2022-09-23"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 31
+    title: "Goodbye Buenos Aires"
+    author: "Andrew Graham-Yooll"
+    pages: 209
+    date_started: "2022-09-24"
+    date_finished: "2022-09-27"
+    format: print
+    year_published: null
+    genre: null
+    publisher: "Eland"
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 32
+    title: "The Lola Quartet"
+    author: "Emily St John Mandel"
+    pages: 274
+    date_started: "2022-09-28"
+    date_finished: "2022-10-01"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 33
+    title: "An Englishman in Patagonia"
+    author: "John Pilkington"
+    pages: 217
+    date_started: "2022-10-02"
+    date_finished: "2022-10-10"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 34
+    title: "The Wind That Lays Waste"
+    author: "Selva Almada"
+    pages: 114
+    date_started: "2022-10-11"
+    date_finished: "2022-10-11"
+    format: print
+    year_published: null
+    genre: null
+    publisher: "Charco"
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 35
+    title: "The Way West"
+    author: "A B Guthrie Jr"
+    pages: 340
+    date_started: "2022-10-12"
+    date_finished: "2022-10-20"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 36
+    title: "Dead Girls"
+    author: "Selva Almada"
+    pages: 146
+    date_started: "2022-10-21"
+    date_finished: "2022-10-22"
+    format: print
+    year_published: null
+    genre: null
+    publisher: "Charco"
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 37
+    title: "Box Hill"
+    author: "Adam Mars-Jones"
+    pages: 120
+    date_started: "2022-10-22"
+    date_finished: "2022-10-22"
+    format: print
+    year_published: null
+    genre: null
+    publisher: "Fitzcarraldo"
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 38
+    title: "You Feel It Just Below the Ribs"
+    author: "Jeffrey Cranor; Janina Matthewson"
+    pages: 371
+    date_started: "2022-10-23"
+    date_finished: "2022-10-26"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 39
+    title: "Alice Isn't Dead"
+    author: "Joseph Fink"
+    pages: 322
+    date_started: "2022-10-26"
+    date_finished: "2022-10-31"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 40
+    title: "Pond"
+    author: "Claire-Louise Bennett"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: "Fitzcarraldo"
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 41
+    title: "The Perfect Cemetery"
+    author: "Federico Falco"
+    pages: 169
+    date_started: "2022-11-03"
+    date_finished: "2022-11-05"
+    format: print
+    year_published: null
+    genre: null
+    publisher: "Charco"
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""

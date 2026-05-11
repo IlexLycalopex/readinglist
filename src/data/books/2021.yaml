@@ -1,0 +1,592 @@
+year: 2021
+total_books: 31
+
+books:
+  - order: 1
+    title: "Stoner"
+    author: "John Williams"
+    pages: 288
+    date_started: "2021-01-01"
+    date_finished: "2021-01-05"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 2
+    title: "The Winter Queen"
+    author: "Boris Akunin"
+    pages: 249
+    date_started: "2021-01-06"
+    date_finished: "2021-01-22"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 3
+    title: "Before the Coffee Gets Cold"
+    author: "Toshikazu Kawaguchi"
+    pages: 192
+    date_started: "2021-01-23"
+    date_finished: "2021-01-25"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 4
+    title: "The Big Sky"
+    author: "A B Guthrie Jr"
+    pages: 386
+    date_started: "2021-01-25"
+    date_finished: "2021-01-30"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 5
+    title: "Winner Take All"
+    author: "Dambisa Moyo"
+    pages: null
+    date_started: "2021-01-31"
+    date_finished: "2021-02-03"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 6
+    title: "The Tyranny of Experts"
+    author: "William Easterly"
+    pages: 351
+    date_started: "2021-02-03"
+    date_finished: "2021-03-04"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 7
+    title: "Tenth of December"
+    author: "George Saunders"
+    pages: 251
+    date_started: "2021-03-05"
+    date_finished: "2021-03-11"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 8
+    title: "The Bottom Billion"
+    author: "Paul Collier"
+    pages: 194
+    date_started: "2021-03-11"
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 9
+    title: "An Unexpected Light"
+    author: "Jason Elliot"
+    pages: 473
+    date_started: null
+    date_finished: "2021-06-10"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 10
+    title: "Rabbits"
+    author: "Terry Miles"
+    pages: 422
+    date_started: "2021-06-10"
+    date_finished: "2021-06-21"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 11
+    title: "Thief of Time"
+    author: "Terry Pratchett"
+    pages: 430
+    date_started: "2021-06-21"
+    date_finished: "2021-07-03"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 12
+    title: "Tread Lightly"
+    author: "Peter Larson; Bill Katovsky"
+    pages: 230
+    date_started: "2021-07-04"
+    date_finished: "2021-07-08"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 13
+    title: "Before the Coffee Gets Cold: Book 2"
+    author: "Toshikazu Kawaguchi"
+    pages: 215
+    date_started: "2021-07-09"
+    date_finished: "2021-07-13"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 14
+    title: "The Snow Leopard"
+    author: "Peter Matthiessen"
+    pages: 295
+    date_started: "2021-07-14"
+    date_finished: "2021-08-05"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 15
+    title: "This Is Your Mind on Plants"
+    author: "Michael Pollan"
+    pages: 252
+    date_started: "2021-08-06"
+    date_finished: "2021-08-26"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 16
+    title: "Bad Times in Buenos Aires"
+    author: "Miranda France"
+    pages: 207
+    date_started: "2021-08-27"
+    date_finished: "2021-09-09"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 17
+    title: "The Looting Machine"
+    author: "Tom Burgis"
+    pages: 249
+    date_started: "2021-09-09"
+    date_finished: "2021-09-28"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 18
+    title: "Pedro Páramo"
+    author: "Juan Rulfo"
+    pages: 149
+    date_started: "2021-09-28"
+    date_finished: "2021-09-29"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 19
+    title: "Epitaph of a Small Winner"
+    author: "Machado de Assis"
+    pages: 209
+    date_started: "2021-09-30"
+    date_finished: "2021-10-24"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 20
+    title: "The Cabinet"
+    author: "In Su Kim"
+    pages: 289
+    date_started: "2021-10-24"
+    date_finished: "2021-11-02"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 21
+    title: "Dark Horses at the Patagonian Frontier"
+    author: "Jon Burrough"
+    pages: null
+    date_started: "2021-11-03"
+    date_finished: "2021-11-20"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 22
+    title: "The Woman from Uruguay"
+    author: "Pedro Mairal"
+    pages: 153
+    date_started: "2021-11-21"
+    date_finished: "2021-11-22"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 23
+    title: "Ham on Rye"
+    author: "Charles Bukowski"
+    pages: 349
+    date_started: "2021-11-23"
+    date_finished: "2021-12-21"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 24
+    title: "Fiva"
+    author: "Gordon Stainforth"
+    pages: 198
+    date_started: "2021-12-21"
+    date_finished: "2021-12-22"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 25
+    title: "The Last Wilderness"
+    author: "Neil Ansell"
+    pages: 308
+    date_started: "2021-12-22"
+    date_finished: "2021-12-27"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 26
+    title: "The Book of Trespass"
+    author: "Nick Hayes"
+    pages: 386
+    date_started: "2021-12-27"
+    date_finished: "2021-12-30"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 27
+    title: "The Living Mountain"
+    author: "Nan Shepherd"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 28
+    title: "A Memory Called Empire"
+    author: "Arkady Martine"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 29
+    title: "A Desolation Called Peace"
+    author: "Arkady Martine"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 30
+    title: "Empire of Things"
+    author: "Frank Trentmann"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 31
+    title: "In Patagonia"
+    author: "Bruce Chatwin"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""

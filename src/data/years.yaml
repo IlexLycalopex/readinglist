@@ -9,4 +9,6 @@
 - id: "2024"
   status: complete
 - id: "2025"
+  status: complete
+- id: "2026"
   status: active

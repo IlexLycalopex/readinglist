@@ -1,0 +1,250 @@
+year: 2020
+total_books: 13
+
+books:
+  - order: 1
+    title: "Lowside of the Road: A Life of Tom Waits"
+    author: "Barney Hoskyns"
+    pages: null
+    date_started: "2020-04-02"
+    date_finished: "2020-05-09"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 2
+    title: "The Alarming Palsy of James Orr"
+    author: "Tom Lee"
+    pages: 153
+    date_started: "2020-05-09"
+    date_finished: "2020-05-10"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 3
+    title: "Chile: Travels in a Thin Country"
+    author: "Sara Wheeler"
+    pages: 302
+    date_started: "2020-05-10"
+    date_finished: "2020-05-20"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 4
+    title: "Convenience Store Woman"
+    author: "Sayaka Murata"
+    pages: 161
+    date_started: "2020-05-20"
+    date_finished: "2020-05-22"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 5
+    title: "The Way Home"
+    author: "Mark Boyle"
+    pages: 255
+    date_started: "2020-05-22"
+    date_finished: "2020-05-29"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 6
+    title: "A Visit from the Goon Squad"
+    author: "Jennifer Egan"
+    pages: 349
+    date_started: "2020-05-29"
+    date_finished: "2020-06-07"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 7
+    title: "Ghost Train Through the Andes"
+    author: "Michael Jacobs"
+    pages: 300
+    date_started: "2020-06-07"
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 8
+    title: "The Brief Wondrous Life of Oscar Wao"
+    author: "Junot Díaz"
+    pages: 335
+    date_started: "2020-06-20"
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 9
+    title: "The Half-Made World"
+    author: "Felix Gilman"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: ["august 2020"]
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 10
+    title: "Autumn"
+    author: "Ali Smith"
+    pages: null
+    date_started: "2020-08-24"
+    date_finished: "2020-09-20"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 11
+    title: "Darkmans"
+    author: "Nicola Barker"
+    pages: 838
+    date_started: "2020-09-21"
+    date_finished: "2020-11-20"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 12
+    title: "Drive Your Plow Over the Bones of the Dead"
+    author: "Olga Tokarczuk"
+    pages: 266
+    date_started: "2020-11-21"
+    date_finished: "2020-11-30"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 13
+    title: "The Plague"
+    author: "Albert Camus"
+    pages: 249
+    date_started: "2020-11-01"
+    date_finished: "2020-12-29"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""

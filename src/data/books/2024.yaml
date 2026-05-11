@@ -1,0 +1,440 @@
+year: 2024
+total_books: 23
+
+books:
+  - order: 1
+    title: "The Annual Banquet of the Gravediggers' Guild"
+    author: "Mathias Énard"
+    pages: 486
+    date_started: "2023-12-09"
+    date_finished: "2024-02-15"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 2
+    title: "The Swimmer"
+    author: "Patrick Barkham"
+    pages: 365
+    date_started: "2024-01-16"
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 3
+    title: "Fair Land Fair Land"
+    author: "A B Guthrie Jr"
+    pages: null
+    date_started: null
+    date_finished: "2024-07-06"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 4
+    title: "The Rooftop"
+    author: "Fernanda Trías"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 5
+    title: "Raising Steam"
+    author: "Terry Pratchett"
+    pages: null
+    date_started: null
+    date_finished: "2024-08-22"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 6
+    title: "Not a River"
+    author: "Selva Almada"
+    pages: 99
+    date_started: "2024-08-23"
+    date_finished: "2024-08-24"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: "🔥🔥"
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 7
+    title: "The Latin American Surf Tales"
+    author: "Dan Harmon"
+    pages: null
+    date_started: "2024-08-25"
+    date_finished: "2024-09-14"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 8
+    title: "Surrender"
+    author: "Joanna Pocock"
+    pages: null
+    date_started: "2024-09-15"
+    date_finished: "2024-10-11"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 9
+    title: "The Book of Elsewhere"
+    author: "Keanu Reeves; China Miéville"
+    pages: null
+    date_started: "2024-10-12"
+    date_finished: "2024-10-30"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 10
+    title: "September and the Night"
+    author: "Maica Rafecas"
+    pages: null
+    date_started: "2024-10-31"
+    date_finished: "2024-11-09"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 11
+    title: "Making Money"
+    author: "Terry Pratchett"
+    pages: 468
+    date_started: null
+    date_finished: "2024-11-26"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 12
+    title: "The Complete Western Stories of Elmore Leonard"
+    author: "Elmore Leonard"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 13
+    title: "Doppelganger"
+    author: "Naomi Klein"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 14
+    title: "Lady Joker"
+    author: "Kaoru Takamura"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 15
+    title: "Meet Me at the Surface"
+    author: "Jodie Matthews"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 16
+    title: "The Crossing"
+    author: "Cormac McCarthy"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 17
+    title: "The Heart in Winter"
+    author: "Kevin Barry"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 18
+    title: "Atomic Habits"
+    author: "James Clear"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 19
+    title: "The Left Hand of Darkness"
+    author: "Ursula K Le Guin"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 20
+    title: "Super Communicators"
+    author: "Charles Duhigg"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 21
+    title: "Putin's People"
+    author: "Catherine Belton"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 22
+    title: "Spook Country"
+    author: "William Gibson"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 23
+    title: "Alexander Hamilton"
+    author: "Ron Chernow"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""

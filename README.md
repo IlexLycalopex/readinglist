@@ -59,14 +59,16 @@ Minimal entry:
 
 ## Fetching metadata
 
-Pulls cover images, ISBN, publisher, genre, and description from Open Library (primary) and Google Books (fallback). Only processes entries where `cover_url` is empty.
+Metadata (cover images, ISBN, publisher, genre, description) is fetched automatically on every deployment — the GitHub Actions workflow runs `npm run fetch-metadata` before the build. Any entry with an empty `cover_url` gets populated at deploy time; entries that already have a URL are skipped.
+
+To fetch locally before pushing:
 
 ```bash
 npm run fetch-metadata          # all years
 npm run fetch-metadata -- 2025  # specific year only
 ```
 
-Safe to re-run — skips entries that already have a cover URL.
+Committing the filled YAML is optional — if you do, it avoids re-fetching those entries on the next deploy. If you don't, the deploy fetches them automatically and bakes the data into the built pages.
 
 ---
 

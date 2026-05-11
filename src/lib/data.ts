@@ -140,6 +140,7 @@ export function loadAllBooks(): Book[] {
 export function getAllAuthors(books: Book[]): AuthorSummary[] {
   const map = new Map<string, AuthorSummary>();
   for (const book of books) {
+    if (!book.author) continue;
     const slug = slugifyAuthor(book.author);
     if (!map.has(slug)) {
       map.set(slug, { name: book.author, slug, bookCount: 0, formats: new Set(), years: [], books: [] });

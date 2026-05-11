@@ -1,5 +1,5 @@
 year: 2022
-total_books: 41
+total_books: 60
 
 books:
   - order: 1
@@ -772,6 +772,367 @@ books:
     year_published: null
     genre: null
     publisher: "Charco"
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 42
+    title: "The Living Mountain"
+    author: "Nan Shepherd"
+    pages: null
+    date_started: "2022-01-02"
+    date_finished: "2022-01-04"
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 43
+    title: "The Last Wish"
+    author: "Andrzej Sapkowski"
+    pages: null
+    date_started: "2022-01-05"
+    date_finished: "2022-01-13"
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 44
+    title: "Sword of Destiny"
+    author: "Andrzej Sapkowski"
+    pages: null
+    date_started: "2022-01-14"
+    date_finished: "2022-01-27"
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 45
+    title: "How High We Go in the Dark"
+    author: "Sequoia Nagamatsu"
+    pages: null
+    date_started: "2022-01-27"
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 46
+    title: "Chasing the Scream"
+    author: "Johann Hari"
+    pages: null
+    date_started: null
+    date_finished: "2022-02-17"
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 47
+    title: "The Last Great Mountain"
+    author: "Mick Conefrey"
+    pages: null
+    date_started: "2022-02-01"
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 48
+    title: "The Honorary Consul"
+    author: "Graham Greene"
+    pages: null
+    date_started: "2022-02-18"
+    date_finished: "2022-02-28"
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 49
+    title: "The Return of the King"
+    author: "J R R Tolkien"
+    pages: null
+    date_started: null
+    date_finished: "2022-03-28"
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 50
+    title: "Kleptopia"
+    author: "Tom Burgis"
+    pages: null
+    date_started: "2022-03-28"
+    date_finished: "2022-04-04"
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 51
+    title: "Anathem"
+    author: "Neal Stephenson"
+    pages: null
+    date_started: "2022-04-05"
+    date_finished: "2022-04-30"
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 52
+    title: "Climbing with Mollie"
+    author: "Unknown"
+    pages: null
+    date_started: "2022-04-30"
+    date_finished: "2022-05-02"
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: "Author unknown — needs review."
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 53
+    title: "Barbarian Days"
+    author: "William Finnegan"
+    pages: null
+    date_started: "2022-05-03"
+    date_finished: "2022-05-15"
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 54
+    title: "The Master and Margarita"
+    author: "Mikhail Bulgakov"
+    pages: null
+    date_started: "2022-05-15"
+    date_finished: "2022-05-28"
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 55
+    title: "Dead Souls"
+    author: "Nikolai Gogol"
+    pages: null
+    date_started: "2022-05-29"
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 56
+    title: "Above the Clouds"
+    author: "Kilian Jornet"
+    pages: null
+    date_started: null
+    date_finished: "2022-06-27"
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 57
+    title: "The Captured"
+    author: "Scott Zesch"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: ["june/july 2022"]
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 58
+    title: "Waterlog"
+    author: "Roger Deakin"
+    pages: null
+    date_started: "2022-07-15"
+    date_finished: "2022-08-27"
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 59
+    title: "From a Mountain in Tibet"
+    author: "Yeshe Losal Rinpoche"
+    pages: null
+    date_started: "2022-08-27"
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 60
+    title: "The Calling"
+    author: "Barry Blanchard"
+    pages: null
+    date_started: "2022-09-10"
+    date_finished: "2022-12-31"
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
     cover_url: ""
     isbn: ""
     description: ""

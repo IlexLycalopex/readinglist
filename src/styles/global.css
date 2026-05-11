@@ -1,0 +1,408 @@
+:root {
+  --bg:           #0b0908;
+  --bg-card:      #141210;
+  --bg-hover:     #1e1a18;
+  --border:       #262220;
+  --text:         #f0ebe3;
+  --text-muted:   #8a8078;
+  --text-faint:   #504840;
+  --accent:       #d4714a;
+  --radius:       8px;
+  --radius-lg:    12px;
+  --transition:   0.18s ease;
+  --display:      'Bebas Neue', Impact, sans-serif;
+  --mono:         'SF Mono', 'Fira Code', monospace;
+
+  --accent-audio:   #6a9fd4;
+  --accent-graphic: #4caf82;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+img { display: block; max-width: 100%; }
+
+h1, h2, h3 {
+  font-family: var(--display);
+  letter-spacing: 0.04em;
+  line-height: 1.1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Book grid */
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem 0;
+}
+
+/* Stats strip */
+.stats-strip {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  margin: 1.5rem 0;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.stat__value {
+  font-size: 2rem;
+  font-family: var(--display);
+  color: var(--accent);
+}
+
+.stat__label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Year cards grid */
+.year-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem 0;
+}
+
+.year-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  text-decoration: none;
+  display: block;
+  transition: background var(--transition), border-color var(--transition);
+}
+
+.year-card:hover {
+  background: var(--bg-hover);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+
+.year-card__year {
+  font-family: var(--display);
+  font-size: 3rem;
+  color: var(--text);
+  line-height: 1;
+}
+
+.year-card__count {
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.year-card__formats {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.format-pip {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.format-pip--print   { background: var(--accent); }
+.format-pip--audio   { background: var(--accent-audio); }
+.format-pip--graphic { background: var(--accent-graphic); }
+
+/* Hero card */
+.hero-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin: 2rem 0;
+  max-width: 600px;
+}
+
+.hero-card__cover {
+  width: 100px;
+  flex-shrink: 0;
+}
+
+.hero-card__cover img,
+.hero-card__cover .cover-placeholder {
+  width: 100px;
+  aspect-ratio: 2/3;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+
+.hero-card__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.hero-card__label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+}
+
+.hero-card__title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero-card__author {
+  color: var(--text-muted);
+}
+
+/* Author/Publisher cards */
+.author-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+  padding: 2rem 0;
+}
+
+.author-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  display: block;
+  text-decoration: none;
+  transition: background var(--transition), border-color var(--transition);
+}
+
+.author-card:hover {
+  background: var(--bg-hover);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+
+.author-card__name {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.author-card__count {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.author-card__dots {
+  display: flex;
+  gap: 0.35rem;
+  margin-bottom: 0.5rem;
+}
+
+.author-card__years {
+  font-size: 0.8rem;
+  color: var(--text-faint);
+}
+
+/* Page headers */
+.page-header {
+  padding: 3rem 0 2rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  color: var(--text);
+}
+
+.page-header .subtitle {
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}
+
+/* Book detail list row */
+.book-row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.book-row__thumb {
+  width: 40px;
+  flex-shrink: 0;
+}
+
+.book-row__thumb img,
+.book-row__thumb .cover-placeholder {
+  width: 40px;
+  aspect-ratio: 2/3;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.book-row__info { flex: 1; min-width: 0; }
+.book-row__title { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.book-row__meta  { font-size: 0.82rem; color: var(--text-muted); }
+
+/* Cover placeholder */
+.cover-placeholder {
+  background: var(--bg-hover);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-faint);
+}
+
+.cover-placeholder svg { width: 40%; height: 40%; }
+
+/* Modal */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.75);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.modal {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  max-width: 480px;
+  width: 100%;
+}
+
+.modal__title { font-size: 1.2rem; font-weight: 700; margin-bottom: 1rem; }
+.modal__close { float: right; background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1.5rem; }
+
+/* Dashboard */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  padding: 2rem 0;
+}
+
+@media (max-width: 700px) {
+  .dashboard-grid { grid-template-columns: 1fr; }
+}
+
+.panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+}
+
+.panel h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.panel--full { grid-column: 1 / -1; }
+
+/* Bar chart */
+.bar-chart { display: flex; flex-direction: column; gap: 0.5rem; }
+
+.bar-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+}
+
+.bar-row__label { width: 3rem; text-align: right; color: var(--text-muted); flex-shrink: 0; }
+.bar-row__track { flex: 1; height: 20px; background: var(--bg-hover); border-radius: 4px; overflow: hidden; }
+.bar-row__fill  { height: 100%; border-radius: 4px; background: var(--accent); transition: width 0.3s ease; }
+.bar-row__value { width: 2rem; color: var(--text-muted); font-size: 0.8rem; }
+
+/* Format split bars */
+.format-bar {
+  height: 24px;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: 0.75rem;
+}
+
+.format-bar__segment { height: 100%; }
+.format-bar__segment--print   { background: var(--accent); }
+.format-bar__segment--audio   { background: var(--accent-audio); }
+.format-bar__segment--graphic { background: var(--accent-graphic); }
+
+.legend {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .hero-card { flex-direction: column; }
+  .stats-strip { gap: 1rem; }
+}

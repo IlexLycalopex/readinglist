@@ -1,0 +1,56 @@
+---
+import Base from '../layouts/Base.astro';
+import BookCard from '../components/BookCard.astro';
+import FilterBar from '../components/FilterBar.astro';
+import YearNav from '../components/YearNav.astro';
+import { loadYears, loadYear, getGenres } from '../lib/data';
+
+export async function getStaticPaths() {
+  const years = loadYears();
+  return years.map((y) => ({ params: { year: y.id } }));
+}
+
+const { year } = Astro.params;
+const years = loadYears();
+const yearData = loadYear(year!);
+const genres = getGenres(yearData.books);
+
+const printCount = yearData.books.filter((b) => b.format === 'print').length;
+const audioCount = yearData.books.filter((b) => b.format === 'audio').length;
+const graphicCount = yearData.books.filter((b) => b.format === 'graphic').length;
+const totalPages = yearData.books.reduce((s, b) => s + (b.pages ?? 0), 0);
+---
+<Base title={`${year} Reading — Jamie Watts`} description={`${yearData.books.length} books read in ${year}.`}>
+  <YearNav years={years} activeYear={year!} />
+
+  <div class="page-header">
+    <h1>{year}</h1>
+    <p class="subtitle">
+      {yearData.books.length} books
+      {totalPages > 0 ? ` · ${totalPages.toLocaleString()} pages` : ''}
+    </p>
+    <p class="format-breakdown">
+      {printCount > 0 ? `${printCount} print` : ''}
+      {printCount > 0 && (audioCount > 0 || graphicCount > 0) ? ' · ' : ''}
+      {audioCount > 0 ? `${audioCount} audio` : ''}
+      {audioCount > 0 && graphicCount > 0 ? ' · ' : ''}
+      {graphicCount > 0 ? `${graphicCount} graphic` : ''}
+    </p>
+  </div>
+
+  <FilterBar genres={genres} />
+
+  <div class="book-grid" id="book-grid">
+    {yearData.books.map((book) => (
+      <BookCard book={book} showOrder={true} />
+    ))}
+  </div>
+</Base>
+
+<style>
+  .format-breakdown {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+  }
+</style>

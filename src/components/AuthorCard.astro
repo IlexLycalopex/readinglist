@@ -1,0 +1,21 @@
+---
+import type { AuthorSummary } from '../lib/data';
+
+interface Props {
+  author: AuthorSummary;
+}
+
+const { author } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const sortedYears = [...author.years].sort((a, b) => a - b);
+---
+<a class="author-card" href={`${base}/authors/${author.slug}/`}>
+  <p class="author-card__name">{author.name}</p>
+  <p class="author-card__count">{author.bookCount} {author.bookCount === 1 ? 'book' : 'books'}</p>
+  <div class="author-card__dots">
+    {Array.from(author.formats).map((fmt) => (
+      <span class={`format-pip format-pip--${fmt}`} title={fmt}></span>
+    ))}
+  </div>
+  <p class="author-card__years">{sortedYears.join(', ')}</p>
+</a>

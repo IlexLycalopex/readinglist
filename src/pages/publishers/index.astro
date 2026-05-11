@@ -1,0 +1,27 @@
+---
+import Base from '../../layouts/Base.astro';
+import PublisherCard from '../../components/PublisherCard.astro';
+import { loadAllBooks, getAllPublishers } from '../../lib/data';
+
+const books = loadAllBooks();
+const publishers = getAllPublishers(books);
+---
+<Base title="Publishers — Reading Log" description="Publishers represented in the reading history.">
+  <div class="page-header">
+    <h1>Publishers</h1>
+    {publishers.length > 0
+      ? <p class="subtitle">{publishers.length} publishers with multiple books</p>
+      : <p class="subtitle">Publisher data will appear here once metadata is fetched.</p>
+    }
+  </div>
+
+  {publishers.length > 0 ? (
+    <div class="author-grid">
+      {publishers.map((pub) => <PublisherCard publisher={pub} />)}
+    </div>
+  ) : (
+    <p style="color: var(--text-muted); padding: 2rem 0;">
+      Run <code>npm run fetch-metadata</code> to populate publisher information.
+    </p>
+  )}
+</Base>

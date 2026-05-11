@@ -1,0 +1,116 @@
+---
+import Base from '../layouts/Base.astro';
+import { loadYears, loadAllYears, loadAllBooks } from '../lib/data';
+
+const years = loadYears();
+const allYearData = loadAllYears();
+const allBooks = loadAllBooks();
+
+const totalBooks = allBooks.length;
+const totalPages = allBooks.reduce((s, b) => s + (b.pages ?? 0), 0);
+const audioCount = allBooks.filter((b) => b.format === 'audio').length;
+const audioPct = totalBooks > 0 ? Math.round((audioCount / totalBooks) * 100) : 0;
+
+// Most recently active year's last book
+const activeYearData = allYearData.find((y) => years.find((m) => m.id === String(y.year))?.status === 'active');
+const latestBook = activeYearData?.books[activeYearData.books.length - 1] ?? allBooks[allBooks.length - 1];
+
+function formatCount(yd: typeof allYearData[number]) {
+  const print = yd.books.filter((b) => b.format === 'print').length;
+  const audio = yd.books.filter((b) => b.format === 'audio').length;
+  const graphic = yd.books.filter((b) => b.format === 'graphic').length;
+  return { print, audio, graphic };
+}
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<Base title="Reading Log — Jamie Watts" description="A personal reading history across multiple years.">
+  <div class="page-header">
+    <h1>Reading Log</h1>
+    <p class="subtitle">Years of reading. Everything I've finished.</p>
+  </div>
+
+  {latestBook && (
+    <section aria-label="Currently reading">
+      <h2 class="section-label">Currently reading / most recent</h2>
+      <div class="hero-card">
+        <div class="hero-card__cover">
+          {latestBook.cover_url ? (
+            <img src={latestBook.cover_url} alt={`Cover of ${latestBook.title}`} loading="lazy" />
+          ) : (
+            <div class="cover-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"/>
+              </svg>
+            </div>
+          )}
+        </div>
+        <div class="hero-card__meta">
+          <span class="hero-card__label">Most recent</span>
+          <p class="hero-card__title">{latestBook.title}</p>
+          <p class="hero-card__author">{latestBook.author}</p>
+          <a href={`${base}/${latestBook.year_read}/`} class="hero-card__link">{latestBook.year_read} →</a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <div class="stats-strip">
+    <div class="stat">
+      <span class="stat__value">{totalBooks}</span>
+      <span class="stat__label">Books</span>
+    </div>
+    {totalPages > 0 && (
+      <div class="stat">
+        <span class="stat__value">{totalPages.toLocaleString()}</span>
+        <span class="stat__label">Pages</span>
+      </div>
+    )}
+    <div class="stat">
+      <span class="stat__value">{audioPct}%</span>
+      <span class="stat__label">Audio</span>
+    </div>
+    <div class="stat">
+      <span class="stat__value">{allYearData.length}</span>
+      <span class="stat__label">{allYearData.length === 1 ? 'Year' : 'Years'}</span>
+    </div>
+  </div>
+
+  <section aria-label="Years">
+    <h2 class="section-label">By year</h2>
+    <div class="year-grid">
+      {allYearData.map((yd) => {
+        const counts = formatCount(yd);
+        const pips = [
+          ...Array(counts.print).fill('print'),
+          ...Array(counts.audio).fill('audio'),
+          ...Array(counts.graphic).fill('graphic'),
+        ].slice(0, 20);
+        return (
+          <a href={`${base}/${yd.year}/`} class="year-card">
+            <div class="year-card__year">{yd.year}</div>
+            <div class="year-card__count">{yd.books.length} books</div>
+            <div class="year-card__formats">
+              {pips.map((fmt) => <span class={`format-pip format-pip--${fmt}`} />)}
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+</Base>
+
+<style>
+  .section-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+  }
+
+  .hero-card__link {
+    font-size: 0.85rem;
+    color: var(--accent);
+    margin-top: 0.5rem;
+  }
+</style>

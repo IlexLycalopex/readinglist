@@ -1,0 +1,49 @@
+---
+import SiteNav from '../components/SiteNav.astro';
+import { loadYears } from '../lib/data';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'A personal reading history across multiple years.' } = Astro.props;
+const years = loadYears();
+const base = import.meta.env.BASE_URL;
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+</head>
+<body>
+  <SiteNav years={years} currentPath={Astro.url.pathname} />
+  <main class="container">
+    <slot />
+  </main>
+  <footer>
+    <div class="container">
+      <p>Jamie Watts — Reading Log</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+<style is:global>
+  @import '../styles/global.css';
+
+  footer {
+    margin-top: 4rem;
+    padding: 2rem 0;
+    border-top: 1px solid var(--border);
+    color: var(--text-faint);
+    font-size: 0.85rem;
+  }
+</style>

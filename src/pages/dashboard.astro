@@ -1,0 +1,188 @@
+---
+import Base from '../layouts/Base.astro';
+import { loadAllYears, loadAllBooks, getAllAuthors } from '../lib/data';
+
+const allYearData = loadAllYears();
+const allBooks = loadAllBooks();
+const authors = getAllAuthors(allBooks);
+
+const prolificAuthors = authors.filter((a) => a.bookCount >= 2).sort((a, b) => b.bookCount - a.bookCount).slice(0, 10);
+
+const yearStats = allYearData.map((yd) => ({
+  year: yd.year,
+  total: yd.books.length,
+  pages: yd.books.reduce((s, b) => s + (b.pages ?? 0), 0),
+  print: yd.books.filter((b) => b.format === 'print').length,
+  audio: yd.books.filter((b) => b.format === 'audio').length,
+  graphic: yd.books.filter((b) => b.format === 'graphic').length,
+}));
+
+const maxBooks = Math.max(...yearStats.map((y) => y.total), 1);
+const maxPages = Math.max(...yearStats.map((y) => y.pages), 1);
+
+const genreMap = new Map<string, number>();
+for (const b of allBooks) {
+  if (b.genre) genreMap.set(b.genre, (genreMap.get(b.genre) ?? 0) + 1);
+}
+const topGenres = Array.from(genreMap.entries()).sort((a, b) => b[1] - a[1]).slice(0, 10);
+const maxGenreCount = topGenres[0]?.[1] ?? 1;
+
+const decadeMap = new Map<string, number>();
+for (const b of allBooks) {
+  if (b.year_published) {
+    const decade = `${Math.floor(b.year_published / 10) * 10}s`;
+    decadeMap.set(decade, (decadeMap.get(decade) ?? 0) + 1);
+  }
+}
+const decades = Array.from(decadeMap.entries()).sort((a, b) => a[0].localeCompare(b[0]));
+const maxDecade = decades[0]?.[1] ?? 1;
+
+const totalBooks = allBooks.length;
+const audioCount = allBooks.filter((b) => b.format === 'audio').length;
+const graphicCount = allBooks.filter((b) => b.format === 'graphic').length;
+const printCount = allBooks.filter((b) => b.format === 'print').length;
+---
+<Base title="Reading Dashboard — Jamie Watts" description="Reading statistics and trends.">
+  <div class="page-header">
+    <h1>Dashboard</h1>
+    <p class="subtitle">Reading statistics across all years</p>
+  </div>
+
+  <div class="dashboard-grid">
+    <!-- Books per year -->
+    <div class="panel">
+      <h2>Books per year</h2>
+      <div class="bar-chart">
+        {yearStats.map((y) => (
+          <div class="bar-row">
+            <span class="bar-row__label">{y.year}</span>
+            <div class="bar-row__track">
+              <div class="bar-row__fill" style={`width: ${(y.total / maxBooks) * 100}%`}></div>
+            </div>
+            <span class="bar-row__value">{y.total}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- Format split -->
+    <div class="panel">
+      <h2>Format split</h2>
+      {yearStats.map((y) => (
+        <div class="format-split-row">
+          <span class="format-split-row__year">{y.year}</span>
+          <div class="format-bar" style={`width: 100%`}>
+            {y.print > 0 && <div class="format-bar__segment format-bar__segment--print" style={`width:${(y.print / y.total) * 100}%`} title={`Print: ${y.print}`}></div>}
+            {y.audio > 0 && <div class="format-bar__segment format-bar__segment--audio" style={`width:${(y.audio / y.total) * 100}%`} title={`Audio: ${y.audio}`}></div>}
+            {y.graphic > 0 && <div class="format-bar__segment format-bar__segment--graphic" style={`width:${(y.graphic / y.total) * 100}%`} title={`Graphic: ${y.graphic}`}></div>}
+          </div>
+        </div>
+      ))}
+      <div class="legend">
+        <span class="legend-item"><span class="legend-dot" style="background:var(--accent)"></span>Print</span>
+        <span class="legend-item"><span class="legend-dot" style="background:var(--accent-audio)"></span>Audio</span>
+        <span class="legend-item"><span class="legend-dot" style="background:var(--accent-graphic)"></span>Graphic</span>
+      </div>
+    </div>
+
+    <!-- Pages per year (if data) -->
+    {maxPages > 0 && (
+      <div class="panel">
+        <h2>Pages per year (where known)</h2>
+        <div class="bar-chart">
+          {yearStats.filter((y) => y.pages > 0).map((y) => (
+            <div class="bar-row">
+              <span class="bar-row__label">{y.year}</span>
+              <div class="bar-row__track">
+                <div class="bar-row__fill" style={`width: ${(y.pages / maxPages) * 100}%; background: var(--accent-audio)`}></div>
+              </div>
+              <span class="bar-row__value">{y.pages.toLocaleString()}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Most read authors -->
+    {prolificAuthors.length > 0 && (
+      <div class="panel">
+        <h2>Most-read authors</h2>
+        <div class="bar-chart">
+          {prolificAuthors.map((a) => (
+            <div class="bar-row">
+              <span class="bar-row__label" style="width:9rem;text-align:left;font-size:0.78rem;color:var(--text-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{a.name}</span>
+              <div class="bar-row__track">
+                <div class="bar-row__fill" style={`width:${(a.bookCount / prolificAuthors[0].bookCount) * 100}%`}></div>
+              </div>
+              <span class="bar-row__value">{a.bookCount}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Genre breakdown -->
+    {topGenres.length > 0 && (
+      <div class="panel">
+        <h2>Top genres</h2>
+        <div class="bar-chart">
+          {topGenres.map(([genre, count]) => (
+            <div class="bar-row">
+              <span class="bar-row__label" style="width:9rem;text-align:left;font-size:0.78rem;color:var(--text-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{genre}</span>
+              <div class="bar-row__track">
+                <div class="bar-row__fill" style={`width:${(count / maxGenreCount) * 100}%; background: var(--accent-graphic)`}></div>
+              </div>
+              <span class="bar-row__value">{count}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Publication decade -->
+    {decades.length > 0 && (
+      <div class="panel">
+        <h2>Publication decade</h2>
+        <div class="bar-chart">
+          {decades.map(([decade, count]) => (
+            <div class="bar-row">
+              <span class="bar-row__label">{decade}</span>
+              <div class="bar-row__track">
+                <div class="bar-row__fill" style={`width:${(count / maxDecade) * 100}%; background: var(--text-muted)`}></div>
+              </div>
+              <span class="bar-row__value">{count}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Overall totals -->
+    <div class="panel panel--full">
+      <h2>All-time totals</h2>
+      <div class="stats-strip" style="border:none;margin:0;padding:0">
+        <div class="stat"><span class="stat__value">{totalBooks}</span><span class="stat__label">Total books</span></div>
+        <div class="stat"><span class="stat__value">{printCount}</span><span class="stat__label">Print</span></div>
+        <div class="stat"><span class="stat__value" style="color:var(--accent-audio)">{audioCount}</span><span class="stat__label">Audio</span></div>
+        <div class="stat"><span class="stat__value" style="color:var(--accent-graphic)">{graphicCount}</span><span class="stat__label">Graphic</span></div>
+      </div>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .format-split-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .format-split-row__year {
+    width: 3rem;
+    text-align: right;
+    color: var(--text-muted);
+    flex-shrink: 0;
+  }
+</style>

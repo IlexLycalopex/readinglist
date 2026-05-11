@@ -1,0 +1,14 @@
+---
+import type { PublisherSummary } from '../lib/data';
+
+interface Props {
+  publisher: PublisherSummary;
+}
+
+const { publisher } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<a class="author-card" href={`${base}/publishers/${publisher.slug}/`}>
+  <p class="author-card__name">{publisher.name}</p>
+  <p class="author-card__count">{publisher.bookCount} {publisher.bookCount === 1 ? 'book' : 'books'}</p>
+</a>

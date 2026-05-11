@@ -1,0 +1,915 @@
+year: 2025
+total_books: 48
+
+books:
+  - order: 1
+    title: "A Sunny Place for Shady People"
+    author: "Mariana Enriquez"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 2
+    title: "The President's Room"
+    author: "Ricardo Romero"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: "🔥"
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 3
+    title: "Far Away and Long Ago"
+    author: "W H Hudson"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 4
+    title: "Byobu"
+    author: "Ida Vitale"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 5
+    title: "Resistance"
+    author: "Julián Fuks"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: "Did not finish."
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 6
+    title: "Channel Zero"
+    author: "Brian Wood"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 7
+    title: "The Massive Volume 4"
+    author: "Brian Wood"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 8
+    title: "The Massive Volume 5 Ragnarok"
+    author: "Brian Wood"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 9
+    title: "People Hacker"
+    author: "Jenny Radcliffe"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 10
+    title: "No Country for Old Men"
+    author: "Cormac McCarthy"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 11
+    title: "Glamorama"
+    author: "Bret Easton Ellis"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 12
+    title: "True Grit"
+    author: "Charles Portis"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 13
+    title: "The Galaxy and the Ground Within"
+    author: "Becky Chambers"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 14
+    title: "The Premonition"
+    author: "Banana Yoshimoto"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 15
+    title: "Killer in the Rain"
+    author: "Raymond Chandler"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: "Did not finish."
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 16
+    title: "The Making of the Modern Middle East"
+    author: "Jeremy Bowen"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 17
+    title: "Wild Horses"
+    author: "Jordi Cussà; Tiago Miller"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: "❣️"
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 18
+    title: "Chew Vol 1"
+    author: "John Layman"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 19
+    title: "Chew Vol 2"
+    author: "John Layman"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 20
+    title: "Chew Vol 3"
+    author: "John Layman"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 21
+    title: "Chew Vol 4"
+    author: "John Layman"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 22
+    title: "Chew Vol 5"
+    author: "John Layman"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 23
+    title: "Chew Vol 6"
+    author: "John Layman"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 24
+    title: "Chew Vol 7"
+    author: "John Layman"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 25
+    title: "Chew Vol 8"
+    author: "John Layman"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 26
+    title: "Chew Vol 9 Chicken Tenders"
+    author: "John Layman"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 27
+    title: "Chew Vol 10 Blood Puddin'"
+    author: "John Layman"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 28
+    title: "Chew Vol 11"
+    author: "John Layman"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 29
+    title: "Chew Vol 12"
+    author: "John Layman"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 30
+    title: "Beartooth"
+    author: "Callan Wink"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 31
+    title: "Raising Hare"
+    author: "Chloe Dalton"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 32
+    title: "A Visit to Don Otavio"
+    author: "Sybille Bedford"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 33
+    title: "Salt Crystals"
+    author: "Cristina Bendek"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 34
+    title: "Perdido Street Station"
+    author: "China Miéville"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 35
+    title: "Batman Noir The Long Halloween"
+    author: "Jeph Loeb"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 36
+    title: "Thud!"
+    author: "Terry Pratchett"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 37
+    title: "Americana (And The Act Of Getting Over It)"
+    author: "Luke Healy"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 38
+    title: "Crossroads of Ravens"
+    author: "Andrzej Sapkowski"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 39
+    title: "Deadwood"
+    author: "Peter Cozzens"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 40
+    title: "DMZ Vol 1 On the Ground"
+    author: "Brian Wood"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 41
+    title: "DMZ Vol 2 Body of a Journalist"
+    author: "Brian Wood"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 42
+    title: "DMZ Vol 3 Public Works"
+    author: "Brian Wood"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 43
+    title: "Tonyinterruptor"
+    author: "Nicola Barker"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: "😍"
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 44
+    title: "Goodbye Tsugumi"
+    author: "Banana Yoshimoto"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 45
+    title: "Buried in the Sky"
+    author: "Peter Zuckerman; Amanda Padoan"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 46
+    title: "Lonesome Dove"
+    author: "Larry McMurtry"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: "Incomplete — carried forward."
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 47
+    title: "DMZ Vol 4 Friendly Fire"
+    author: "Brian Wood"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: graphic
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 48
+    title: "You Dreamed of Empires"
+    author: "Álvaro Enrigue"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: "Incomplete — carried forward."
+    links:
+      openlibrary: ""
+      wikipedia: ""

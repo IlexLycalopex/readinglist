@@ -1,0 +1,50 @@
+---
+import Base from '../../layouts/Base.astro';
+import { loadAllBooks, getAllPublishers } from '../../lib/data';
+
+export async function getStaticPaths() {
+  const books = loadAllBooks();
+  const publishers = getAllPublishers(books);
+  return publishers.map((p) => ({
+    params: { slug: p.slug },
+    props: { publisher: p },
+  }));
+}
+
+const { publisher } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<Base title={`${publisher.name} — Reading Log`} description={`Books from ${publisher.name}.`}>
+  <div class="page-header">
+    <h1>{publisher.name}</h1>
+    <p class="subtitle">{publisher.bookCount} {publisher.bookCount === 1 ? 'book' : 'books'}</p>
+  </div>
+
+  <div class="books-list">
+    {publisher.books.map((book) => (
+      <div class="book-row">
+        <div class="book-row__thumb">
+          {book.cover_url ? (
+            <img src={book.cover_url} alt={book.title} loading="lazy" />
+          ) : (
+            <div class="cover-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"/>
+              </svg>
+            </div>
+          )}
+        </div>
+        <div class="book-row__info">
+          <p class="book-row__title">{book.title}</p>
+          <p class="book-row__meta">
+            {book.author} · <a href={`${base}/${book.year_read}/`}>{book.year_read}</a>
+          </p>
+        </div>
+      </div>
+    ))}
+  </div>
+</Base>
+
+<style>
+  .books-list { padding: 1rem 0; }
+</style>

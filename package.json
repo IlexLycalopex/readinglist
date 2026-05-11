@@ -1,0 +1,19 @@
+{
+  "name": "readinglist",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "fetch-metadata": "node scripts/fetch-metadata.js",
+    "parse": "node scripts/parse-reading-list.js"
+  },
+  "dependencies": {
+    "astro": "^5.7.0",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9"
+  }
+}

@@ -1,0 +1,107 @@
+---
+import type { YearMeta } from '../lib/data';
+
+interface Props {
+  years: YearMeta[];
+  currentPath: string;
+}
+
+const { years, currentPath } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<header class="site-nav">
+  <div class="container site-nav__inner">
+    <a class="site-nav__logo" href={`${base}/`}>Reading Log</a>
+
+    <nav class="site-nav__years" aria-label="Years">
+      {years.map((y) => (
+        <a
+          href={`${base}/${y.id}/`}
+          class:list={['year-pill', { 'year-pill--active': currentPath.includes(`/${y.id}/`) }]}
+        >
+          {y.id}
+        </a>
+      ))}
+    </nav>
+
+    <nav class="site-nav__links" aria-label="Sections">
+      <a href={`${base}/authors/`} class:list={[{ active: currentPath.includes('/authors') }]}>Authors</a>
+      <a href={`${base}/publishers/`} class:list={[{ active: currentPath.includes('/publishers') }]}>Publishers</a>
+      <a href={`${base}/dashboard/`} class:list={[{ active: currentPath.includes('/dashboard') }]}>Dashboard</a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .site-nav__inner {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .site-nav__logo {
+    font-family: var(--display);
+    font-size: 1.4rem;
+    color: var(--text);
+    text-decoration: none;
+    letter-spacing: 0.06em;
+    flex-shrink: 0;
+  }
+
+  .site-nav__logo:hover { color: var(--accent); text-decoration: none; }
+
+  .site-nav__years {
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: auto;
+    flex: 1;
+    scrollbar-width: none;
+  }
+
+  .site-nav__years::-webkit-scrollbar { display: none; }
+
+  .year-pill {
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: all var(--transition);
+  }
+
+  .year-pill:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+  .year-pill--active { border-color: var(--accent); color: var(--accent); background: color-mix(in srgb, var(--accent) 10%, transparent); }
+
+  .site-nav__links {
+    display: flex;
+    gap: 1.25rem;
+    flex-shrink: 0;
+  }
+
+  .site-nav__links a {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color var(--transition);
+  }
+
+  .site-nav__links a:hover,
+  .site-nav__links a.active { color: var(--accent); text-decoration: none; }
+
+  @media (max-width: 600px) {
+    .site-nav__links { display: none; }
+  }
+</style>

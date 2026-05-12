@@ -9,16 +9,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2024
+    genre: "Fiction, horror, Horror stories"
+    publisher: "Anagrama"
+    cover_url: "https://covers.openlibrary.org/b/id/14612001-L.jpg"
+    isbn: "1803511230"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL37760047W"
       wikipedia: ""
 
   - order: 2
@@ -28,16 +28,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2020
+    genre: "Fiction, general, Young men -- Fiction"
+    publisher: "Charco Press"
+    cover_url: "https://covers.openlibrary.org/b/id/9124533-L.jpg"
+    isbn: "9781999722722"
+    description: "A taut, appealing, and often quite funny exploration of existential angst.—Kirkus Reviews In a nameless suburb in an equally nameless country, every house has a room reserved for the president. No one knows when or why this came to be. It’s simply how things are, and no one seems to question it exce"
     tags: []
     notes: "🔥"
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20458528W"
       wikipedia: ""
 
   - order: 3
@@ -47,16 +47,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1918
+    genre: "Biography, Description and travel"
+    publisher: "IndyPublish.com"
+    cover_url: "https://covers.openlibrary.org/b/id/782468-L.jpg"
+    isbn: "9781404350502"
+    description: "In \"Far Away and Long Ago,\" W. H. Hudson combines autobiography with vivid natural observation to create a poignant reflection on his early life in the rural landscapes of Argentina. The narrative unfolds with lyrical prose, embodying a rich connection to nature, while deftly interweaving themes of "
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL879152W"
       wikipedia: ""
 
   - order: 4
@@ -66,16 +66,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2021
+    genre: "Men, Fiction"
+    publisher: "Charco Press"
+    cover_url: "https://covers.openlibrary.org/b/id/13780944-L.jpg"
+    isbn: "1913867021"
+    description: "Byobu reveals a rich inner world, one driven by its meticulous attention to our rich outer one. \"a story’s existence, even if not well defined or well assigned, even if only in its formative stage, just barely latent, emits vague but urgent emanations.\" Byobu's every interaction trembles with possib"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL25283890W"
       wikipedia: ""
 
   - order: 5
@@ -104,16 +104,16 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1998
+    genre: "Comics & graphic novels, general, Underground comic books, strips"
+    publisher: "AiT/PlanetLar"
+    cover_url: "https://covers.openlibrary.org/b/id/958355-L.jpg"
+    isbn: "9780967684741"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL922588W"
       wikipedia: ""
 
   - order: 7
@@ -142,12 +142,12 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2015
+    genre: "Comics & Graphic Novels"
+    publisher: "Dark Horse Comics"
+    cover_url: "https://books.google.com/books/content?id=HOZxCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "The Crash was only the beginning. What remains of civilization is being obliterated by a series of cataclysmic events. The truth about Mary's identity, which began as a faint signal, grows louder--and she's seemingly connected to it all. The secret of the Crash and the location of the missing ship T"
     tags: []
     notes: ""
     links:
@@ -161,16 +161,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
+    year_published: 2023
     genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    publisher: "Simon & Schuster, Limited"
+    cover_url: "https://covers.openlibrary.org/b/id/14589180-L.jpg"
+    isbn: "9781398518995"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL28022265W"
       wikipedia: ""
 
   - order: 10
@@ -180,16 +180,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1900
+    genre: "Fiction, Drug traffic"
+    publisher: "Contemporary French Fiction"
+    cover_url: "https://covers.openlibrary.org/b/id/9296899-L.jpg"
+    isbn: "1447201809"
+    description: "Stumbling upon a bloody massacre, a cache of heroin, and more than two million in cash during a hunting trip, Llewelyn Moss removes the money, a decision that draws him and his young wife into the middle of a violent confrontation."
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL40875W"
       wikipedia: ""
 
   - order: 11
@@ -199,16 +199,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1998
+    genre: "Fiction, thrillers, general, Paris (france), fiction"
+    publisher: "RANDOM HOUSE."
+    cover_url: "https://covers.openlibrary.org/b/id/228510-L.jpg"
+    isbn: "9789076341132"
+    description: "The New York Times bestselling author of American Psycho and Less Than Zero delivers a gripping and brilliant dissection of our celebrity obsessed culture. • “Arguably the novel of the 1990’s…Should establish Ellis as the most ambitious and fearless writer of his generation…a must read.” —The Seattl"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL1812911W"
       wikipedia: ""
 
   - order: 12
@@ -218,16 +218,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1968
+    genre: "Death, Teenage girls"
+    publisher: "G.K. Hall"
+    cover_url: "https://covers.openlibrary.org/b/id/488237-L.jpg"
+    isbn: "9780747572633"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL104535W"
       wikipedia: ""
 
   - order: 13
@@ -237,16 +237,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2021
+    genre: "Science Fiction, American literature"
+    publisher: "Hodder & Stoughton"
+    cover_url: "https://covers.openlibrary.org/b/id/10672244-L.jpg"
+    isbn: "1799957209"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20923693W"
       wikipedia: ""
 
   - order: 14
@@ -256,12 +256,12 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2023
+    genre: "Fiction"
+    publisher: "Catapult"
+    cover_url: "https://books.google.com/books/content?id=dxOqEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "Longlisted for the PEN Translation Prize The internationally beloved author of Kitchen and Dead-End Memories returns with a beautiful and heartfelt story of a young woman haunted by her childhood and the inescapable bitterness that inevitably comes from knowing the truth Yayoi, a 19-year-old woman f"
     tags: []
     notes: ""
     links:
@@ -275,16 +275,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1964
+    genre: "English Short stories, Fiction"
+    publisher: "Ballantine"
+    cover_url: "https://covers.openlibrary.org/b/id/6417534-L.jpg"
+    isbn: "0345351851"
     description: ""
     tags: []
     notes: "Did not finish."
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL3295511W"
       wikipedia: ""
 
   - order: 16
@@ -294,16 +294,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2022
+    genre: "Biography & Autobiography"
+    publisher: "Pan Macmillan"
+    cover_url: "https://books.google.com/books/content?id=G2BKEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    isbn: "9781509890934"
+    description: "A Sunday Times Paperback of the Year A Spectator and New Statesman Book of the Year ‘An illuminating and riveting read.’ - Jonathan Dimbleby Jeremy Bowen, the International Editor of the BBC, has been covering the Middle East since 1989 and is uniquely placed to explain its complex past and its trou"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL26511390W"
       wikipedia: ""
 
   - order: 17
@@ -313,16 +313,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2022
+    genre: "Romance languages"
+    publisher: "Fum D'Estampa Press"
+    cover_url: "https://books.google.com/books/content?id=nZyyzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    isbn: "9781913744052"
     description: ""
     tags: []
     notes: "❣️"
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL26522448W"
       wikipedia: ""
 
   - order: 18
@@ -332,16 +332,16 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2009
+    genre: "Food, Police"
+    publisher: "Image Comics"
+    cover_url: "https://covers.openlibrary.org/b/id/7456440-L.jpg"
+    isbn: "1106900103"
+    description: "Collects Chew Vol. 1 #1-5! Tony Chu is a detective with a secret. A weird secret. Tony Chu is Cibopathic, which means he gets psychic impressions from whatever he eats. It also means he's a hell of a detective, as long as he doesn't mind nibbling on the corpse of a murder victim to figure out whodun"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL17376755W"
       wikipedia: ""
 
   - order: 19
@@ -351,16 +351,16 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2010
+    genre: "Psychics, Comic books, strips"
+    publisher: "Image Comics"
+    cover_url: "https://covers.openlibrary.org/b/id/9595625-L.jpg"
+    isbn: "1607062607"
+    description: "Collects Chew #6-10! Tony Chu, the cibopathic federal agent with the ability to get psychic impressions from the things he eats, is on a bizarre new case. A newly discovered fruit takes Agent Chu to a remote island full of secrets, strangeness-and a shadowy killer with a particularly sinister appeti"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL19663727W"
       wikipedia: ""
 
   - order: 20
@@ -370,16 +370,16 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2010
+    genre: "Detectives, Murder"
+    publisher: "Image Comics"
+    cover_url: "https://covers.openlibrary.org/b/id/9695997-L.jpg"
+    isbn: "9788468474458"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL19668683W"
       wikipedia: ""
 
   - order: 21
@@ -389,16 +389,16 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2011
+    genre: "Detectives, Murder"
+    publisher: "Image Comics"
+    cover_url: "https://covers.openlibrary.org/b/id/12723073-L.jpg"
+    isbn: "1106900138"
+    description: "The final story arc of Tony Chu, the cibopathic federal agent with the ability to get psychic impressions from what he eats. Mysteries are solved, secrets are revealed and lives are lost. Many, many lives. This is the end of the line for the New York Times Best Selling, Harvey and multiple Eisner Aw"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL19948411W"
       wikipedia: ""
 
   - order: 22
@@ -408,16 +408,16 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2011
+    genre: "Detective and mystery comic books, strips, Kidnapping"
+    publisher: "Planeta Cómic"
+    cover_url: "https://covers.openlibrary.org/b/id/12723074-L.jpg"
+    isbn: "846847617X"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL19965991W"
       wikipedia: ""
 
   - order: 23
@@ -427,16 +427,16 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2012
+    genre: "Detectives, Murder"
+    publisher: "Image Comics"
+    cover_url: "https://covers.openlibrary.org/b/id/12723075-L.jpg"
+    isbn: "1607068680"
+    description: "\"Originally published in single magazine form as Chew #51-60, Demon Chicken Poyo, & Chew/Revival one-shot\"--Title page verso."
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL19965992W"
       wikipedia: ""
 
   - order: 24
@@ -446,16 +446,16 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2013
+    genre: "Psychics, Detectives"
+    publisher: "Image Comics"
+    cover_url: "https://covers.openlibrary.org/b/id/12723076-L.jpg"
+    isbn: "8468476196"
+    description: "Federal agent Tony Chu faces a cult of egg-worshipping terrorists who've declared war on the world's chicken consumers."
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL19708193W"
       wikipedia: ""
 
   - order: 25
@@ -465,16 +465,16 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2014
+    genre: "Detectives, Murder"
+    publisher: "Planeta Cómic"
+    cover_url: "https://covers.openlibrary.org/b/id/12723077-L.jpg"
+    isbn: "9781632150677"
+    description: "Collects CHEW #36-40 Anthony and Antonelle Chu are fraternal twins. Tony and Toni. Each with their own extraordinary, albeit diametrically opposed, ability. Tony is Cibopathic, able to get psychic sensations of the past of anything he bites into or ingests. Toni is Cibovoyant, able to flash onto a v"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL19978715W"
       wikipedia: ""
 
   - order: 26
@@ -484,12 +484,12 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2015
+    genre: "Comics & Graphic Novels"
+    publisher: "Image Comics"
+    cover_url: "https://books.google.com/books/content?id=deDHBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "Tony Chu, the cibopathic federal agent with the ability to get psychic impressions from what he eats, has been busy -- busy settling into married life, busy investigating one assignment after another that takes him to the most remote corners of the planet. Meanwhile, the people closest to Tony are c"
     tags: []
     notes: ""
     links:
@@ -503,12 +503,12 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2015
+    genre: "Comics & Graphic Novels"
+    publisher: "Image Comics"
+    cover_url: "https://books.google.com/books/content?id=KxdGCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "CAN TONY STOP HIS MOST DANGEROUS ENEMY? Presenting a new storyline of the New York Times Best Selling, Harvey- and multiple Eisner Award-winning series about cops, crooks, cooks, cannibals, and clairvoyants. Collects CHEW #46-50."
     tags: []
     notes: ""
     links:
@@ -522,16 +522,16 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2016
+    genre: "United States, Psychics"
+    publisher: "Planeta Cómic"
+    cover_url: "https://covers.openlibrary.org/b/id/12723082-L.jpg"
+    isbn: "9788468478494"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL19716857W"
       wikipedia: ""
 
   - order: 29
@@ -541,16 +541,16 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2017
+    genre: "United States, Psychics"
+    publisher: "Planeta Cómic"
+    cover_url: "https://covers.openlibrary.org/b/id/12723083-L.jpg"
+    isbn: "9788468478500"
+    description: "The final story arc of Tony Chu, the cibopathic federal agent with the ability to get psychic impressions from what he eats. Mysteries are solved, secrets are revealed and lives are lost. Many, many lives. This is the end of the line for the New York Times Best Selling, Harvey and multiple Eisner Aw"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20053565W"
       wikipedia: ""
 
   - order: 30
@@ -560,16 +560,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2025
+    genre: "American literature, Western influences"
+    publisher: "Granta Books"
+    cover_url: "https://covers.openlibrary.org/b/id/15136571-L.jpg"
+    isbn: "1954118023"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL42404692W"
       wikipedia: ""
 
   - order: 31
@@ -579,16 +579,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2024
+    genre: "Memoir"
+    publisher: "Knopf Doubleday Publishing Group"
+    cover_url: "https://covers.openlibrary.org/b/id/14851163-L.jpg"
+    isbn: "0593701844"
+    description: "NEW YORK TIMES NOTABLE BOOK • NEW YORK TIMES BESTSELLER • FINALIST FOR THE 2025 WOMEN'S PRIZE • A fascinating meditation on freedom, trust, loss, and our relationship with the natural world, explored through the story of one woman’s unlikely friendship with a wild hare. A BEST BOOK OF THE YEAR: The "
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL37927624W"
       wikipedia: ""
 
   - order: 32
@@ -598,16 +598,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 1960
+    genre: "Description and travel"
+    publisher: "Collins"
+    cover_url: "https://books.google.com/books/content?id=rCKeCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "In the mid-1940s, Sybille Bedford set off from Grand Central Station for Mexico, accompanied by her friend E., a hamper of food and drink (Virginia ham, cherries, watercress, a flute of bread, Portuguese rosé), books, a writing board, and paper. Her resulting travelogue captures the violent beauty o"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL44089962W"
       wikipedia: ""
 
   - order: 33
@@ -617,16 +617,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2022
+    genre: "Fiction"
+    publisher: "Charco Press"
+    cover_url: "https://covers.openlibrary.org/b/id/13262918-L.jpg"
+    isbn: "1913867331"
+    description: "Five hundred miles from mainland Colombia, grassroots resistance, sloppy vacationers, and a muddy history of conquest converge for Verónica, returning after living in Mexico City, ready to understand herself and the place she came from. San Andrés rises gently from the Caribbean, part of Colombia bu"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL27558841W"
       wikipedia: ""
 
   - order: 34
@@ -636,16 +636,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2000
+    genre: "Long Now Manual for Civilization, Fiction, science fiction, general"
+    publisher: "Random House Publishing Group"
+    cover_url: "https://covers.openlibrary.org/b/id/6375226-L.jpg"
+    isbn: "9788489746305"
+    description: "WINNER OF THE AUGUST DERLETH AND ARTHUR C. CLARKE AWARDS • A masterpiece brimming with scientific splendor, magical intrigue, and fierce characters, from the author who “has reshaped modern fantasy” (The Washington Post) “[China Miéville’s] fantasy novels, including a trilogy set in and around the m"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL8718786W"
       wikipedia: ""
 
   - order: 35
@@ -674,16 +674,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2005
+    genre: "Samuel Vimes (Fictitious character), Discworld (Imaginary place)"
+    publisher: "Talpress"
+    cover_url: "https://covers.openlibrary.org/b/id/14645706-L.jpg"
+    isbn: "9781407033754"
+    description: "“Start with Douglas Adams’s comic science fiction (A Hitchhiker’s Guide to the Galaxy) and J.R.R. Tolkien’s alternative worlds, mix in James Ellroy’s gritty realism and Jonathan Swift’s unflinching satire and, if you’re lucky, you’ll get something like Terry Pratchett’s Thud!” —Wall Street Journal C"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL453852W"
       wikipedia: ""
 
   - order: 37
@@ -712,16 +712,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2025
+    genre: "Fiction"
+    publisher: "Orbit"
+    cover_url: "https://books.google.com/books/content?id=5bq30QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    isbn: "0316597732"
+    description: "Andrzej Sapkowski's Witcher series is a global phenomenon with over thirty million copies sold and translated into over forty languages worldwide. Crossroads of Ravens is the instant New York Times bestselling standalone novel following fantasy's most beloved monster hunter, Geralt of Rivia, on his "
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL44550081W"
       wikipedia: ""
 
   - order: 39
@@ -731,16 +731,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
+    year_published: 2025
     genre: null
-    publisher: null
+    publisher: "Knopf Doubleday Publishing Group"
     cover_url: ""
-    isbn: ""
+    isbn: "0593537858"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL42441795W"
       wikipedia: ""
 
   - order: 40
@@ -788,12 +788,12 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2007
+    genre: "Comics & Graphic Novels"
+    publisher: "Vertigo"
+    cover_url: "https://books.google.com/books/content?id=k7fPAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "In this third volume, collecting issues #13-17, Matty severs his ties to the Liberty News and becomes a free agent. He soon finds himself in over his head as he goes undercover and infiltrates a terrorist cell determined to disrupt any and all construction sites trying to rebuild the city."
     tags: []
     notes: ""
     links:
@@ -807,16 +807,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
+    year_published: 2025
     genre: null
-    publisher: null
+    publisher: "Granta Books"
     cover_url: ""
-    isbn: ""
+    isbn: "1803513934"
     description: ""
     tags: []
     notes: "😍"
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL44558923W"
       wikipedia: ""
 
   - order: 44
@@ -826,16 +826,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2002
+    genre: "Cousins, Female friendship"
+    publisher: "Grove Press"
+    cover_url: "https://covers.openlibrary.org/b/id/6939410-L.jpg"
+    isbn: "9780802116383"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL16068644W"
       wikipedia: ""
 
   - order: 45
@@ -845,12 +845,12 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2012
+    genre: "Biography & Autobiography"
+    publisher: "W. W. Norton & Company"
+    cover_url: "https://books.google.com/books/content?id=kd8OY0ZFHW8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "In August 2008, when 11 climbers lost their lives on K2, the world's most dangerous peak, two Sherpas survived and are two of the most skillful mountaineers on earth."
     tags: []
     notes: ""
     links:
@@ -864,16 +864,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1985
+    genre: "fiction, western cattle drives"
+    publisher: "Distribooks Inc"
+    cover_url: "https://covers.openlibrary.org/b/id/8376548-L.jpg"
+    isbn: "9780330317542"
     description: ""
     tags: []
     notes: "Incomplete — carried forward."
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL134601W"
       wikipedia: ""
 
   - order: 47
@@ -883,12 +883,12 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2008
+    genre: "Comics & Graphic Novels"
+    publisher: "Vertigo"
+    cover_url: "https://books.google.com/books/content?id=2VfsAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "Matty Roth reluctantly lands an interview for Liberty News with an enlisted U.S. solider who's found guilty of a massacre within the DMZ. What follows is a look at how the DMZ came to be, from the perspective of a kid who came from the Midwest and walked right into a nightmare."
     tags: []
     notes: ""
     links:
@@ -902,14 +902,14 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
+    year_published: 2023
     genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    publisher: "Penguin Publishing Group"
+    cover_url: "https://covers.openlibrary.org/b/id/14609258-L.jpg"
+    isbn: "9781787303805"
     description: ""
     tags: []
     notes: "Incomplete — carried forward."
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL35720233W"
       wikipedia: ""

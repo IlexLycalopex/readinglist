@@ -9,16 +9,16 @@ books:
     date_started: "2023-01-01"
     date_finished: "2023-01-05"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1986
+    genre: "Disappeared persons, History"
+    publisher: "Hippocrene Books"
+    cover_url: "https://covers.openlibrary.org/b/id/1664054-L.jpg"
+    isbn: "1906011346"
+    description: "For ten hair-raising years, Andrew Graham-Yooll was the news editor of the Buenos Aires Herald, and under threat of 'disappearance' he helped families of the missing, attended guerilla conference, and took tea with torturers."
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL727453W"
       wikipedia: ""
 
   - order: 2
@@ -28,12 +28,12 @@ books:
     date_started: "2023-01-06"
     date_finished: "2023-01-24"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2018
+    genre: "Fiction"
+    publisher: "Penguin"
+    cover_url: "https://books.google.com/books/content?id=rS5lDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "WINNER OF THE NOBEL PRIZE IN LITERATURE WINNER OF THE MAN BOOKER INTERNATIONAL PRIZE NATIONAL BOOK AWARD FINALIST FOR TRANSLATED LITERATURE A visionary work of fiction by \"A writer on the level of W. G. Sebald\" (Annie Proulx) \"A magnificent writer.\" — Svetlana Alexievich, Nobel Prize-winning author "
     tags: []
     notes: ""
     links:
@@ -47,16 +47,16 @@ books:
     date_started: "2023-01-25"
     date_finished: "2023-01-31"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2021
+    genre: "American literature, Autobiographical fiction"
+    publisher: "Riverhead Books"
+    cover_url: "https://covers.openlibrary.org/b/id/11415276-L.jpg"
+    isbn: "9781529418361"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL24699246W"
       wikipedia: ""
 
   - order: 4
@@ -85,16 +85,16 @@ books:
     date_started: "2023-02-06"
     date_finished: "2023-02-14"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2018
+    genre: "Korean Americans, Fiction"
+    publisher: "Center Point Pub"
+    cover_url: "https://covers.openlibrary.org/b/id/9247670-L.jpg"
+    isbn: "9780349011868"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL19667792W"
       wikipedia: ""
 
   - order: 6
@@ -104,16 +104,16 @@ books:
     date_started: "2023-02-15"
     date_finished: "2023-03-06"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1990
+    genre: "Fiction, Mothers and sons"
+    publisher: "Atlantic Monthly Pr"
+    cover_url: "https://covers.openlibrary.org/b/id/568907-L.jpg"
+    isbn: "9781841954882"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL4459396W"
       wikipedia: ""
 
   - order: 7
@@ -142,16 +142,16 @@ books:
     date_started: "2023-03-09"
     date_finished: "2023-03-13"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2006
+    genre: "Fiction"
+    publisher: "Grove Press"
+    cover_url: "https://covers.openlibrary.org/b/id/569477-L.jpg"
+    isbn: "0802142443"
+    description: "Relates the experiences of two free-spirited young women in contemporary Japan."
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL2637558W"
       wikipedia: ""
 
   - order: 9
@@ -161,16 +161,16 @@ books:
     date_started: "2023-03-14"
     date_finished: "2023-03-18"
     format: print
-    year_published: null
+    year_published: 2022
     genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    publisher: "Kampa"
+    cover_url: "https://covers.openlibrary.org/b/id/15122599-L.jpg"
+    isbn: "9780241439081"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL26510962W"
       wikipedia: ""
 
   - order: 10
@@ -180,16 +180,16 @@ books:
     date_started: "2023-03-19"
     date_finished: "2023-03-22"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2006
+    genre: "Wool ranches, Description and travel"
+    publisher: "Peter Owen Publishers"
+    cover_url: "https://covers.openlibrary.org/b/id/1357741-L.jpg"
+    isbn: "9780720612608"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL8389474W"
       wikipedia: ""
 
   - order: 11
@@ -199,16 +199,16 @@ books:
     date_started: "2023-03-23"
     date_finished: "2023-03-27"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2020
+    genre: "Fiction, family life, Fiction, psychological"
+    publisher: "Knopf"
+    cover_url: "https://covers.openlibrary.org/b/id/9268165-L.jpg"
+    isbn: "1783789336"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20644306W"
       wikipedia: ""
 
   - order: 12
@@ -218,16 +218,16 @@ books:
     date_started: "2023-03-28"
     date_finished: "2023-04-01"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2009
+    genre: "Fiction, Spirits"
+    publisher: "Pub. Genius Press"
+    cover_url: "https://covers.openlibrary.org/b/id/6389580-L.jpg"
+    isbn: "0143117785"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL15092721W"
       wikipedia: ""
 
   - order: 13
@@ -237,16 +237,16 @@ books:
     date_started: "2023-04-02"
     date_finished: "2023-04-10"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2018
+    genre: "History, Oil industry workers"
+    publisher: "Daunt Originals"
+    cover_url: "https://books.google.com/books/content?id=5_BA0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    isbn: "1945492147"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL19761368W"
       wikipedia: ""
 
   - order: 14
@@ -256,16 +256,16 @@ books:
     date_started: "2023-04-10"
     date_finished: "2023-06-10"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2008
+    genre: "Fiction, Discworld (Imaginary place)"
+    publisher: "Debolsillo"
+    cover_url: "https://covers.openlibrary.org/b/id/14646664-L.jpg"
+    isbn: "9781783191949"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL14929074W"
       wikipedia: ""
 
   - order: 15
@@ -275,16 +275,16 @@ books:
     date_started: null
     date_finished: "2023-05-20"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2019
+    genre: "Environmental engineering"
+    publisher: "Penguin Books, Limited"
+    cover_url: "https://covers.openlibrary.org/b/id/9378622-L.jpg"
+    isbn: "9780141991450"
+    description: "Extinction Rebellion are inspiring a whole generation to take action on climate breakdown. Now you can become part of the movement - and together, we can make history. It's time. This is our last chance to do anything about the global climate and ecological emergency. Our last chance to save the wor"
     tags: []
     notes: "🔥"
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20701546W"
       wikipedia: ""
 
   - order: 16
@@ -294,16 +294,16 @@ books:
     date_started: "2023-06-17"
     date_finished: "2023-06-25"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2019
+    genre: "New York Times reviewed, Fiction, psychological"
+    publisher: "Anchor"
+    cover_url: "https://covers.openlibrary.org/b/id/8793462-L.jpg"
+    isbn: "067007005X"
+    description: "From the Man Booker Prize Finalist comes the third novel in her Seasonal Quartet—a New York Times Notable Book and longlisted for the Orwell Prize for Political Fiction 2020 What unites Katherine Mansfield, Charlie Chaplin, Shakespeare, Rilke, Beethoven, Brexit, the present, the past, the north, the"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20149259W"
       wikipedia: ""
 
   - order: 17
@@ -313,16 +313,16 @@ books:
     date_started: null
     date_finished: "2023-10-12"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2003
+    genre: "franchise:Discworld, series:Discworld"
+    publisher: "Debolsillo"
+    cover_url: "https://covers.openlibrary.org/b/id/14646616-L.jpg"
+    isbn: "9780552212809"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL453799W"
       wikipedia: ""
 
   - order: 18
@@ -351,12 +351,12 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2013
+    genre: "Comics & Graphic Novels"
+    publisher: "Dark Horse Comics"
+    cover_url: "https://books.google.com/books/content?id=ZNAZjKSDGRAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "In this first volume of Brian Wood's new, sprawling postapocalyptic epic, follow the crew of the Kapital from the flooded remnants of Hong Kong to Unalaska, with stops in Antarctica and Mogadishu, as post-Crash ethics and economics are explored across a broken world. Collecting issues #1–#6 of the s"
     tags: ["november 2023"]
     notes: ""
     links:
@@ -370,16 +370,16 @@ books:
     date_started: "2023-12-01"
     date_finished: "2023-12-12"
     format: print
-    year_published: null
-    genre: null
+    year_published: 2023
+    genre: "Language and languages"
     publisher: "Fitzcarraldo"
-    cover_url: ""
-    isbn: ""
+    cover_url: "https://covers.openlibrary.org/b/id/13343644-L.jpg"
+    isbn: "1804270385"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL29328658W"
       wikipedia: ""
 
   - order: 21
@@ -389,16 +389,16 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2015
+    genre: "Fantasy comics, Science fiction comics"
+    publisher: "HarperCollins Publishers and Blackstone Audio"
+    cover_url: "https://covers.openlibrary.org/b/id/10541789-L.jpg"
+    isbn: "2205073826"
+    description: "The graphic novel debut from rising star Noelle Stevenson, based on her beloved and critically acclaimed web comic, which Slate awarded its Cartoonist Studio Prize, calling it \"a deadpan epic.\" Nemeses! Dragons! Science! Symbolism! All these and more await in this brilliantly subversive, sharply irr"
     tags: ["november 2023"]
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL17274040W"
       wikipedia: ""
 
   - order: 22
@@ -408,16 +408,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1977
+    genre: "Great britain, history, Natural history"
+    publisher: "AberdeenUniversity Press"
+    cover_url: "https://covers.openlibrary.org/b/id/10665302-L.jpg"
+    isbn: "9780857861832"
+    description: "“In a world of self-help, this is true inspiration, deeply admirable without the distance of heroism, bracing without stridency and, ultimately, generous. The mountain, Shepherd tells us, is ‘a corrective of glib assessment.’ So is its book.” —The New York Times Book Review An internationally bestse"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL12862894W"
       wikipedia: ""
 
   - order: 23
@@ -427,16 +427,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
+    year_published: 2022
     genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    publisher: "Penguin Books, Limited"
+    cover_url: "https://covers.openlibrary.org/b/id/12847237-L.jpg"
+    isbn: "0141993006"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL26350793W"
       wikipedia: ""
 
   - order: 24
@@ -446,16 +446,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2007
+    genre: "Nature, Travel"
+    publisher: "Free Press"
+    cover_url: "https://covers.openlibrary.org/b/id/7234108-L.jpg"
+    isbn: "143910994X"
+    description: "Here, published for the first time in the United States, is the last book by Roger Deakin, famed British nature writer and icon of the environmentalist movement. In Deakin's glorious meditation on wood, the \"fifth element\" -- as it exists in nature, in our culture, and in our souls -- the reader acc"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL9313396W"
       wikipedia: ""
 
   - order: 25
@@ -465,16 +465,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1995
+    genre: "Political theology, Polar bears"
+    publisher: "Galaxy Plus"
+    cover_url: "https://covers.openlibrary.org/b/id/8747028-L.jpg"
+    isbn: "9780613810364"
+    description: "The incredible story of Lyra Belacqua will begin in La Belle Sauvage- the first volume of The Book of Dust. Now you have the opportunity to revisit her adventures in Northern Lights, with this graphic novel adaptation of a masterpiece, which comes to life with incredible full-colour art. Follow Lyra"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL28988W"
       wikipedia: ""
 
   - order: 26
@@ -484,12 +484,12 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2009
+    genre: "Fiction"
+    publisher: "Orbit"
+    cover_url: "https://books.google.com/books/content?id=ki3qy_OwVnEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "Andrzej Sapkowski’s New York Times bestselling Witcher series has inspired the hit Netflix show and multiple blockbuster video games, and has transported millions of fans around the globe to an epic, unforgettable world of magic and adventure. ★ The New York Times bestselling series ★ Over Fifteen M"
     tags: []
     notes: ""
     links:
@@ -503,16 +503,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2003
+    genre: "Surfing"
+    publisher: "Harpercollins"
+    cover_url: "https://covers.openlibrary.org/b/id/21964-L.jpg"
+    isbn: "9780060096298"
+    description: "Six–time world surfing champion, actor, and US heart–throb Kelly Slater tells of the struggles and triumphs he's experienced throughout his life and how they have helped him to become one of the world's most loved sports figures. From beach blanket bingo to Baywatch, surfing has fascinated people fo"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL272827W"
       wikipedia: ""
 
   - order: 28
@@ -522,16 +522,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2023
+    genre: "nyt:combined-print-and-e-book-nonfiction=2023-07-16, New York Times bestseller"
+    publisher: "Norton & Company Limited, W. W."
+    cover_url: "https://covers.openlibrary.org/b/id/15142472-L.jpg"
+    isbn: "9781529196481"
+    description: "THE #1 INTERNATIONAL BESTSELLER Finalist for the Baillie Gifford Prize for Non-fiction An eye-opening investigation into the science, economics, history, and production of ultra-processed food, now with a new Afterword by the author. Named a Best Book of the Year by NPR • The Economist • The Times •"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL27816125W"
       wikipedia: ""
 
   - order: 29
@@ -560,16 +560,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2022
+    genre: "Nature"
+    publisher: "Quarto Publishing Group UK"
+    cover_url: "https://books.google.com/books/content?id=Zi1qEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    isbn: "0711273960"
+    description: "Wyl Menmuir’s The Draw of the Sea is a beautifully written and deeply moving portrait of the Cornish Coast and the people who make their livings there, examining the ephemeral but universal pull the sea holds over the human imagination. ‘A beautiful portrait of lives shaped by the swell of ocean and"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL27411428W"
       wikipedia: ""
 
   - order: 31
@@ -579,16 +579,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
+    year_published: 2022
     genre: null
-    publisher: null
+    publisher: "Ebury Publishing"
     cover_url: ""
-    isbn: ""
+    isbn: "9781473598461"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL26347550W"
       wikipedia: ""
 
   - order: 32
@@ -598,16 +598,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2022
+    genre: "Nature"
+    publisher: "St. Martin's Press"
+    cover_url: "https://covers.openlibrary.org/b/id/10620920-L.jpg"
+    isbn: "1250905966"
+    description: "Winner of the 2023 Helen Bernstein Book Award for Excellence in Journalism \"Original and readable.\" ―Financial Times' Best Environmental Books of 2022 \"Superb, inspiring.\" ―Winner, National Academies of Science Schmidt Awards for Excellence in Science Communications “Illuminating.” —Silver Medalist,"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL24191192W"
       wikipedia: ""
 
   - order: 33
@@ -617,16 +617,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2015
+    genre: "Mountaineering, Pakistan, history"
+    publisher: "Oneworld Publications"
+    cover_url: "https://books.google.com/books/content?id=-rJ7zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    isbn: "1780748736"
+    description: "At 28,251 feet, K2 might be almost 800 feet shorter than Everest, but it is a far tougher proposition. Unlike Everest, there is no \"Yak route\" for commercial clients. It is hard climbing all the way from its base to its summit. K2 will kill you on the way up and kill you on the way down. Mick Conefr"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL21092616W"
       wikipedia: ""
 
   - order: 34
@@ -636,16 +636,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2011
+    genre: "Fiction"
+    publisher: "Penguin Random House"
+    cover_url: "https://books.google.com/books/content?id=NadjlQqyYnEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    isbn: "1448103673"
+    description: "Dance Dance Dance—a follow-up to A Wild Sheep Chase—is a tense, poignant, and often hilarious ride through Murakami’s Japan, a place where everything that is not up for sale is up for grabs. As Murakami’s nameless protagonist searches for a mysteriously vanished girlfriend, he is plunged into a wind"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL25125554W"
       wikipedia: ""
 
   - order: 35
@@ -655,14 +655,14 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2012
+    genre: "Voyages and travels, Walking"
+    publisher: "Penguin Books"
+    cover_url: "https://covers.openlibrary.org/b/id/8701934-L.jpg"
+    isbn: "9780241143810"
+    description: "From the acclaimed author of The Wild Places and Underland, an exploration of walking and thinking In this exquisitely written book, Robert Macfarlane sets off from his Cambridge, England, home to follow the ancient tracks, holloways, drove roads, and sea paths that crisscross both the British lands"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL16599221W"
       wikipedia: ""

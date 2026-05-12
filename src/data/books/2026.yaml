@@ -9,16 +9,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2023
+    genre: "Fiction"
+    publisher: "Penguin Random House"
+    cover_url: "https://covers.openlibrary.org/b/id/14609258-L.jpg"
+    isbn: "9780593544808"
+    description: "A NEW YORK TIMES TOP TEN BOOK OF 2024 A NEW YORK PUBLIC LIBRARY TOP TEN BOOK OF THE YEAR \"Short, strange, spiky and sublime.” —Dwight Garner, New York Times “Funny, ghastly, eye-opening, marvelous.” —Wall Street Journal From the visionary author of Sudden Death, a hallucinatory, revelatory colonial "
     tags: []
     notes: "Carried over from 2025."
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL35720233W"
       wikipedia: ""
 
   - order: 2
@@ -28,16 +28,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1977
+    genre: "Great britain, history, Natural history"
+    publisher: "AberdeenUniversity Press"
+    cover_url: "https://covers.openlibrary.org/b/id/10665302-L.jpg"
+    isbn: "1847674240"
     description: ""
     tags: []
     notes: "Re-read."
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL12862894W"
       wikipedia: ""
 
   - order: 3
@@ -47,12 +47,12 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2011
+    genre: "Fiction"
+    publisher: "Rosetta Books"
+    cover_url: "https://books.google.com/books/content?id=UUQqAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "A motley crew of saboteurs wreaks havoc on the corporations destroying America's Western wilderness in this \"wildly funny, infinitely wise\" classic ( The Houston Chronicle). When George Washington Hayduke III returns home from war in the jungles of Southeast Asia, he finds the unspoiled West he once"
     tags: []
     notes: "Re-read."
     links:
@@ -66,12 +66,12 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2025
+    genre: "Fiction"
+    publisher: "Simon and Schuster"
+    cover_url: "https://books.google.com/books/content?id=Mx4OEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "An instant New York Times bestseller, a chilling historical horror novel tracing the life of a vampire who haunts the fields of the Blackfeet reservation looking for justice. A diary, written in 1912 by a Lutheran pastor is discovered within a wall. What it unveils is a slow massacre, a chain of eve"
     tags: []
     notes: ""
     links:
@@ -85,16 +85,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1976
+    genre: "Social life and customs, Scottish Americans"
+    publisher: "Picador"
+    cover_url: "https://covers.openlibrary.org/b/id/10710412-L.jpg"
+    isbn: "1665163755"
+    description: "Collection of three Western stories, featuring the title piece about the relationship between a father and his two sons, bound together by love and fly fishing."
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL4045454W"
       wikipedia: ""
 
   - order: 6
@@ -104,16 +104,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
+    year_published: 2023
     genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    publisher: "Fum D'Estampa Press"
+    cover_url: "https://books.google.com/books/content?id=r2l0zwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    isbn: "1913744205"
+    description: "A delicate, beautifully written testimony to depression from one of Spain's most exciting new voices."
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL29331265W"
       wikipedia: ""
 
   - order: 7
@@ -123,12 +123,12 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2024
+    genre: "Fiction"
+    publisher: "Charco Press"
+    cover_url: "https://books.google.com/books/content?id=YyUUEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "After a loss, a year in the country: four seasons to transform a garden and a self. “In the city the notion of the hours of the day, of the passage of time, is lost. In the countryside that is impossible,” the narrator tells us. He goes on to recount his day-to-day life in the house with garden wher"
     tags: []
     notes: ""
     links:
@@ -142,16 +142,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
+    year_published: 2024
     genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    publisher: "Penguin Random House"
+    cover_url: "https://covers.openlibrary.org/b/id/14840892-L.jpg"
+    isbn: "9781529954463"
     description: ""
     tags: []
     notes: "👌"
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL37585316W"
       wikipedia: ""
 
   - order: 9
@@ -161,16 +161,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1998
+    genre: "Eccentrics and eccentricities, Fiction"
+    publisher: "Faber and Faber"
+    cover_url: "https://covers.openlibrary.org/b/id/3728476-L.jpg"
+    isbn: "0060933755"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL1857896W"
       wikipedia: ""
 
   - order: 10
@@ -180,16 +180,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2008
+    genre: "SCP Foundation, antimemetics"
+    publisher: "Independently published"
+    cover_url: "https://covers.openlibrary.org/b/id/11457905-L.jpg"
+    isbn: "0593983769"
+    description: "NATIONAL BESTSELLER • Humanity is under assault by malevolent “antimemes”—ideas that attack memory, identity, and the fabric of reality itself—in this whip-smart tale of science-fiction horror, an entirely reimagined and expanded version of the beloved online novel. “Utterly brilliant . . . a dazzli"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL24726867W"
       wikipedia: ""
 
   - order: 11
@@ -199,16 +199,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
+    year_published: 2018
+    genre: "London (england), fiction, Fiction, suspense"
+    publisher: "Taylor & Francis Group"
     cover_url: ""
-    isbn: ""
+    isbn: "9780857053725"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL21606907W"
       wikipedia: ""
 
   - order: 12
@@ -218,12 +218,12 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2023
+    genre: "Fiction"
+    publisher: "Del Rey"
+    cover_url: "https://books.google.com/books/content?id=ikOlEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "The lore and legends around the underground game known as Rabbits gain new dimensions in The Quiet Room, a twisty tale set in the world of the hit Rabbits podcast. “Another mind-bending adventure replete with mystery.”—Publishers Weekly After nearly winning the eleventh iteration of Rabbits, the mys"
     tags: []
     notes: ""
     reading: true
@@ -257,12 +257,12 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2009
+    genre: "Comics & Graphic Novels"
+    publisher: "Vertigo"
+    cover_url: "https://books.google.com/books/content?id=ISXQAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "The world and characters of the DMZ — a futuristic, war-torn Manhattan — are expanded and enriched in this sixth volume of the acclaimed series as journalist Matty Roth. The United States has decided to resume reconciliation talks with the Free States, but a major new player in the Free States polit"
     tags: []
     notes: ""
     links:
@@ -276,12 +276,12 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2009
+    genre: "Comics & Graphic Novels"
+    publisher: "Vertigo"
+    cover_url: "https://books.google.com/books/content?id=2iXQAgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "The story of Matty Roth, the ultimate embedded war journalist trapped in a most unlikely war zone: the streets of New York City, or as the world now knows it,the DMZ. In this seventh volume in the graphic novel series, the status quo of the series istossed out the window as Matty, back from his misa"
     tags: []
     notes: ""
     links:
@@ -295,12 +295,12 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2010
+    genre: "Comics & Graphic Novels"
+    publisher: "Vertigo"
+    cover_url: "https://books.google.com/books/content?id=_yXQAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "The world and characters of the DMZ - a futuristic, war-torn Manhattan - are expanded and enriched in this eighth volume of the acclaimed series. Journalist Matty Roth redefines his role in the DMZ following the tumultuous events of the past year No longer content to be merely a citizen journalist o"
     tags: []
     notes: ""
     links:
@@ -314,12 +314,12 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2011
+    genre: "Comics & Graphic Novels"
+    publisher: "Vertigo"
+    cover_url: "https://books.google.com/books/content?id=RiXQAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "The ninth volume in the critically acclaimed series that looks at life during wartime--America's 21st century Civil War. After the shattering events of DMZ VOL. 8: HEARTS AND MINDS, M.I.A. takes Matty to a remote and desolate section of the city.Self-exile forces him to take a good, hard look at him"
     tags: []
     notes: ""
     links:
@@ -333,12 +333,12 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2011
+    genre: "Comics & Graphic Novels"
+    publisher: "Vertigo"
+    cover_url: "https://books.google.com/books/content?id=FvcPAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "In this collection of five single-issue stories, citizens and soldiers-new characters and old-weather the storm of a brutal \"shock and awe\" bombing campaign on the DMZ. Includes a story concerning the enigmatic Wilson, the self-professed protector of Chinatown and confidant to series star Matty Roth"
     tags: []
     notes: ""
     links:
@@ -372,16 +372,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1985
+    genre: "fiction, western cattle drives"
+    publisher: "Pocket Books"
+    cover_url: "https://covers.openlibrary.org/b/id/8376548-L.jpg"
+    isbn: "0606351140"
     description: ""
     tags: []
     notes: "Carried over from 2025."
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL134601W"
       wikipedia: ""
 
   - order: 21
@@ -391,12 +391,12 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2010
+    genre: "Fiction"
+    publisher: "Vintage"
+    cover_url: "https://books.google.com/books/content?id=OeL2QLWyHwAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "A New York Times bestselling author—and “a mythmaker for the millennium, a wiseacre wiseman” (New York Times Book Review)—delivers a surreal and elaborate quest that takes readers from Tokyo to the remote mountains of northern Japan, where the unnamed protagonist has a surprising confrontation with "
     tags: []
     notes: "Re-read."
     links:
@@ -410,16 +410,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
+    year_published: 2025
     genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    publisher: "W. W. Norton & Company"
+    cover_url: "https://covers.openlibrary.org/b/id/14846855-L.jpg"
+    isbn: "0393242137"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL42398965W"
       wikipedia: ""
 
   - order: 23
@@ -429,16 +429,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2009
+    genre: "Travel, Sports"
+    publisher: "Vertebrate Graphics Limited"
+    cover_url: "https://covers.openlibrary.org/b/id/9054223-L.jpg"
+    isbn: "1906148651"
+    description: "What does it take to be one of the world's best high-altitude mountain climbers? A lot of fundraising; traveling in some of the world's most dangerous countries; enduring cold bivouacs, searing lungs, and a cloudy mind when you can least afford one. It means learning the hard lessons the mountains t"
     tags: []
     notes: "Re-read."
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL15390274W"
       wikipedia: ""
 
   - order: 24
@@ -448,16 +448,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2010
+    genre: "New York Times bestseller, nyt:hardcover_fiction=2010-09-26"
+    publisher: "G.P. Putnam's Sons"
+    cover_url: "https://covers.openlibrary.org/b/id/7072428-L.jpg"
+    isbn: "9780425240779"
+    description: "Hollis Henry never intended to work for global marketing magnate Hubertus Bigend again. But now she’s broke, and Bigend has just the thing to get her back in the game... Milgrim can disappear in almost any setting, and his Russian is perfectly idiomatic—so much so that he spoke it with his therapist"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL15413799W"
       wikipedia: ""
 
   - order: 25
@@ -467,15 +467,15 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2019
+    genre: "Frontier and pioneer life, West (u.s.), discovery and exploration"
+    publisher: "Basic Books"
+    cover_url: "https://covers.openlibrary.org/b/id/8982523-L.jpg"
+    isbn: "1541672526"
+    description: "From a New York Times bestselling author, a masterful history of the American West—from the California Gold Rush to the settling of Oklahoma and beyond. \"Epic in its scale, fearless in its scope, this is a bravura performance from one of our master historians.\" —Hampton Sides, bestselling author of "
     tags: []
     notes: ""
     reading: true
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20320929W"
       wikipedia: ""

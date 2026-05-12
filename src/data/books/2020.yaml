@@ -9,12 +9,12 @@ books:
     date_started: "2020-04-02"
     date_finished: "2020-05-09"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2010
+    genre: "Biography & Autobiography"
+    publisher: "Crown"
+    cover_url: "https://books.google.com/books/content?id=DzLp5VNhK_wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "With his trademark growl, carnival-madman persona, haunting music, and unforgettable lyrics, Tom Waits is one of the most revered and critically acclaimed singer-songwriters alive today. After beginning his career on the margins of the 1970s Los Angeles rock scene, Waits has spent the last thirty ye"
     tags: []
     notes: ""
     links:
@@ -28,16 +28,16 @@ books:
     date_started: "2020-05-09"
     date_finished: "2020-05-10"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2018
+    genre: "New York Times reviewed, Fiction, psychological"
+    publisher: "Granta Books"
+    cover_url: "https://covers.openlibrary.org/b/id/11555448-L.jpg"
+    isbn: "164129096X"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL24793159W"
       wikipedia: ""
 
   - order: 3
@@ -66,16 +66,16 @@ books:
     date_started: "2020-05-20"
     date_finished: "2020-05-22"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2018
+    genre: "Man-woman relationships, Social life and customers"
+    publisher: "E/O"
+    cover_url: "https://covers.openlibrary.org/b/id/9315164-L.jpg"
+    isbn: "9781538584552"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL19744024W"
       wikipedia: ""
 
   - order: 5
@@ -85,16 +85,16 @@ books:
     date_started: "2020-05-22"
     date_finished: "2020-05-29"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2019
+    genre: "Self-reliant living"
+    publisher: "Blackstone Audio"
+    cover_url: "https://covers.openlibrary.org/b/id/10331828-L.jpg"
+    isbn: "9781786076014"
+    description: "It was 11pm when I checked my email for the last time and turned off my phone for what I hoped would be forever. No running water, no car, no electricity or any of the things it powers: the internet, phone, washing machine, radio or light bulb. Just a wooden cabin, on a smallholding, by the edge of "
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL21176852W"
       wikipedia: ""
 
   - order: 6
@@ -104,16 +104,16 @@ books:
     date_started: "2020-05-29"
     date_finished: "2020-06-07"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2010
+    genre: "Fiction, Punk rock musicians"
+    publisher: "Corsair"
+    cover_url: "https://covers.openlibrary.org/b/id/6452334-L.jpg"
+    isbn: "1849010331"
+    description: "Bennie is an aging former punk rocker and record executive. Sasha is the passionate, troubled young woman he employs. The author reveals their pasts, along with the inner lives of a host of other characters whose paths intersect with theirs."
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL15026613W"
       wikipedia: ""
 
   - order: 7
@@ -123,16 +123,16 @@ books:
     date_started: "2020-06-07"
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2006
+    genre: "Railroad engineers, Description and travel"
+    publisher: "John Murray"
+    cover_url: "https://covers.openlibrary.org/b/id/1357416-L.jpg"
+    isbn: "0719561795"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL2787258W"
       wikipedia: ""
 
   - order: 8
@@ -142,16 +142,16 @@ books:
     date_started: "2020-06-20"
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2007
+    genre: "National Book Critics Circle Award Winner, award:national_book_critics_circle_award=2007"
+    publisher: "Faber & Faber"
+    cover_url: "https://covers.openlibrary.org/b/id/12451659-L.jpg"
+    isbn: "9780571246205"
+    description: "#11 in the New York Times '100 Best Books of the 21st Century' Things have never been easy for Oscar. A ghetto nerd living with his Dominican family in New Jersey, he's sweet but disastrously overweight. He dreams of becoming the next J.R.R. Tolkien and he keeps falling hopelessly in love. Poor Osca"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL7990014W"
       wikipedia: ""
 
   - order: 9
@@ -161,16 +161,16 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2010
+    genre: "War stories, Physicians"
+    publisher: "Tor"
+    cover_url: "https://covers.openlibrary.org/b/id/6672721-L.jpg"
+    isbn: "1429949244"
+    description: "A fantastical reimagining of the American West which draws its influence from steampunk, the American western tradition, and magical realism The world is only half made. What exists has been carved out amidst a war between two rival factions: the Line, paving the world with industry and claiming its"
     tags: ["august 2020"]
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL15569460W"
       wikipedia: ""
 
   - order: 10
@@ -180,16 +180,16 @@ books:
     date_started: "2020-08-24"
     date_finished: "2020-09-20"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1988
+    genre: "Aging, Conduct of life"
+    publisher: "imusti"
+    cover_url: "https://covers.openlibrary.org/b/id/8846298-L.jpg"
+    isbn: "9780241973301"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL17857316W"
       wikipedia: ""
 
   - order: 11
@@ -199,16 +199,16 @@ books:
     date_started: "2020-09-21"
     date_finished: "2020-11-20"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2007
+    genre: "Fiction, Historiography"
+    publisher: "HarperCollins"
+    cover_url: "https://covers.openlibrary.org/b/id/5316813-L.jpg"
+    isbn: "9780061659683"
+    description: "From the author of The Yips and Burley Cross Postbox Theft comes an epic novel of startling originality.If history is a sick joke which keeps on repeating, then who keeps on telling it? Could it be John Scogin, Edward IV's jester, whose favourite skit was to burn people alive? Or could it be Andrew "
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL1857891W"
       wikipedia: ""
 
   - order: 12
@@ -218,12 +218,12 @@ books:
     date_started: "2020-11-21"
     date_finished: "2020-11-30"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2019
+    genre: "Fiction"
+    publisher: "Penguin"
+    cover_url: "https://books.google.com/books/content?id=YvOiDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "WINNER OF THE NOBEL PRIZE IN LITERATURE New York Times Readers Pick: 100 Best Books of the 21st Century \"A brilliant literary murder mystery.\" —Chicago Tribune \"Extraordinary. Tokarczuk's novel is funny, vivid, dangerous, and disturbing, and it raises some fierce questions about human behavior. My s"
     tags: []
     notes: ""
     links:
@@ -237,14 +237,14 @@ books:
     date_started: "2020-11-01"
     date_finished: "2020-12-29"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2004
+    genre: "Fiction, general, Africa, fiction"
+    publisher: "Everyman"
+    cover_url: "https://covers.openlibrary.org/b/id/745331-L.jpg"
+    isbn: "1400042550"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL1230720W"
       wikipedia: ""

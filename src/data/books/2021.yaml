@@ -9,16 +9,16 @@ books:
     date_started: "2021-01-01"
     date_finished: "2021-01-05"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1965
+    genre: "domestic fiction, psychological fiction"
+    publisher: "Rubenstein"
+    cover_url: "https://covers.openlibrary.org/b/id/8310729-L.jpg"
+    isbn: "3862312801"
+    description: "\"Born the child of a poor farmer in Missouri, William Stoner is urged by his parents to study new agriculture techniques at the state university. Digging instead into the texts of Milton and Shakespeare, Stoner falls under the spell of the unexpected pleasures of English literature, and decides to m"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL3511459W"
       wikipedia: ""
 
   - order: 2
@@ -28,16 +28,16 @@ books:
     date_started: "2021-01-06"
     date_finished: "2021-01-22"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2002
+    genre: "Fiction, New York Times reviewed"
+    publisher: "Random House Audio"
+    cover_url: "https://covers.openlibrary.org/b/id/5730648-L.jpg"
+    isbn: "1588363686"
+    description: "Moscow, May 1876: What would cause a talented young student from a wealthy family to shoot himself in front of a promenading public in the Alexander Gardens? Decadence and boredom, most likely, is what the commander of the Criminal Investigation Division of the Moscow Police thinks, but still he fin"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL8423434W"
       wikipedia: ""
 
   - order: 3
@@ -47,16 +47,16 @@ books:
     date_started: "2021-01-23"
     date_finished: "2021-01-25"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2019
+    genre: "Magical realism, time travel"
+    publisher: "Hanover Square Press"
+    cover_url: "https://covers.openlibrary.org/b/id/10138333-L.jpg"
+    isbn: "8466364048"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20832477W"
       wikipedia: ""
 
   - order: 4
@@ -66,16 +66,16 @@ books:
     date_started: "2021-01-25"
     date_finished: "2021-01-30"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1947
+    genre: "History, Fiction"
+    publisher: "Pocket Books Inc."
+    cover_url: "https://covers.openlibrary.org/b/id/393599-L.jpg"
+    isbn: "9780896216211"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL2944435W"
       wikipedia: ""
 
   - order: 5
@@ -85,16 +85,16 @@ books:
     date_started: "2021-01-31"
     date_finished: "2021-02-03"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2012
+    genre: "Natural resources, Commodity control"
+    publisher: "Ye Ren/Tsai Fong Books"
+    cover_url: "https://covers.openlibrary.org/b/id/14323846-L.jpg"
+    isbn: "1846145031"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL19666738W"
       wikipedia: ""
 
   - order: 6
@@ -104,16 +104,16 @@ books:
     date_started: "2021-02-03"
     date_finished: "2021-03-04"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2013
+    genre: "Economic policy, Political aspects"
+    publisher: "Basic Books, a member of the Perseus Book Group"
+    cover_url: "https://covers.openlibrary.org/b/id/10250954-L.jpg"
+    isbn: "0465031250"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL19976868W"
       wikipedia: ""
 
   - order: 7
@@ -123,16 +123,16 @@ books:
     date_started: "2021-03-05"
     date_finished: "2021-03-11"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2012
+    genre: "Short Stories, American Short stories"
+    publisher: "כתר"
+    cover_url: "https://covers.openlibrary.org/b/id/8346437-L.jpg"
+    isbn: "8415835167"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL16599873W"
       wikipedia: ""
 
   - order: 8
@@ -142,16 +142,16 @@ books:
     date_started: "2021-03-11"
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2007
+    genre: "Poor, Poverty"
+    publisher: "Oxford University Press"
+    cover_url: "https://covers.openlibrary.org/b/id/1128787-L.jpg"
+    isbn: "0195311450"
+    description: "In the universally acclaimed and award-winning The Bottom Billion, Paul Collier reveals that fifty failed states--home to the poorest one billion people on Earth--pose the central challenge of the developing world in the twenty-first century. The book shines much-needed light on this group of small "
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL3478148W"
       wikipedia: ""
 
   - order: 9
@@ -161,16 +161,16 @@ books:
     date_started: null
     date_finished: "2021-06-10"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1999
+    genre: "Description and travel, Travel"
+    publisher: "Picador"
+    cover_url: "https://covers.openlibrary.org/b/id/178472-L.jpg"
+    isbn: "0312274599"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL8391055W"
       wikipedia: ""
 
   - order: 10
@@ -180,16 +180,16 @@ books:
     date_started: "2021-06-10"
     date_finished: "2021-06-21"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2021
+    genre: "American literature, science fiction"
+    publisher: "Random House LCC US"
+    cover_url: "https://covers.openlibrary.org/b/id/10622518-L.jpg"
+    isbn: "1984819674"
+    description: "A deadly underground game might just be altering reality itself in this all-new adventure set in the world of the hit Rabbits podcast. NAMED ONE OF THE BEST BOOKS OF THE YEAR BY THE WALL STREET JOURNAL • “A wild ride . . . impossible to put down.”—Publishers Weekly (starred review) It’s an average w"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL24191935W"
       wikipedia: ""
 
   - order: 11
@@ -199,16 +199,16 @@ books:
     date_started: "2021-06-21"
     date_finished: "2021-07-03"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2001
+    genre: "English Fantasy fiction, Discworld (Imaginary place)"
+    publisher: "HarperCollins"
+    cover_url: "https://covers.openlibrary.org/b/id/14646130-L.jpg"
+    isbn: "9780061347887"
+    description: "Discworld's first newspaper editor just wants to get at the truth but unfortunately, like other editors before and after him, many people want him dead for a variety of reasons."
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL453686W"
       wikipedia: ""
 
   - order: 12
@@ -218,12 +218,12 @@ books:
     date_started: "2021-07-04"
     date_finished: "2021-07-08"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2012
+    genre: "Sports & Recreation"
+    publisher: "Simon and Schuster"
+    cover_url: "https://books.google.com/books/content?id=_m6CDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "Praise for the work of Peter Larson \"Larson presents a wealth of balanced info on the raging debate over proper running form and minimalist running shoes.\" —Erin Beresini, Outside Online “Peter Larson is both a scientist and a realist when it comes to running shoes, and that's a good combination.” —"
     tags: []
     notes: ""
     links:
@@ -237,12 +237,12 @@ books:
     date_started: "2021-07-09"
     date_finished: "2021-07-13"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2020
+    genre: "Fiction"
+    publisher: "Harlequin"
+    cover_url: "https://books.google.com/books/content?id=MOPMDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "*NOW AN LA TIMES BESTSELLER* *AN INTERNATIONAL BESTSELLER* The first book in the five million-copy bestselling magical realism series If you could go back in time, who would you want to meet? In a small back alley of Tokyo, there is a café that has been serving carefully brewed coffee for more than "
     tags: []
     notes: ""
     links:
@@ -256,16 +256,16 @@ books:
     date_started: "2021-07-14"
     date_finished: "2021-08-05"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1978
+    genre: "Description and travel, Biologists"
+    publisher: "Bantam Doubleday Dell"
+    cover_url: "https://covers.openlibrary.org/b/id/914727-L.jpg"
+    isbn: "014312952X"
+    description: "Part of the Penguin Orange Collection, a limited-run series of twelve influential and beloved American classics in a bold series design offering a modern take on the iconic Penguin paperback Winner of the 2016 AIGA + Design Observer 50 Books | 50 Covers competition For the seventieth anniversary of "
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL471446W"
       wikipedia: ""
 
   - order: 15
@@ -275,16 +275,16 @@ books:
     date_started: "2021-08-06"
     date_finished: "2021-08-26"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2021
+    genre: "Psychotropic drugs, Opium"
+    publisher: "Random House Large Print"
+    cover_url: "https://covers.openlibrary.org/b/id/10512625-L.jpg"
+    isbn: "0593557050"
+    description: "The instant New York Times bestseller | A Washington Post Notable Book | One of NPR's Best Books of the Year “Expert storytelling . . . [Pollan] masterfully elevates a series of big questions about drugs, plants and humans that are likely to leave readers thinking in new ways.” —New York Times Book "
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL23527042W"
       wikipedia: ""
 
   - order: 16
@@ -294,16 +294,16 @@ books:
     date_started: "2021-08-27"
     date_finished: "2021-09-09"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1998
+    genre: "Moral conditions, Social life and customs"
+    publisher: "Weidenfeld & Nicolson"
+    cover_url: "https://covers.openlibrary.org/b/id/1635095-L.jpg"
+    isbn: "0880016655"
+    description: "A funny and poignant account of life in Buenos Aires, by a young prize-winning writer. In 1993 Miranda France moved to South America, drawn to Buenos Aires as the intellectual hub of the continent, with its wealth of writers and its romantic, passionate and tragic history. She found that is was all "
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL1942412W"
       wikipedia: ""
 
   - order: 17
@@ -313,16 +313,16 @@ books:
     date_started: "2021-09-09"
     date_finished: "2021-09-28"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2015
+    genre: "Mines and mineral resources, Mineral industries"
+    publisher: "PublicAffairs"
+    cover_url: "https://covers.openlibrary.org/b/id/8884697-L.jpg"
+    isbn: "0007523092"
+    description: "The trade in oil, gas, gems, metals and rare earth minerals wreaks havoc in Africa. During the years when Brazil, India, China and the other “emerging markets” have transformed their economies, Africa’s resource states remained tethered to the bottom of the industrial supply chain. While Africa acco"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL19996755W"
       wikipedia: ""
 
   - order: 18
@@ -332,16 +332,16 @@ books:
     date_started: "2021-09-28"
     date_finished: "2021-09-29"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1955
+    genre: "Ficción, Fiction"
+    publisher: "TURNER PUBLICACIONES S.L."
+    cover_url: "https://covers.openlibrary.org/b/id/5419076-L.jpg"
+    isbn: "1511467959"
+    description: "Deserted villages of rural Mexico, where images and memories of the past linger like unquiet ghosts, haunted the imaginations of the author. In one such village of the mind, Comala, he set his classic novel Pedro Páramo, a dream-like tale that intertwines a man's quest to find his lost father and re"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL1731119W"
       wikipedia: ""
 
   - order: 19
@@ -351,16 +351,16 @@ books:
     date_started: "2021-09-30"
     date_finished: "2021-10-24"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1985
+    genre: "Fiction, general"
+    publisher: "Trafalgar Square"
+    cover_url: "https://covers.openlibrary.org/b/id/224767-L.jpg"
+    isbn: "9780701219192"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL7982831W"
       wikipedia: ""
 
   - order: 20
@@ -389,12 +389,12 @@ books:
     date_started: "2021-11-03"
     date_finished: "2021-11-20"
     format: print
-    year_published: null
-    genre: null
+    year_published: 2016
+    genre: "Nature"
     publisher: null
-    cover_url: ""
+    cover_url: "https://books.google.com/books/content?id=9F2rjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "Patagonia is one of the 'final frontiers' on our planet: remote, untamed and much of it inaccessible except on horseback. Though travelled before and sporadically settled, it remains remarkably resistant to human trampling. Divided unequally between Argentina and Chile, Patagonia remains a land of m"
     tags: []
     notes: ""
     links:
@@ -408,16 +408,16 @@ books:
     date_started: "2021-11-21"
     date_finished: "2021-11-22"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2021
+    genre: "New York Times reviewed, Authors"
+    publisher: "Bloomsbury Publishing"
+    cover_url: "https://covers.openlibrary.org/b/id/11554276-L.jpg"
+    isbn: "9781526655059"
+    description: "From internationally bestselling Argentine author Pedro Mairal and Man Booker International-winning translator Jennifer Croft, the unforgettable story of two would-be lovers over the course of a single day. 'A searing tale of seduction and betrayal, both wryly comic and deeply serious' Sigrid Nunez,"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL24792529W"
       wikipedia: ""
 
   - order: 23
@@ -427,16 +427,16 @@ books:
     date_started: "2021-11-23"
     date_finished: "2021-12-21"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1982
+    genre: "Fiction, Teenage boys"
+    publisher: "HarperCollins"
+    cover_url: "https://covers.openlibrary.org/b/id/4274342-L.jpg"
+    isbn: "9781841951638"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL50453W"
       wikipedia: ""
 
   - order: 24
@@ -446,16 +446,16 @@ books:
     date_started: "2021-12-21"
     date_finished: "2021-12-22"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2012
+    genre: "Mountaineering, Bergsteigen"
+    publisher: "Golden Arrow"
+    cover_url: "https://covers.openlibrary.org/b/id/12175478-L.jpg"
+    isbn: "0957054300"
+    description: "CLICK HERE to download the first 50 pages from Fiva “A wonderful, nostalgic, gripping, classic yarn with great humour.” —Joe simpson, author of Touching the Void * A classic tale of how youthful bravado leads to serious trouble * Winner, Mountain Literature Award, Banff Festival 2012 * Finalist, Boa"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL26194914W"
       wikipedia: ""
 
   - order: 25
@@ -465,16 +465,16 @@ books:
     date_started: "2021-12-22"
     date_finished: "2021-12-27"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2018
+    genre: "Nature, Scotland, description and travel"
+    publisher: "Tinder Press"
+    cover_url: "https://covers.openlibrary.org/b/id/9224751-L.jpg"
+    isbn: "1472247124"
+    description: "Neil Ansell's THE LAST WILDERNESS is a mesmerising book on nature and solitude by a writer who has spent his lifetime taking solitary ventures into the wild. For any readers of the author's previous book, DEEP COUNTRY, Robert Macfarlane's THE OLD WAYS or William Atkins THE MOOR. Shortlisted for the "
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20583483W"
       wikipedia: ""
 
   - order: 26
@@ -484,10 +484,10 @@ books:
     date_started: "2021-12-27"
     date_finished: "2021-12-30"
     format: print
-    year_published: null
+    year_published: 2021
     genre: null
     publisher: null
-    cover_url: ""
+    cover_url: "https://books.google.com/books/content?id=xvWWzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     isbn: ""
     description: ""
     tags: []
@@ -503,16 +503,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1977
+    genre: "Great britain, history, Natural history"
+    publisher: "AberdeenUniversity Press"
+    cover_url: "https://covers.openlibrary.org/b/id/10665302-L.jpg"
+    isbn: "9780857861832"
+    description: "“In a world of self-help, this is true inspiration, deeply admirable without the distance of heroism, bracing without stridency and, ultimately, generous. The mountain, Shepherd tells us, is ‘a corrective of glib assessment.’ So is its book.” —The New York Times Book Review An internationally bestse"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL12862894W"
       wikipedia: ""
 
   - order: 28
@@ -522,16 +522,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2019
+    genre: "American literature, Fiction, science fiction, action & adventure"
+    publisher: "Macmillan Audio"
+    cover_url: "https://covers.openlibrary.org/b/id/8802134-L.jpg"
+    isbn: "1529001587"
+    description: "Winner of the 2020 Hugo Award for Best Novel A Locus, and Nebula Award nominee for 2019 An NPR Favorite Book of 2019 An Esquire Best Sci-Fi Book of All Time A Guardian Best Science Fiction and Fantasy Book of 2019 and “Not the Booker Prize” Nominee A Goodreads Biggest SFF Book of 2019 and Choice Awa"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20157046W"
       wikipedia: ""
 
   - order: 29
@@ -541,16 +541,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2021
+    genre: "American literature, Fiction"
+    publisher: "Tor"
+    cover_url: "https://covers.openlibrary.org/b/id/10718806-L.jpg"
+    isbn: "9781250186478"
+    description: "WINNER OF THE 2022 HUGO AWARD FOR BEST NOVEL \"[An] all around brilliant space opera, I absolutely love it.\"—Ann Leckie, on A Memory Called Empire A Desolation Called Peace is the spectacular space opera sequel to Arkady Martine's genre-reinventing, Hugo Award-winning debut, A Memory Called Empire. A"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20832939W"
       wikipedia: ""
 
   - order: 30
@@ -560,16 +560,16 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2016
+    genre: "Social aspects, Mass society"
+    publisher: "HarperCollins"
+    cover_url: "https://covers.openlibrary.org/b/id/7432034-L.jpg"
+    isbn: "9780241198407"
+    description: "\"[A] sweepingly detailed history of humanity's passion for the possession of objects...[an] epic chronicle.\" — Wall Street Journal What we consume has become a central—perhaps the central—feature of modern life. Our economies live or die by spending, we increasingly define ourselves by our possessio"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL17354396W"
       wikipedia: ""
 
   - order: 31
@@ -579,14 +579,14 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1977
+    genre: "Description and travel, Travel"
+    publisher: "VINTAGE (RAND)"
+    cover_url: "https://covers.openlibrary.org/b/id/94640-L.jpg"
+    isbn: "9780754001003"
+    description: "The masterpiece of travel writing that revolutionized the genre and made its author famous overnight An exhilarating look at a place that still retains the exotic mystery of a far-off, unseen land, Bruce Chatwin’s exquisite account of his journey through Patagonia teems with evocative descriptions, "
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL612498W"
       wikipedia: ""

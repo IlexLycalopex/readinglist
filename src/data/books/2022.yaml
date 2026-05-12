@@ -104,16 +104,16 @@ books:
     date_started: "2022-02-12"
     date_finished: "2022-02-19"
     format: print
-    year_published: null
-    genre: null
+    year_published: 2020
+    genre: "Romance literature, New York Times reviewed"
     publisher: "Charco"
-    cover_url: ""
-    isbn: ""
-    description: ""
+    cover_url: "https://covers.openlibrary.org/b/id/10179311-L.jpg"
+    isbn: "1916465668"
+    description: "Shortlisted for the International Booker Prize 2020 1872. The pampas of Argentina. China is a young woman eking out an existence in a remote gaucho encampment. After her no-good husband is conscripted into the army, China bolts for freedom, setting off on a wagon journey through the pampas in the co"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20862980W"
       wikipedia: ""
 
   - order: 7
@@ -237,16 +237,16 @@ books:
     date_started: "2022-04-28"
     date_finished: "2022-05-14"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1995
+    genre: "Comanche Indians, Woodrow Call (Fictitious character)"
+    publisher: "Orion mass market paperback"
+    cover_url: "https://covers.openlibrary.org/b/id/6601672-L.jpg"
+    isbn: "0671001167"
+    description: "In Dead Man's Walk, the prequel to the bestselling books, Lonesome Dove and Streets of Laredo, McMurtry dazzles readers once more with the early adventures of two of the most memorable heroes in contemporary fiction--Augustus McCrae and Woodrow Call. National ads/media."
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL134596W"
       wikipedia: ""
 
   - order: 14
@@ -275,12 +275,12 @@ books:
     date_started: "2022-05-15"
     date_finished: "2022-05-18"
     format: print
-    year_published: null
-    genre: null
+    year_published: 2021
+    genre: "Fiction"
     publisher: "Granta Books"
-    cover_url: ""
+    cover_url: "https://books.google.com/books/content?id=8ikVEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "SHORTLISTED FOR THE INTERNATIONAL BOOKER PRIZE • “The lauded Argentine author of What We Lost in the Fire returns with enthralling stories conjured from literary sorcery” (O: The Oprah Magazine), in the tradition of Shirley Jackson and Jorge Luis Borges. KIRKUS PRIZE FINALIST • ONE OF THE BEST BOOKS"
     tags: []
     notes: ""
     links:
@@ -883,12 +883,12 @@ books:
     date_started: "2022-02-01"
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
+    year_published: 2020
+    genre: "Biography & Autobiography"
     publisher: null
-    cover_url: ""
+    cover_url: "https://books.google.com/books/content?id=36KCzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "The Last Great Mountain tells the story of the first ascent of Kangchenjunga the third highest but reputedly the hardest mountain in the world. It was an astonishing achievement for a British team led by Everest veteran Charles Evans. Drawing on interviews, diaries and unpublished accounts, Mick Con"
     tags: []
     notes: ""
     links:
@@ -1130,12 +1130,12 @@ books:
     date_started: "2022-09-10"
     date_finished: "2022-12-31"
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2014
+    genre: "Sports & Recreation"
+    publisher: "Patagonia"
+    cover_url: "https://books.google.com/books/content?id=IgLnBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "With heart-pounding descriptions of avalanches and treacherous ascents, Barry Blanchard chronicles his transformation from a poor Metis (half-breed) kid from the wrong side of the tracks to one of the most respected alpinists in the world. He describes early climbs attempted with nothing to guide hi"
     tags: []
     notes: ""
     links:

@@ -85,12 +85,12 @@ books:
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2018
+    genre: "Fiction"
+    publisher: "Charco Press"
+    cover_url: "https://books.google.com/books/content?id=IJepDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "My brother is adopted, but I can’t say and don’t want to say that my brother is adopted. If I say this, if I speak these words that I have long taken care to silence, I reduce my brother to a single categorical condition, a single essential attribute...A young couple, involved in the struggle agains"
     tags: []
     notes: "Did not finish."
     links:
@@ -123,16 +123,16 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2016
+    genre: "Comics & graphic novels, science fiction, Environmentalists -- Comic books, strips, etc"
+    publisher: "Dark Horse Books"
+    cover_url: "https://covers.openlibrary.org/b/id/8875745-L.jpg"
+    isbn: "1506700098"
+    description: "The environment’s first responders In the pages of The Massive, Ninth Wave was struggling to repair a broken world. But before that, it was the preeminent global environmental-rescue unit, taking on criminals, polluters, politicians, and rogue states. Critically acclaimed writer Brian Wood and artis"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20223008W"
       wikipedia: ""
 
   - order: 8
@@ -655,12 +655,12 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
+    year_published: 2014
+    genre: "COMICS & GRAPHIC NOVELS"
     publisher: null
-    cover_url: ""
+    cover_url: "https://books.google.com/books/content?id=XGDCoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "Jeph Loeb and Tim Sale's legendary Batman story is collected in an all-new black and white noir edition! Collecting this landmark series in a brand new noir edition, all-stars Jeph Loeb and Tim Sale send the Dark Knight on the hunt for a mysterious serial killer who strikes only on holidays. The Wor"
     tags: []
     notes: ""
     links:
@@ -693,12 +693,12 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2019
+    genre: "Comics & Graphic Novels"
+    publisher: "National Geographic Books"
+    cover_url: "https://books.google.com/books/content?id=2haREAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "The Pacific Crest Trail runs 2660 miles, from California's border with Mexico to Washington's border with Canada. To walk it is to undertake a grueling test of body and spirit. In Americana, cartoonist Luke Healy accepts the challenge. This intimate, engaging autobiographical work from an Irish visi"
     tags: []
     notes: ""
     links:
@@ -732,11 +732,11 @@ books:
     date_finished: null
     format: audio
     year_published: 2025
-    genre: null
+    genre: "History"
     publisher: "Knopf Doubleday Publishing Group"
-    cover_url: ""
+    cover_url: "https://books.google.com/books/content?id=kiM1EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: "0593537858"
-    description: ""
+    description: "The true story of the Black Hills gold rush settlement once described as “the most diabolical town on earth” and of its most colorful cast of characters, from Wild Bill Hickok to Calamity Jane to Al Swearingen and Sheriff Seth Bullock. \"In these pungent pages, you can smell the whiskey, the gunsmoke"
     tags: []
     notes: ""
     links:
@@ -750,12 +750,12 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2006
+    genre: "Comics & Graphic Novels"
+    publisher: "Vertigo"
+    cover_url: "https://books.google.com/books/content?id=XtJOAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "In the near future, America's worst nightmare has come true. With military adventurism overseas bogging down the Army and National Guard, the U.S. government mistakenly neglects the very real threat of anti-establishment militias scattered acrossthe 50 states. Like a sleeping giant, Middle America r"
     tags: []
     notes: ""
     links:
@@ -769,12 +769,12 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2007
+    genre: "Comics & Graphic Novels"
+    publisher: "Vertigo"
+    cover_url: "https://books.google.com/books/content?id=_7bPAgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "In the near future, with military adventurism overseas bogging down the Army and National Guard, the U.S. government mistakenly neglects the very real threat of anti-establishment militias scattered across the 50 states, and, like a sleeping giant, Middle America rises up and violently pushes its wa"
     tags: []
     notes: ""
     links:
@@ -808,11 +808,11 @@ books:
     date_finished: null
     format: print
     year_published: 2025
-    genre: null
+    genre: "Fiction"
     publisher: "Granta Books"
-    cover_url: ""
+    cover_url: "https://books.google.com/books/content?id=82N4EQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     isbn: "1803513934"
-    description: ""
+    description: "'Is this honest? Are we all being honest here?' You couldn't really call the man soon to be christened TonyInterruptor a heckler, but he seems to feel an unquenchable urge to disrupt and interrupt live cultural events. Who is he? What does he want? Why does he indulge in behaviour that violates the "
     tags: []
     notes: "😍"
     links:

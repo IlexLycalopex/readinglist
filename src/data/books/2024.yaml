@@ -183,9 +183,9 @@ books:
     year_published: 2023
     genre: "Romance literature"
     publisher: "Fum D'Estampa Press"
-    cover_url: ""
+    cover_url: "https://books.google.com/books/content?id=qN2FzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     isbn: "9781913744458"
-    description: ""
+    description: "A moving story about environment, family and the paths ever leading us back home."
     tags: []
     notes: ""
     links:
@@ -370,12 +370,12 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2024
+    genre: "Psychology"
+    publisher: "Doubleday Canada"
+    cover_url: "https://books.google.com/books/content?id=oNa_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "From the Globe and Mail and New York Times bestselling author of The Power of Habit, an investigation of what makes conversations work, and how we can all learn to be supercommunicators at work and in our lives. We all know people who seem capable of connecting with almost anyone. They are the ones "
     tags: []
     notes: ""
     links:

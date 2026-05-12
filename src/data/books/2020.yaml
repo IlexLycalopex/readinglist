@@ -47,12 +47,12 @@ books:
     date_started: "2020-05-10"
     date_finished: "2020-05-20"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2009
+    genre: "Travel"
+    publisher: "Modern Library"
+    cover_url: "https://books.google.com/books/content?id=t6J69N3GgdkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "Squeezed between a vast ocean and the longest mountain range on earth, Chile is 2,600 miles long and never more than 110 miles wide--not a country that lends itself to maps, as Sara Wheeler discovered when she traveled alone from the top to the bottom, from the driest desert in the world to the sepu"
     tags: []
     notes: ""
     links:

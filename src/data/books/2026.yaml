@@ -202,9 +202,9 @@ books:
     year_published: 2018
     genre: "London (england), fiction, Fiction, suspense"
     publisher: "Taylor & Francis Group"
-    cover_url: ""
+    cover_url: "https://books.google.com/books/content?id=JMLVCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: "9780857053725"
-    description: ""
+    description: "\"We owe you our lives, Sergeant, but you are our worst nightmare . . .\" Burma, 1852. Sergeant Arthur Bowman, a sergeant in the East India Company, is sent on a secret mission during the Second Anglo-Burmese War. But the expedition is foiled - his men are captured and tortured. Throughout their ordea"
     tags: []
     notes: ""
     links:
@@ -238,12 +238,12 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2008
+    genre: "Comics & Graphic Novels"
+    publisher: "Vertigo"
+    cover_url: "https://books.google.com/books/content?id=oVjsAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "The fifth volume in the critically acclaimed series that looks at life during wartime- America's 21st Century Civil War. The world and characters of the DMZ-a wartorn Manhattan-are expanded and enriched in this volume as Matty Roth turns hisattention to 'the hidden war'-the thousands of ordinary peo"
     tags: []
     notes: ""
     links:
@@ -352,17 +352,17 @@ books:
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2012
+    genre: "Comics & graphic novels, science fiction, general"
+    publisher: "Titan Books Limited"
+    cover_url: "https://books.google.com/books/content?id=9PcPAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    isbn: "1781160740"
+    description: "With all his allegiances wiped away by the mistakes he's made, embedded journalist Matty Roth watches as the Free States of America and the U.S. wage civil war on the island of Manhattan-also known as the DMZ. As Matty covers the battles on the ground, old allies and enemies resurface and Matty must"
     tags: []
     notes: ""
     reading: true
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL37924314W"
       wikipedia: ""
 
   - order: 20

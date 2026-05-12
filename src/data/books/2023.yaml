@@ -332,12 +332,12 @@ books:
     date_started: null
     date_finished: "2023-11-23"
     format: print
-    year_published: null
-    genre: null
+    year_published: 2019
+    genre: "Fiction"
     publisher: "Charco"
-    cover_url: ""
+    cover_url: "https://books.google.com/books/content?id=9YHrDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "Winner PEN Translates Award (UK) Recovering from an unspecified accident, the narrator of Loop finds herself in waiting rooms of different kinds: airport departure lounges, doctors’ surgeries, and above all at home, awaiting the return of her boyfriend, who has travelled to Spain following the death"
     tags: []
     notes: ""
     links:
@@ -541,12 +541,12 @@ books:
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2022
+    genre: "Biography & Autobiography"
+    publisher: "Random House"
+    cover_url: "https://books.google.com/books/content?id=gqJaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "A deeply moving and personal portrait of the extraordinary life of Sir Terry Pratchett, written with unparalleled insight and filled with funny anecdotes, this is the only official biography of one of our finest authors. WINNER OF THE 2023 LOCUS AWARD FOR NON-FICTION WINNER OF THE BRITISH SCIENCE FI"
     tags: []
     notes: ""
     links:
@@ -582,7 +582,7 @@ books:
     year_published: 2022
     genre: null
     publisher: "Ebury Publishing"
-    cover_url: ""
+    cover_url: "https://books.google.com/books/content?id=1GXmzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     isbn: "9781473598461"
     description: ""
     tags: []

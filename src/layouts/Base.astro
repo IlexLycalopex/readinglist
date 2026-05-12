@@ -22,13 +22,16 @@ const base = import.meta.env.BASE_URL;
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
   <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
   <SiteNav years={years} currentPath={Astro.url.pathname} />
   <main class="container">
     <slot />
   </main>
-  <footer>
+  <footer class="site-footer">
     <div class="container">
       <p>Jamie Watts — Reading Log</p>
     </div>
@@ -38,12 +41,4 @@ const base = import.meta.env.BASE_URL;
 
 <style is:global>
   @import '../styles/global.css';
-
-  footer {
-    margin-top: 4rem;
-    padding: 2rem 0;
-    border-top: 1px solid var(--border);
-    color: var(--text-faint);
-    font-size: 0.85rem;
-  }
 </style>

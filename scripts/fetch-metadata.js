@@ -15,8 +15,9 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, '../src/data/books');
 
-const DELAY_MS = 400;
+const DELAY_MS = 500;
 const MAX_RETRIES = 3;
+const USER_AGENT = 'readinglist-app/1.0 (https://github.com/IlexLycalopex/readinglist)';
 
 async function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
@@ -25,7 +26,7 @@ async function sleep(ms) {
 async function fetchWithRetry(url, retries = MAX_RETRIES) {
   for (let i = 0; i <= retries; i++) {
     try {
-      const res = await fetch(url);
+      const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return await res.json();
     } catch (err) {
@@ -36,7 +37,7 @@ async function fetchWithRetry(url, retries = MAX_RETRIES) {
 }
 
 async function fetchOpenLibrary(title, author) {
-  const url = `https://openlibrary.org/search.json?title=${encodeURIComponent(title)}&author=${encodeURIComponent(author)}&limit=5`;
+  const url = `https://openlibrary.org/search.json?title=${encodeURIComponent(title)}&author=${encodeURIComponent(author)}&limit=5&fields=cover_i,isbn,first_publish_year,publisher,subject,key`;
   const data = await fetchWithRetry(url);
   const doc = data.docs?.[0];
   if (!doc) return null;
@@ -68,38 +69,10 @@ async function fetchGoogleBooks(title, author) {
   };
 }
 
-function setField(content, field, value) {
-  if (!value) return content;
-  const escaped = String(value).replace(/"/g, '\\"');
-
-  // Try to replace empty quoted string: field: ""
-  const emptyPattern = new RegExp(`(^|\\n)([ \\t]*${field}:[ \\t]*)""`, 'm');
-  if (emptyPattern.test(content)) {
-    return content.replace(emptyPattern, `$1$2"${escaped}"`);
-  }
-  return content;
-}
-
-function setNullField(content, field, value) {
-  if (value == null) return content;
-  const nullPattern = new RegExp(`(^|\\n)([ \\t]*${field}:[ \\t]*)null`, 'm');
-  if (nullPattern.test(content)) {
-    return content.replace(nullPattern, `$1$2${value}`);
-  }
-  return content;
-}
-
 async function processYear(yearFile) {
   const filePath = join(DATA_DIR, yearFile);
   let content = readFileSync(filePath, 'utf-8');
 
-  // Find book entries with empty cover_url
-  const titleAuthorPairs = [];
-  const titleRe = /title:\s*"([^"]+)"/g;
-  const authorRe = /author:\s*"([^"]+)"/g;
-  const coverRe = /cover_url:\s*""/g;
-
-  // Simple parse to find books needing metadata
   const bookBlocks = content.split(/(?=\n  - order:)/);
 
   let updated = false;

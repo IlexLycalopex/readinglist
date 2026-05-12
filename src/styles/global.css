@@ -7,31 +7,22 @@
   --text-muted:   #8a8078;
   --text-faint:   #504840;
   --accent:       #d4714a;
+  --accent-audio:   #6a9fd4;
+  --accent-graphic: #4caf82;
+  --font:         system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --display:      'Bebas Neue', Impact, sans-serif;
+  --mono:         'SF Mono', 'Fira Code', monospace;
   --radius:       8px;
   --radius-lg:    12px;
   --transition:   0.18s ease;
-  --display:      'Bebas Neue', Impact, sans-serif;
-  --mono:         'SF Mono', 'Fira Code', monospace;
-
-  --accent-audio:   #6a9fd4;
-  --accent-graphic: #4caf82;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; }
+html { background: var(--bg); color: var(--text); font-family: var(--font); scroll-behavior: smooth; }
+body { min-height: 100vh; }
 
-body {
-  background: var(--bg);
-  color: var(--text);
-  font-family: system-ui, -apple-system, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  min-height: 100vh;
-}
-
-a { color: var(--accent); text-decoration: none; }
-a:hover { text-decoration: underline; }
+a { color: inherit; text-decoration: none; }
 
 img { display: block; max-width: 100%; }
 
@@ -41,10 +32,87 @@ h1, h2, h3 {
   line-height: 1.1;
 }
 
+/* ── Layout ─────────────────────────────────────────────────────── */
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 24px;
+}
+
+/* ── Site nav ───────────────────────────────────────────────────── */
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(11,9,8,0.72);
+  backdrop-filter: blur(22px);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.site-nav__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 54px;
+  gap: 12px;
+}
+.site-nav__logo {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--text);
+  white-space: nowrap;
+  flex-shrink: 0;
+  letter-spacing: -0.01em;
+}
+.site-nav__logo svg { color: var(--accent); flex-shrink: 0; }
+.site-nav__logo:hover span { color: var(--accent); }
+.site-nav__logo span { transition: color var(--transition); }
+
+.site-nav__links {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.site-nav__links::-webkit-scrollbar { display: none; }
+
+.site-nav__pill {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-muted);
+  transition: color var(--transition), background var(--transition);
+  white-space: nowrap;
+}
+.site-nav__pill:hover { color: var(--text); background: var(--bg-hover); }
+.site-nav__pill.active {
+  color: var(--text);
+  background: var(--bg-hover);
+  border: 1px solid var(--border);
+}
+
+.site-nav__sep {
+  width: 1px;
+  height: 18px;
+  background: var(--border);
+  margin: 0 6px;
+  flex-shrink: 0;
+}
+
+/* ── Footer ─────────────────────────────────────────────────────── */
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 32px 0;
+  color: var(--text-faint);
+  font-size: 0.8rem;
+  margin-top: 4rem;
 }
 
 .grid {
@@ -104,15 +172,14 @@ h1, h2, h3 {
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   padding: 1.5rem;
-  text-decoration: none;
   display: block;
-  transition: background var(--transition), border-color var(--transition);
+  transition: background var(--transition), border-color var(--transition), transform var(--transition);
 }
 
 .year-card:hover {
   background: var(--bg-hover);
   border-color: var(--accent);
-  text-decoration: none;
+  transform: translateY(-2px);
 }
 
 .year-card__year {
@@ -208,14 +275,13 @@ h1, h2, h3 {
   border-radius: var(--radius-lg);
   padding: 1.25rem;
   display: block;
-  text-decoration: none;
-  transition: background var(--transition), border-color var(--transition);
+  transition: background var(--transition), border-color var(--transition), transform var(--transition);
 }
 
 .author-card:hover {
   background: var(--bg-hover);
   border-color: var(--accent);
-  text-decoration: none;
+  transform: translateY(-2px);
 }
 
 .author-card__name {

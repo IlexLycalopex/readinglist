@@ -11,9 +11,7 @@ const totalPages = allBooks.reduce((s, b) => s + (b.pages ?? 0), 0);
 const audioCount = allBooks.filter((b) => b.format === 'audio').length;
 const audioPct = totalBooks > 0 ? Math.round((audioCount / totalBooks) * 100) : 0;
 
-// Most recently active year's last book
-const activeYearData = allYearData.find((y) => years.find((m) => m.id === String(y.year))?.status === 'active');
-const latestBook = activeYearData?.books[activeYearData.books.length - 1] ?? allBooks[allBooks.length - 1];
+const nowReading = allBooks.filter((b) => b.reading);
 
 function formatCount(yd: typeof allYearData[number]) {
   const print = yd.books.filter((b) => b.format === 'print').length;
@@ -22,6 +20,12 @@ function formatCount(yd: typeof allYearData[number]) {
   return { print, audio, graphic };
 }
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const formatLabel: Record<string, string> = { print: 'Reading', audio: 'Listening', graphic: 'Reading' };
+const formatIcon: Record<string, string> = {
+  audio: `<svg viewBox="0 0 20 20" fill="currentColor" width="13" height="13" aria-label="Audio"><path d="M9 3a1 1 0 0 0-1.414 0L3.172 7.414A4 4 0 0 0 2 10.172V15a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4.828a4 4 0 0 0-1.172-2.758L10.414 3A1 1 0 0 0 9 3z"/></svg>`,
+  graphic: `<svg viewBox="0 0 20 20" fill="currentColor" width="13" height="13" aria-label="Graphic novel"><rect x="2" y="2" width="7" height="9" rx="1"/><rect x="11" y="2" width="7" height="5" rx="1"/><rect x="11" y="9" width="7" height="9" rx="1"/><rect x="2" y="13" width="7" height="5" rx="1"/></svg>`,
+};
 ---
 <Base title="Reading Log — Jamie Watts" description="A personal reading history across multiple years.">
   <div class="page-header">
@@ -29,27 +33,33 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <p class="subtitle">Years of reading. Everything I've finished.</p>
   </div>
 
-  {latestBook && (
-    <section aria-label="Currently reading">
-      <h2 class="section-label">Currently reading / most recent</h2>
-      <div class="hero-card">
-        <div class="hero-card__cover">
-          {latestBook.cover_url ? (
-            <img src={latestBook.cover_url} alt={`Cover of ${latestBook.title}`} loading="lazy" />
-          ) : (
-            <div class="cover-placeholder">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                <path d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"/>
-              </svg>
-            </div>
-          )}
-        </div>
-        <div class="hero-card__meta">
-          <span class="hero-card__label">Most recent</span>
-          <p class="hero-card__title">{latestBook.title}</p>
-          <p class="hero-card__author">{latestBook.author}</p>
-          <a href={`${base}/${latestBook.year_read}/`} class="hero-card__link">{latestBook.year_read} →</a>
-        </div>
+  {nowReading.length > 0 && (
+    <section aria-label="Now reading">
+      <h2 class="section-label">Now reading</h2>
+      <div class="now-reading-grid" style={`--cols: ${nowReading.length}`}>
+        {nowReading.map((book) => {
+          const color = book.format === 'audio' ? 'var(--accent-audio)' : book.format === 'graphic' ? 'var(--accent-graphic)' : 'var(--accent)';
+          return (
+            <a href={`${base}/${book.year_read}/`} class="nr-card" style={`--c: ${color}`}>
+              <div class="nr-card__cover">
+                {book.cover_url ? (
+                  <img src={book.cover_url} alt={`Cover of ${book.title}`} loading="lazy" />
+                ) : (
+                  <div class="nr-cover-placeholder">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                      <path d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"/>
+                    </svg>
+                  </div>
+                )}
+              </div>
+              <div class="nr-card__body">
+                <span class="nr-card__format" set:html={`${formatIcon[book.format] ?? ''} ${formatLabel[book.format] ?? 'Reading'}`} />
+                <p class="nr-card__title">{book.title}</p>
+                <p class="nr-card__author">{book.author}</p>
+              </div>
+            </a>
+          );
+        })}
       </div>
     </section>
   )}
@@ -108,9 +118,96 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     margin-bottom: 1rem;
   }
 
-  .hero-card__link {
-    font-size: 0.85rem;
-    color: var(--accent);
-    margin-top: 0.5rem;
+  /* Now Reading */
+  .now-reading-grid {
+    display: grid;
+    grid-template-columns: repeat(var(--cols, 3), 1fr);
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  @media (max-width: 600px) {
+    .now-reading-grid {
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    }
+  }
+
+  .nr-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--c);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: background var(--transition), transform var(--transition);
+  }
+
+  .nr-card:hover {
+    background: var(--bg-hover);
+    transform: translateY(-2px);
+    text-decoration: none;
+  }
+
+  .nr-card__cover {
+    width: 100%;
+    aspect-ratio: 2/3;
+    overflow: hidden;
+  }
+
+  .nr-card__cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition);
+  }
+
+  .nr-card:hover .nr-card__cover img { transform: scale(1.03); }
+
+  .nr-cover-placeholder {
+    width: 100%;
+    height: 100%;
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-faint);
+  }
+
+  .nr-cover-placeholder svg { width: 40%; height: 40%; opacity: 0.4; }
+
+  .nr-card__body {
+    padding: 0.85rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .nr-card__format {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.72rem;
+    font-family: var(--mono);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--c);
+  }
+
+  .nr-card__title {
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .nr-card__author {
+    font-size: 0.82rem;
+    color: var(--text-muted);
   }
 </style>

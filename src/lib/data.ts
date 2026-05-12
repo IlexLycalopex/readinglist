@@ -20,6 +20,7 @@ export interface Book {
   isbn: string | null;
   tags: string[];
   notes: string | null;
+  reading: boolean;
   links: {
     openlibrary: string | null;
     wikipedia: string | null;
@@ -108,6 +109,7 @@ function rawBookToBook(raw: Record<string, unknown>, year: number): Book {
     isbn,
     tags: Array.isArray(raw.tags) ? raw.tags.map(String) : [],
     notes,
+    reading: raw.reading === true,
     links: {
       openlibrary: autoOl,
       wikipedia: autoWiki,

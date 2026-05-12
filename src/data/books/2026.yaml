@@ -225,7 +225,8 @@ books:
     isbn: ""
     description: ""
     tags: []
-    notes: "Currently reading."
+    notes: ""
+    reading: true
     links:
       openlibrary: ""
       wikipedia: ""
@@ -358,7 +359,8 @@ books:
     isbn: ""
     description: ""
     tags: []
-    notes: "Currently reading."
+    notes: ""
+    reading: true
     links:
       openlibrary: ""
       wikipedia: ""
@@ -472,7 +474,8 @@ books:
     isbn: ""
     description: ""
     tags: []
-    notes: "Currently reading."
+    notes: ""
+    reading: true
     links:
       openlibrary: ""
       wikipedia: ""

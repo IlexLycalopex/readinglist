@@ -42,7 +42,7 @@ books:
 
   - order: 3
     title: "Fair Land Fair Land"
-    author: "A B Guthrie Jr"
+    author: "A.B. Guthrie Jr."
     pages: null
     date_started: null
     date_finished: "2024-07-06"
@@ -346,7 +346,7 @@ books:
 
   - order: 19
     title: "The Left Hand of Darkness"
-    author: "Ursula K Le Guin"
+    author: "Ursula K. Le Guin"
     pages: null
     date_started: null
     date_finished: null

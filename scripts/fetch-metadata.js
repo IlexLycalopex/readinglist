@@ -36,6 +36,19 @@ async function fetchWithRetry(url, retries = MAX_RETRIES) {
   }
 }
 
+function cleanTitleForSearch(title) {
+  // "Chew Vol 9 Chicken Tenders" → "Chew Chicken Tenders"
+  // "DMZ Vol 1 On the Ground" → "DMZ On the Ground"
+  // "The Massive Volume 4" → "The Massive"
+  const m = title.match(/^(.+?)\s+Vol(?:ume)?\s+\d+\s*(.*)/i);
+  if (m) {
+    const series = m[1].trim();
+    const subtitle = m[2].trim();
+    return subtitle ? `${series} ${subtitle}` : series;
+  }
+  return title;
+}
+
 async function fetchOpenLibrary(title, author) {
   const url = `https://openlibrary.org/search.json?title=${encodeURIComponent(title)}&author=${encodeURIComponent(author)}&limit=5&fields=cover_i,isbn,first_publish_year,publisher,subject,key`;
   const data = await fetchWithRetry(url);
@@ -93,13 +106,14 @@ async function processYear(yearFile) {
     }
 
     const title = titleMatch[1];
-    const author = authorMatch[1];
+    const author = authorMatch[1].split(';')[0].trim();
+    const searchTitle = cleanTitleForSearch(title);
 
-    console.log(`  Fetching: "${title}" by ${author}`);
+    console.log(`  Fetching: "${title}" by ${author}${searchTitle !== title ? ` (searching: "${searchTitle}")` : ''}`);
 
     let meta = null;
     try {
-      meta = await fetchOpenLibrary(title, author);
+      meta = await fetchOpenLibrary(searchTitle, author);
       if (meta) console.log(`    ✓ Open Library`);
     } catch (err) {
       console.log(`    ✗ Open Library failed: ${err.message}`);
@@ -109,7 +123,7 @@ async function processYear(yearFile) {
     const needsGBooks = !meta?.cover_url || !meta?.description;
     if (needsGBooks) {
       try {
-        gMeta = await fetchGoogleBooks(title, author);
+        gMeta = await fetchGoogleBooks(searchTitle, author);
         if (gMeta) console.log(`    ✓ Google Books`);
       } catch (err) {
         console.log(`    ✗ Google Books failed: ${err.message}`);

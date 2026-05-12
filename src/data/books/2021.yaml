@@ -61,7 +61,7 @@ books:
 
   - order: 4
     title: "The Big Sky"
-    author: "A B Guthrie Jr"
+    author: "A.B. Guthrie Jr."
     pages: 386
     date_started: "2021-01-25"
     date_finished: "2021-01-30"
@@ -231,7 +231,7 @@ books:
       wikipedia: ""
 
   - order: 13
-    title: "Before the Coffee Gets Cold: Book 2"
+    title: "Tales from the Café"
     author: "Toshikazu Kawaguchi"
     pages: 215
     date_started: "2021-07-09"

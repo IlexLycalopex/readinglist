@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import BookCard from '../components/BookCard.astro';
 import FilterBar from '../components/FilterBar.astro';
 import YearNav from '../components/YearNav.astro';
-import { loadYears, loadYear, getGenres } from '../lib/data';
+import { loadYears, loadYear } from '../lib/data';
 
 export async function getStaticPaths() {
   const years = loadYears();
@@ -13,7 +13,6 @@ export async function getStaticPaths() {
 const { year } = Astro.params;
 const years = loadYears();
 const yearData = loadYear(year!);
-const genres = getGenres(yearData.books);
 
 const printCount = yearData.books.filter((b) => b.format === 'print').length;
 const audioCount = yearData.books.filter((b) => b.format === 'audio').length;
@@ -38,7 +37,7 @@ const totalPages = yearData.books.reduce((s, b) => s + (b.pages ?? 0), 0);
     </p>
   </div>
 
-  <FilterBar genres={genres} />
+  <FilterBar />
 
   <div class="book-grid" id="book-grid">
     {yearData.books.map((book) => (

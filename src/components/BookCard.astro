@@ -23,7 +23,7 @@ const dateStr = (() => {
   return '';
 })();
 ---
-<article class="book-card" style={`--format-color: ${formatColor}`} data-format={book.format} data-genre={book.genre} data-title={book.title.toLowerCase()} data-author={book.author.toLowerCase()}>
+<article class="book-card" style={`--format-color: ${formatColor}`} data-format={book.format} data-title={book.title.toLowerCase()} data-author={book.author.toLowerCase()}>
   {book.format !== 'print' && (
     <div class="book-card__badge">
       {book.format === 'audio' ? (

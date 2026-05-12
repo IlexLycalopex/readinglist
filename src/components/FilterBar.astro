@@ -1,9 +1,4 @@
 ---
-interface Props {
-  genres: string[];
-}
-
-const { genres } = Astro.props;
 ---
 <div class="filter-bar">
   <div class="filter-bar__section">
@@ -14,17 +9,6 @@ const { genres } = Astro.props;
       <button class="pill pill--graphic pill--active" data-format="graphic">Graphic</button>
     </div>
   </div>
-
-  {genres.length > 0 && (
-    <div class="filter-bar__section">
-      <span class="filter-bar__label">Genre</span>
-      <div class="filter-bar__pills" id="genre-filters">
-        {genres.map((g) => (
-          <button class="pill pill--genre pill--active" data-genre={g}>{g}</button>
-        ))}
-      </div>
-    </div>
-  )}
 
   <div class="filter-bar__search">
     <input type="search" id="book-search" placeholder="Search title or author…" aria-label="Search books" />
@@ -62,7 +46,6 @@ const { genres } = Astro.props;
   .pill--active.pill--print   { border-color: var(--accent); color: var(--accent); }
   .pill--active.pill--audio   { border-color: var(--accent-audio); color: var(--accent-audio); }
   .pill--active.pill--graphic { border-color: var(--accent-graphic); color: var(--accent-graphic); }
-  .pill--active.pill--genre   { border-color: var(--text-muted); color: var(--text); }
 
   .filter-bar__search input {
     background: var(--bg-card);
@@ -97,7 +80,6 @@ const { genres } = Astro.props;
 
 <script>
   const activeFormats = new Set(['print', 'audio', 'graphic']);
-  const activeGenres = new Set<string>();
   let searchQuery = '';
 
   const cards = () => Array.from(document.querySelectorAll<HTMLElement>('.book-card'));
@@ -108,11 +90,6 @@ const { genres } = Astro.props;
       params.set('format', Array.from(activeFormats).join(','));
     } else {
       params.delete('format');
-    }
-    if (activeGenres.size > 0) {
-      params.set('genre', Array.from(activeGenres).join(','));
-    } else {
-      params.delete('genre');
     }
     if (searchQuery) {
       params.set('q', searchQuery);
@@ -126,15 +103,13 @@ const { genres } = Astro.props;
   function filterCards() {
     for (const card of cards()) {
       const fmt = card.dataset.format ?? '';
-      const genre = card.dataset.genre ?? '';
       const title = card.dataset.title ?? '';
       const author = card.dataset.author ?? '';
 
       const fmtOk = activeFormats.has(fmt);
-      const genreOk = activeGenres.size === 0 || activeGenres.has(genre);
       const searchOk = !searchQuery || title.includes(searchQuery) || author.includes(searchQuery);
 
-      card.style.display = fmtOk && genreOk && searchOk ? '' : 'none';
+      card.style.display = fmtOk && searchOk ? '' : 'none';
     }
     updateURL();
   }
@@ -148,15 +123,6 @@ const { genres } = Astro.props;
     filterCards();
   });
 
-  document.getElementById('genre-filters')?.addEventListener('click', (e) => {
-    const btn = (e.target as Element).closest<HTMLElement>('[data-genre]');
-    if (!btn) return;
-    const genre = btn.dataset.genre!;
-    if (activeGenres.has(genre)) { activeGenres.delete(genre); btn.classList.remove('pill--active'); }
-    else { activeGenres.add(genre); btn.classList.add('pill--active'); }
-    filterCards();
-  });
-
   document.getElementById('book-search')?.addEventListener('input', (e) => {
     searchQuery = (e.target as HTMLInputElement).value.toLowerCase().trim();
     filterCards();
@@ -165,11 +131,9 @@ const { genres } = Astro.props;
   document.getElementById('clear-filters')?.addEventListener('click', () => {
     activeFormats.clear();
     activeFormats.add('print'); activeFormats.add('audio'); activeFormats.add('graphic');
-    activeGenres.clear();
     searchQuery = '';
     (document.getElementById('book-search') as HTMLInputElement).value = '';
     document.querySelectorAll('.pill[data-format]').forEach((b) => b.classList.add('pill--active'));
-    document.querySelectorAll('.pill[data-genre]').forEach((b) => b.classList.remove('pill--active'));
     filterCards();
   });
 
@@ -184,18 +148,11 @@ const { genres } = Astro.props;
       else btn.classList.remove('pill--active');
     });
   }
-  const genreParam = params.get('genre');
-  if (genreParam) {
-    genreParam.split(',').forEach((g) => activeGenres.add(g.trim()));
-    document.querySelectorAll<HTMLElement>('.pill[data-genre]').forEach((btn) => {
-      if (activeGenres.has(btn.dataset.genre!)) btn.classList.add('pill--active');
-    });
-  }
   const qParam = params.get('q');
   if (qParam) {
     searchQuery = qParam.toLowerCase();
     (document.getElementById('book-search') as HTMLInputElement).value = qParam;
   }
 
-  if (fmtParam || genreParam || qParam) filterCards();
+  if (fmtParam || qParam) filterCards();
 </script>

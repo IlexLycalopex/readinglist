@@ -172,11 +172,3 @@ export function getAllPublishers(books: Book[]): PublisherSummary[] {
     .filter((p) => p.bookCount > 1)
     .sort((a, b) => a.name.localeCompare(b.name));
 }
-
-export function getGenres(books: Book[]): string[] {
-  const set = new Set<string>();
-  for (const book of books) {
-    if (book.genre) set.add(book.genre);
-  }
-  return Array.from(set).sort();
-}

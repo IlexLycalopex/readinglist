@@ -14,6 +14,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <a
       href={`${base}/${y.id}/`}
       class:list={['year-nav__pill', { 'year-nav__pill--active': y.id === activeYear }]}
+      aria-current={y.id === activeYear ? 'page' : undefined}
     >
       {y.id}
     </a>

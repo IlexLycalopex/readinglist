@@ -202,9 +202,18 @@ function main() {
   let order = 1;
   const books = [];
 
+  const seen = new Set();
   for (const line of lines) {
     if (!line || line.startsWith('#')) continue;
-    books.push(parseLine(line, order++));
+    const book = parseLine(line, order++);
+    const key = slugify(`${book.title}-${book.author}`);
+    if (seen.has(key)) {
+      console.warn(`  [DUPLICATE] Skipping duplicate at order ${book.order}: "${book.title}" by "${book.author}"`);
+      order--;
+      continue;
+    }
+    seen.add(key);
+    books.push(book);
   }
 
   const needsReview = books.filter((b) => b.needs_review);

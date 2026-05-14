@@ -14,7 +14,13 @@
     <input type="search" id="book-search" placeholder="Search title or author…" aria-label="Search books" />
   </div>
 
+  <span class="filter-bar__count" id="filter-count" aria-live="polite"></span>
+
   <button class="filter-bar__clear" id="clear-filters">Clear filters</button>
+</div>
+
+<div class="filter-bar__empty" id="filter-empty" hidden aria-live="polite">
+  No books match your filters.
 </div>
 
 <style>
@@ -83,6 +89,25 @@
   let searchQuery = '';
 
   const cards = () => Array.from(document.querySelectorAll<HTMLElement>('.book-card'));
+  const totalCount = () => cards().length;
+
+  function getPageBaseTitle(): string {
+    return document.title.replace(/ — .*$/, '');
+  }
+
+  function updateCount(visible: number, total: number) {
+    const el = document.getElementById('filter-count');
+    const empty = document.getElementById('filter-empty');
+    if (!el || !empty) return;
+    const isFiltered = visible < total;
+    el.textContent = isFiltered ? `${visible} of ${total}` : '';
+    empty.hidden = visible > 0;
+  }
+
+  function updateTitle() {
+    const base = getPageBaseTitle();
+    document.title = searchQuery ? `${base} — "${searchQuery}"` : base;
+  }
 
   function updateURL() {
     const params = new URLSearchParams(window.location.search);
@@ -101,6 +126,8 @@
   }
 
   function filterCards() {
+    let visible = 0;
+    const total = totalCount();
     for (const card of cards()) {
       const fmt = card.dataset.format ?? '';
       const title = card.dataset.title ?? '';
@@ -108,9 +135,13 @@
 
       const fmtOk = activeFormats.has(fmt);
       const searchOk = !searchQuery || title.includes(searchQuery) || author.includes(searchQuery);
+      const show = fmtOk && searchOk;
 
-      card.style.display = fmtOk && searchOk ? '' : 'none';
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
     }
+    updateCount(visible, total);
+    updateTitle();
     updateURL();
   }
 
@@ -155,4 +186,5 @@
   }
 
   if (fmtParam || qParam) filterCards();
+  else updateCount(totalCount(), totalCount());
 </script>

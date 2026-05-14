@@ -28,6 +28,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <a
           href={`${base}/${y.id}/`}
           class={`site-nav__pill${currentPath.includes(`/${y.id}/`) ? ' active' : ''}`}
+          aria-current={currentPath.includes(`/${y.id}/`) ? 'page' : undefined}
         >
           {y.id}
         </a>
@@ -39,18 +40,21 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <a
         href={`${base}/authors/`}
         class={`site-nav__pill${currentPath.includes('/authors') ? ' active' : ''}`}
+        aria-current={currentPath.includes('/authors') ? 'page' : undefined}
       >
         Authors
       </a>
       <a
         href={`${base}/publishers/`}
         class={`site-nav__pill${currentPath.includes('/publishers') ? ' active' : ''}`}
+        aria-current={currentPath.includes('/publishers') ? 'page' : undefined}
       >
         Publishers
       </a>
       <a
         href={`${base}/dashboard/`}
         class={`site-nav__pill${currentPath.includes('/dashboard') ? ' active' : ''}`}
+        aria-current={currentPath.includes('/dashboard') ? 'page' : undefined}
       >
         Dashboard
       </a>

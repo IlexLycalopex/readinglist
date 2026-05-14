@@ -52,6 +52,8 @@ export interface PublisherSummary {
   slug: string;
   bookCount: number;
   books: Book[];
+  formats: Set<string>;
+  years: number[];
 }
 
 const DATA_DIR = join(process.cwd(), 'src/data');
@@ -162,11 +164,13 @@ export function getAllPublishers(books: Book[]): PublisherSummary[] {
     if (!book.publisher) continue;
     const slug = slugify(book.publisher);
     if (!map.has(slug)) {
-      map.set(slug, { name: book.publisher, slug, bookCount: 0, books: [] });
+      map.set(slug, { name: book.publisher, slug, bookCount: 0, books: [], formats: new Set(), years: [] });
     }
     const entry = map.get(slug)!;
     entry.bookCount++;
     entry.books.push(book);
+    entry.formats.add(book.format);
+    if (!entry.years.includes(book.year_read)) entry.years.push(book.year_read);
   }
   return Array.from(map.values())
     .filter((p) => p.bookCount > 1)

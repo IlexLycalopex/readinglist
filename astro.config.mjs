@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://ilexlycalopex.github.io',
-  base: '/readinglist',
+  site: process.env.SITE_URL ?? 'https://ilexlycalopex.github.io',
+  base: process.env.BASE_PATH ?? '/readinglist',
   output: 'static',
 });

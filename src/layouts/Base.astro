@@ -25,10 +25,12 @@ const base = import.meta.env.BASE_URL;
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="canonical" href={Astro.url.href} />
 </head>
 <body>
+  <a href="#main-content" class="skip-to-content">Skip to content</a>
   <SiteNav years={years} currentPath={Astro.url.pathname} />
-  <main class="container">
+  <main class="container" id="main-content">
     <slot />
   </main>
   <footer class="site-footer">

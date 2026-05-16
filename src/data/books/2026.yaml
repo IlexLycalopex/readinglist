@@ -489,14 +489,14 @@ books:
     year_published: 1985
     genre: "Fiction, Western"
     publisher: "Vintage"
-    cover_url: "https://covers.openlibrary.org/b/id/8476098-L.jpg"
+    cover_url: "https://covers.openlibrary.org/b/olid/OL40879W-L.jpg"
     isbn: "9780679728757"
     description: ""
     tags: []
     notes: ""
     reading: true
     links:
-      openlibrary: "https://openlibrary.org/works/OL57783W"
+      openlibrary: "https://openlibrary.org/works/OL40879W"
       wikipedia: ""
 
   - order: 27

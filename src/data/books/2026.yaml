@@ -530,11 +530,11 @@ books:
     genre: "Mystery, Crime fiction"
     publisher: "Pushkin Vertigo"
     cover_url: ""
-    isbn: ""
+    isbn: "1805335510"
     description: ""
     tags: []
     notes: ""
     coming_up: true
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL42434268W"
       wikipedia: ""

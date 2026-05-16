@@ -21,6 +21,7 @@ export interface Book {
   tags: string[];
   notes: string | null;
   reading: boolean;
+  coming_up: boolean;
   links: {
     openlibrary: string | null;
     wikipedia: string | null;
@@ -112,6 +113,7 @@ function rawBookToBook(raw: Record<string, unknown>, year: number): Book {
     tags: Array.isArray(raw.tags) ? raw.tags.map(String) : [],
     notes,
     reading: raw.reading === true,
+    coming_up: raw.coming_up === true,
     links: {
       openlibrary: autoOl,
       wikipedia: autoWiki,

@@ -9,7 +9,7 @@ interface Props {
 const { book, showOrder = false } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-const formatColor = book.format === 'audio' ? 'var(--accent-audio)' : book.format === 'graphic' ? 'var(--accent-graphic)' : 'var(--accent)';
+const formatColor = book.coming_up ? 'var(--text-faint)' : book.format === 'audio' ? 'var(--accent-audio)' : book.format === 'graphic' ? 'var(--accent-graphic)' : 'var(--accent)';
 
 function formatDate(d: string | null): string {
   if (!d) return '';
@@ -24,8 +24,12 @@ const dateStr = (() => {
   return '';
 })();
 ---
-<article class="book-card" style={`--format-color: ${formatColor}`} data-format={book.format} data-title={book.title.toLowerCase()} data-author={book.author.toLowerCase()}>
-  {book.format !== 'print' && (
+<article class="book-card" class:list={[book.coming_up && 'book-card--coming-up']} style={`--format-color: ${formatColor}`} data-format={book.format} data-title={book.title.toLowerCase()} data-author={book.author.toLowerCase()}>
+  {book.coming_up && (
+    <div class="book-card__coming-up">Coming up</div>
+  )}
+
+  {!book.coming_up && book.format !== 'print' && (
     <div class="book-card__badge">
       {book.format === 'audio' ? (
         <svg viewBox="0 0 20 20" fill="currentColor" width="14" height="14" aria-label="Audio">
@@ -110,6 +114,30 @@ const dateStr = (() => {
   .book-card:hover {
     background: var(--bg-hover);
     transform: translateY(-2px);
+  }
+
+  .book-card--coming-up {
+    opacity: 0.6;
+  }
+
+  .book-card--coming-up .book-card__cover img {
+    filter: grayscale(0.4);
+  }
+
+  .book-card__coming-up {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    font-size: 0.65rem;
+    font-family: var(--mono);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-faint);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 0.1rem 0.35rem;
+    z-index: 1;
   }
 
   .book-card__badge {

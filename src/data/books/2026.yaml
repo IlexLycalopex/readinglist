@@ -1,5 +1,5 @@
 year: 2026
-total_books: 25
+total_books: 28
 
 books:
   - order: 1
@@ -465,7 +465,7 @@ books:
     author: "H.W. Brands"
     pages: null
     date_started: null
-    date_finished: null
+    date_finished: "2026-05-16"
     format: audio
     year_published: 2019
     genre: "Frontier and pioneer life, West (u.s.), discovery and exploration"
@@ -475,7 +475,66 @@ books:
     description: "From a New York Times bestselling author, a masterful history of the American West—from the California Gold Rush to the settling of Oklahoma and beyond. \"Epic in its scale, fearless in its scope, this is a bravura performance from one of our master historians.\" —Hampton Sides, bestselling author of "
     tags: []
     notes: ""
-    reading: true
     links:
       openlibrary: "https://openlibrary.org/works/OL20320929W"
+      wikipedia: ""
+
+  - order: 26
+    title: "Blood Meridian"
+    author: "Cormac McCarthy"
+    pages: null
+    date_started: "2026-05-16"
+    date_finished: null
+    format: audio
+    year_published: 1985
+    genre: "Fiction, Western"
+    publisher: "Vintage"
+    cover_url: "https://covers.openlibrary.org/b/id/8476098-L.jpg"
+    isbn: "9780679728757"
+    description: ""
+    tags: []
+    notes: ""
+    reading: true
+    links:
+      openlibrary: "https://openlibrary.org/works/OL57783W"
+      wikipedia: ""
+
+  - order: 27
+    title: "On the Road"
+    author: "Jack Kerouac"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: 1957
+    genre: "Fiction, Beat generation"
+    publisher: "Penguin Books"
+    cover_url: "https://covers.openlibrary.org/b/id/8232137-L.jpg"
+    isbn: "9780140283297"
+    description: ""
+    tags: []
+    notes: ""
+    coming_up: true
+    links:
+      openlibrary: "https://openlibrary.org/works/OL81631W"
+      wikipedia: ""
+
+  - order: 28
+    title: "Murder at the Black Cat Café"
+    author: "Seishi Yokomizo"
+    pages: null
+    date_started: null
+    date_finished: null
+    format: print
+    year_published: 2024
+    genre: "Mystery, Crime fiction"
+    publisher: "Pushkin Vertigo"
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    coming_up: true
+    links:
+      openlibrary: ""
       wikipedia: ""

@@ -216,17 +216,16 @@ books:
     author: "Terry Miles"
     pages: null
     date_started: null
-    date_finished: null
+    date_finished: “2026-05-23”
     format: print
     year_published: 2023
-    genre: "Fiction"
-    publisher: "Del Rey"
-    cover_url: "https://books.google.com/books/content?id=ikOlEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    isbn: ""
+    genre: “Fiction”
+    publisher: “Del Rey”
+    cover_url: “https://books.google.com/books/content?id=ikOlEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api”
+    isbn: “”
     description: “The lore and legends around the underground game known as Rabbits gain new dimensions in The Quiet Room, a twisty tale set in the world of the hit Rabbits podcast. “Another mind-bending adventure replete with mystery.”—Publishers Weekly After nearly winning the eleventh iteration of Rabbits, the mys”
     tags: []
     notes: “”
-    date_finished: “2026-05-23”
     links:
       openlibrary: ""
       wikipedia: ""

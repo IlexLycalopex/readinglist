@@ -522,7 +522,7 @@ books:
     title: "Murder at the Black Cat Café"
     author: "Seishi Yokomizo"
     pages: null
-    date_started: null
+    date_started: "2026-05-24"
     date_finished: null
     format: print
     year_published: 2024
@@ -533,7 +533,7 @@ books:
     description: ""
     tags: []
     notes: ""
-    coming_up: true
+    reading: true
     links:
       openlibrary: "https://openlibrary.org/works/OL42434268W"
       wikipedia: ""

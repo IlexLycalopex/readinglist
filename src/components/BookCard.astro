@@ -29,18 +29,22 @@ const dateStr = (() => {
     <div class="book-card__coming-up">Coming up</div>
   )}
 
-  {!book.coming_up && book.format !== 'print' && (
+  {!book.coming_up && (
     <div class="book-card__badge">
       {book.format === 'audio' ? (
         <svg viewBox="0 0 20 20" fill="currentColor" width="14" height="14" aria-label="Audio">
           <path d="M9 3a1 1 0 0 0-1.414 0L3.172 7.414A4 4 0 0 0 2 10.172V15a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4.828a4 4 0 0 0-1.172-2.758L10.414 3A1 1 0 0 0 9 3z"/>
         </svg>
-      ) : (
+      ) : book.format === 'graphic' ? (
         <svg viewBox="0 0 20 20" fill="currentColor" width="14" height="14" aria-label="Graphic novel">
           <rect x="2" y="2" width="7" height="9" rx="1"/>
           <rect x="11" y="2" width="7" height="5" rx="1"/>
           <rect x="11" y="9" width="7" height="9" rx="1"/>
           <rect x="2" y="13" width="7" height="5" rx="1"/>
+        </svg>
+      ) : (
+        <svg viewBox="0 0 20 20" fill="currentColor" width="14" height="14" aria-label="Print">
+          <path d="M9 4.804A7.968 7.968 0 0 0 5.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 0 1 5.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0 1 14.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0 0 14.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 1 1-2 0V4.804z"/>
         </svg>
       )}
     </div>

@@ -548,7 +548,7 @@ books:
     year_published: 2026
     genre: "Health, Nature, Wellbeing"
     publisher: "The Do Book Company"
-    cover_url: "https://covers.openlibrary.org/b/isbn/9781914168673-L.jpg"
+    cover_url: ""
     isbn: "9781914168673"
     description: ""
     tags: []

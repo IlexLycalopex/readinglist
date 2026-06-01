@@ -563,17 +563,17 @@ books:
     date_started: "2026-06-01"
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
+    year_published: 2017
+    genre: "Fiction, general, Utopias"
+    publisher: "Penguin Random House"
     cover_url: ""
-    isbn: ""
+    isbn: "1473539307"
     description: ""
     tags: []
     notes: ""
     reading: true
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL21145876W"
       wikipedia: ""
 
   - order: 31

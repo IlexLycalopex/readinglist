@@ -405,7 +405,8 @@ h1, h2, h3 {
   width: 100%;
 }
 
-.modal__title { font-size: 1.2rem; font-weight: 700; margin-bottom: 1rem; }
+.modal__title { font-size: 1.2rem; font-weight: 700; }
+.modal__author { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem; }
 .modal__close { float: right; background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1.5rem; }
 
 /* Dashboard */

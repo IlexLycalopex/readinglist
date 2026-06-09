@@ -3,7 +3,6 @@ import { readFileSync } from 'fs';
 import { join } from 'path';
 
 export interface Book {
-  id: string;
   title: string;
   author: string;
   year_published: number | null;
@@ -23,8 +22,8 @@ export interface Book {
   reading: boolean;
   coming_up: boolean;
   links: {
-    openlibrary: string | null;
-    wikipedia: string | null;
+    openlibrary: string;
+    wikipedia: string;
   };
 }
 
@@ -63,18 +62,20 @@ export function slugify(str: string): string {
   return str
     .toLowerCase()
     .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
+    .replace(/[\u0300-\u036f]/g, '')
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '');
 }
 
-export function slugifyAuthor(name: string): string {
-  return slugify(name);
-}
+let yearsCache: YearMeta[] | null = null;
+const yearDataCache = new Map<string, YearData>();
 
 export function loadYears(): YearMeta[] {
-  const raw = readFileSync(join(DATA_DIR, 'years.yaml'), 'utf-8');
-  return yaml.load(raw) as YearMeta[];
+  if (!yearsCache) {
+    const raw = readFileSync(join(DATA_DIR, 'years.yaml'), 'utf-8');
+    yearsCache = yaml.load(raw) as YearMeta[];
+  }
+  return yearsCache;
 }
 
 function rawBookToBook(raw: Record<string, unknown>, year: number): Book {
@@ -95,7 +96,6 @@ function rawBookToBook(raw: Record<string, unknown>, year: number): Book {
   const autoWiki = wikiLink ?? `https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(title + ' ' + author)}`;
 
   return {
-    id: slugify(`${title}-${author}`),
     title,
     author,
     year_published: raw.year_published != null ? Number(raw.year_published) : null,
@@ -122,16 +122,20 @@ function rawBookToBook(raw: Record<string, unknown>, year: number): Book {
 }
 
 export function loadYear(year: string): YearData {
+  const cached = yearDataCache.get(year);
+  if (cached) return cached;
   const raw = readFileSync(join(DATA_DIR, 'books', `${year}.yaml`), 'utf-8');
   const data = yaml.load(raw) as Record<string, unknown>;
   const yearNum = Number(data.year);
   const books = (data.books as Record<string, unknown>[]).map((b) => rawBookToBook(b, yearNum));
   books.sort((a, b) => a.order_read - b.order_read);
-  return {
+  const yearData = {
     year: yearNum,
     total_books: Number(data.total_books),
     books,
   };
+  yearDataCache.set(year, yearData);
+  return yearData;
 }
 
 export function loadAllYears(): YearData[] {
@@ -147,7 +151,7 @@ export function getAllAuthors(books: Book[]): AuthorSummary[] {
   const map = new Map<string, AuthorSummary>();
   for (const book of books) {
     if (!book.author) continue;
-    const slug = slugifyAuthor(book.author);
+    const slug = slugify(book.author);
     if (!map.has(slug)) {
       map.set(slug, { name: book.author, slug, bookCount: 0, formats: new Set(), years: [], books: [] });
     }

@@ -88,6 +88,9 @@
   const activeFormats = new Set(['print', 'audio', 'graphic']);
   let searchQuery = '';
 
+  // Case- and accent-insensitive ("alvaro" matches "Álvaro")
+  const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
   const cards = () => Array.from(document.querySelectorAll<HTMLElement>('.book-card'));
   const totalCount = () => cards().length;
 
@@ -128,13 +131,14 @@
   function filterCards() {
     let visible = 0;
     const total = totalCount();
+    const query = norm(searchQuery);
     for (const card of cards()) {
       const fmt = card.dataset.format ?? '';
-      const title = card.dataset.title ?? '';
-      const author = card.dataset.author ?? '';
+      const title = norm(card.dataset.title ?? '');
+      const author = norm(card.dataset.author ?? '');
 
       const fmtOk = activeFormats.has(fmt);
-      const searchOk = !searchQuery || title.includes(searchQuery) || author.includes(searchQuery);
+      const searchOk = !query || title.includes(query) || author.includes(query);
       const show = fmtOk && searchOk;
 
       card.style.display = show ? '' : 'none';
@@ -155,7 +159,7 @@
   });
 
   document.getElementById('book-search')?.addEventListener('input', (e) => {
-    searchQuery = (e.target as HTMLInputElement).value.toLowerCase().trim();
+    searchQuery = (e.target as HTMLInputElement).value.trim();
     filterCards();
   });
 
@@ -181,7 +185,7 @@
   }
   const qParam = params.get('q');
   if (qParam) {
-    searchQuery = qParam.toLowerCase();
+    searchQuery = qParam.trim();
     (document.getElementById('book-search') as HTMLInputElement).value = qParam;
   }
 

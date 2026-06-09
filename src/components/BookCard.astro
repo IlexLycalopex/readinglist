@@ -24,7 +24,15 @@ const dateStr = (() => {
   return '';
 })();
 ---
-<article class="book-card" class:list={[book.coming_up && 'book-card--coming-up']} style={`--format-color: ${formatColor}`} data-format={book.format} data-title={book.title.toLowerCase()} data-author={book.author.toLowerCase()}>
+<article
+  class="book-card"
+  class:list={[book.coming_up && 'book-card--coming-up', book.notes && 'book-card--has-notes']}
+  style={`--format-color: ${formatColor}`}
+  data-format={book.format}
+  data-title={book.title}
+  data-author={book.author}
+  data-notes={book.notes ?? undefined}
+>
   {book.coming_up && (
     <div class="book-card__coming-up">Coming up</div>
   )}
@@ -54,24 +62,20 @@ const dateStr = (() => {
     <div class="book-card__order">#{book.order_read}</div>
   )}
 
-  <a href={`${base}/books/${book.id}/`} class="book-card__cover-link" tabindex="-1" aria-hidden="true">
-    <div class="book-card__cover">
-      {book.cover_url ? (
-        <img src={book.cover_url} alt={`Cover of ${book.title}`} loading="lazy" width="200" height="300" />
-      ) : (
-        <div class="cover-placeholder">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-            <path d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"/>
-          </svg>
-        </div>
-      )}
-    </div>
-  </a>
+  <div class="book-card__cover">
+    {book.cover_url ? (
+      <img src={book.cover_url} alt={`Cover of ${book.title}`} loading="lazy" width="200" height="300" />
+    ) : (
+      <div class="cover-placeholder">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"/>
+        </svg>
+      </div>
+    )}
+  </div>
 
   <div class="book-card__body">
-    <a href={`${base}/books/${book.id}/`} class="book-card__title-link">
-      <p class="book-card__title">{book.title}</p>
-    </a>
+    <p class="book-card__title">{book.title}</p>
     <p class="book-card__author">{book.author}</p>
     {(book.year_published || book.pages) && (
       <p class="book-card__faint">
@@ -93,7 +97,7 @@ const dateStr = (() => {
       {dateStr && <span class="book-card__dates">{dateStr}</span>}
     </div>
     {book.notes && (
-      <button class="book-card__notes-btn" data-notes={book.notes} data-title={book.title} aria-label={`Show notes for ${book.title}`}>
+      <button class="book-card__notes-btn" aria-label={`Show notes for ${book.title}`}>
         <svg viewBox="0 0 20 20" fill="currentColor" width="14" height="14">
           <path fill-rule="evenodd" d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-7-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9 9a.75.75 0 0 0 0 1.5h.253a.25.25 0 0 1 .244.304l-.459 2.066A1.75 1.75 0 0 0 10.747 15H11a.75.75 0 0 0 0-1.5h-.253a.25.25 0 0 1-.244-.304l.459-2.066A1.75 1.75 0 0 0 9.253 9H9Z" clip-rule="evenodd"/>
         </svg>
@@ -122,6 +126,10 @@ const dateStr = (() => {
 
   .book-card--coming-up {
     opacity: 0.6;
+  }
+
+  .book-card--has-notes {
+    cursor: pointer;
   }
 
   .book-card--coming-up .book-card__cover img {
@@ -164,8 +172,6 @@ const dateStr = (() => {
 
   .book-card:hover .book-card__order { opacity: 1; }
 
-  .book-card__cover-link { display: block; }
-
   .book-card__cover {
     width: 100%;
     aspect-ratio: 2/3;
@@ -194,9 +200,6 @@ const dateStr = (() => {
     flex: 1;
   }
 
-  .book-card__title-link { color: inherit; }
-  .book-card__title-link:hover .book-card__title { color: var(--accent); }
-
   .book-card__title {
     font-weight: 700;
     font-size: 0.9rem;
@@ -205,7 +208,6 @@ const dateStr = (() => {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    transition: color var(--transition);
   }
 
   .book-card__author {
@@ -273,11 +275,15 @@ const dateStr = (() => {
 
 <script>
   document.addEventListener('click', (e) => {
-    const btn = (e.target as Element).closest('.book-card__notes-btn') as HTMLElement | null;
-    if (!btn) return;
+    const target = e.target as Element;
+    if (target.closest('a')) return;
+    const card = target.closest<HTMLElement>('.book-card--has-notes');
+    if (!card) return;
 
-    const notes = btn.dataset.notes ?? '';
-    const title = btn.dataset.title ?? '';
+    const notes = card.dataset.notes ?? '';
+    const title = card.dataset.title ?? '';
+    const author = card.dataset.author ?? '';
+    const btn = card.querySelector<HTMLElement>('.book-card__notes-btn');
 
     const backdrop = document.createElement('div');
     backdrop.className = 'modal-backdrop';
@@ -285,17 +291,31 @@ const dateStr = (() => {
     backdrop.setAttribute('aria-modal', 'true');
     backdrop.setAttribute('aria-label', `Notes for ${title}`);
 
-    backdrop.innerHTML = `
-      <div class="modal">
-        <button class="modal__close" aria-label="Close notes">&times;</button>
-        <p class="modal__title">${title}</p>
-        <p>${notes}</p>
-      </div>
-    `;
+    const modal = document.createElement('div');
+    modal.className = 'modal';
+
+    const closeBtn = document.createElement('button');
+    closeBtn.className = 'modal__close';
+    closeBtn.setAttribute('aria-label', 'Close notes');
+    closeBtn.textContent = '×';
+
+    const titleEl = document.createElement('p');
+    titleEl.className = 'modal__title';
+    titleEl.textContent = title;
+
+    const authorEl = document.createElement('p');
+    authorEl.className = 'modal__author';
+    authorEl.textContent = author;
+
+    const notesEl = document.createElement('p');
+    notesEl.textContent = notes;
+
+    modal.append(closeBtn, titleEl, authorEl, notesEl);
+    backdrop.appendChild(modal);
 
     function closeModal() {
       backdrop.remove();
-      btn.focus();
+      btn?.focus();
     }
 
     // ESC key

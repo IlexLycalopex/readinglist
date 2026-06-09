@@ -11,6 +11,7 @@
 import { readFileSync, writeFileSync, readdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import yaml from 'js-yaml';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, '../src/data/books');
@@ -85,6 +86,7 @@ async function fetchGoogleBooks(title, author) {
 async function processYear(yearFile) {
   const filePath = join(DATA_DIR, yearFile);
   let content = readFileSync(filePath, 'utf-8');
+  const originalBookCount = yaml.load(content).books.length;
 
   const bookBlocks = content.split(/(?=\n  - order:)/);
 
@@ -154,7 +156,13 @@ async function processYear(yearFile) {
   }
 
   if (updated) {
-    writeFileSync(filePath, processedBlocks.join(''), 'utf-8');
+    const output = processedBlocks.join('');
+    // The edits above are regex-based; refuse to save anything that no longer parses
+    const parsed = yaml.load(output);
+    if (!Array.isArray(parsed?.books) || parsed.books.length !== originalBookCount) {
+      throw new Error(`refusing to save ${yearFile}: edited YAML is invalid or lost entries`);
+    }
+    writeFileSync(filePath, output, 'utf-8');
     console.log(`  → Saved ${yearFile}`);
   } else {
     console.log(`  → No updates needed for ${yearFile}`);

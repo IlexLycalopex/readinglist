@@ -91,11 +91,6 @@ const formatIcon: Record<string, string> = {
     <div class="year-grid">
       {allYearData.map((yd) => {
         const counts = formatCount(yd);
-        const pips = [
-          ...Array(counts.print).fill('print'),
-          ...Array(counts.audio).fill('audio'),
-          ...Array(counts.graphic).fill('graphic'),
-        ].slice(0, 20);
         const allPips = [
           ...Array(counts.print).fill('print'),
           ...Array(counts.audio).fill('audio'),

@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { loadAllBooks, getAllPublishers, slugifyAuthor } from '../../lib/data';
+import { loadAllBooks, getAllPublishers, slugify } from '../../lib/data';
 
 export async function getStaticPaths() {
   const books = loadAllBooks();
@@ -37,7 +37,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <div class="book-row__info">
           <p class="book-row__title">{book.title}</p>
           <p class="book-row__meta">
-            <a href={`${base}/authors/${slugifyAuthor(book.author)}/`}>{book.author}</a> · <a href={`${base}/${book.year_read}/`}>{book.year_read}</a>
+            <a href={`${base}/authors/${slugify(book.author)}/`}>{book.author}</a> · <a href={`${base}/${book.year_read}/`}>{book.year_read}</a>
           </p>
         </div>
       </div>

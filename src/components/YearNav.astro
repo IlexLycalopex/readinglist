@@ -47,4 +47,20 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
   .year-nav__pill:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
   .year-nav__pill--active { border-color: var(--accent); color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); }
+
+  /* Fade hints that the row scrolls; the spacer lets the last pill scroll
+     clear of the faded zone. */
+  @media (max-width: 640px) {
+    .year-nav {
+      -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent);
+      mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent);
+    }
+    .year-nav::after { content: ''; flex: 0 0 2.5rem; }
+  }
 </style>
+
+<script>
+  document
+    .querySelector('.year-nav__pill--active')
+    ?.scrollIntoView({ inline: 'center', block: 'nearest' });
+</script>

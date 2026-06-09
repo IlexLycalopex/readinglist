@@ -27,7 +27,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       {years.map((y) => (
         <a
           href={`${base}/${y.id}/`}
-          class={`site-nav__pill${currentPath.includes(`/${y.id}/`) ? ' active' : ''}`}
+          class={`site-nav__pill site-nav__pill--year${currentPath.includes(`/${y.id}/`) ? ' active' : ''}`}
           aria-current={currentPath.includes(`/${y.id}/`) ? 'page' : undefined}
         >
           {y.id}

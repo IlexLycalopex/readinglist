@@ -172,6 +172,11 @@ const dateStr = (() => {
 
   .book-card:hover .book-card__order { opacity: 1; }
 
+  /* No hover on touch devices — keep the order number visible */
+  @media (hover: none) {
+    .book-card__order { opacity: 1; }
+  }
+
   .book-card__cover {
     width: 100%;
     aspect-ratio: 2/3;

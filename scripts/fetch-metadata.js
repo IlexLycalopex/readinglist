@@ -28,11 +28,16 @@ async function fetchWithRetry(url, retries = MAX_RETRIES) {
   for (let i = 0; i <= retries; i++) {
     try {
       const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
+      if (res.status === 429) {
+        // Rate limited — needs a much longer wait than an ordinary failure
+        const retryAfter = Number(res.headers.get('retry-after')) || 5 * Math.pow(2, i);
+        throw Object.assign(new Error('HTTP 429'), { retryAfterMs: retryAfter * 1000 });
+      }
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return await res.json();
     } catch (err) {
       if (i === retries) throw err;
-      await sleep(DELAY_MS * Math.pow(2, i));
+      await sleep(err.retryAfterMs ?? DELAY_MS * Math.pow(2, i));
     }
   }
 }
@@ -51,9 +56,14 @@ function cleanTitleForSearch(title) {
 }
 
 async function urlExists(url) {
+  // GET, not HEAD: the covers API redirects to archive.org, which is unreliable with HEAD
   try {
-    const res = await fetch(url, { method: 'HEAD', headers: { 'User-Agent': USER_AGENT } });
-    return res.ok;
+    const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
+    if (res.ok) {
+      await res.body?.cancel();
+      return true;
+    }
+    return false;
   } catch {
     return false;
   }
@@ -66,10 +76,15 @@ async function fetchCoverByIsbn(isbn) {
   return (await urlExists(`${url}?default=false`)) ? url : null;
 }
 
-// If the entry already links an Open Library work, ask the work record for its covers.
+// If the entry already links an Open Library work, ask the work record for its
+// covers; works often have none while their editions do, so fall back to those.
 async function fetchCoverFromWork(workUrl) {
   const data = await fetchWithRetry(`${workUrl}.json`);
-  const coverId = data.covers?.find((c) => c > 0);
+  let coverId = data.covers?.find((c) => c > 0);
+  if (!coverId) {
+    const editions = await fetchWithRetry(`${workUrl}/editions.json?limit=20`);
+    coverId = editions.entries?.flatMap((e) => e.covers ?? []).find((c) => c > 0);
+  }
   return coverId ? `https://covers.openlibrary.org/b/id/${coverId}-L.jpg` : null;
 }
 
@@ -92,9 +107,12 @@ async function fetchOpenLibrary(title, author) {
 }
 
 async function fetchGoogleBooks(title, author, isbn) {
-  // An ISBN query is exact; fall back to title/author search without one
+  // An ISBN query is exact; fall back to title/author search without one.
+  // GitHub's shared runner IPs are rate-limited without a key — set the
+  // GOOGLE_BOOKS_API_KEY secret to use a dedicated quota.
+  const key = process.env.GOOGLE_BOOKS_API_KEY;
   const q = isbn ? encodeURIComponent(`isbn:${isbn}`) : encodeURIComponent(`intitle:${title} inauthor:${author}`);
-  const url = `https://www.googleapis.com/books/v1/volumes?q=${q}`;
+  const url = `https://www.googleapis.com/books/v1/volumes?q=${q}${key ? `&key=${key}` : ''}`;
   const data = await fetchWithRetry(url);
   const item = (data.items?.find((i) => i.volumeInfo?.imageLinks?.thumbnail) ?? data.items?.[0])?.volumeInfo;
   if (!item) return null;

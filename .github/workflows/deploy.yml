@@ -27,6 +27,8 @@ jobs:
 
       - name: Fetch book metadata
         run: npm run fetch-metadata
+        env:
+          GOOGLE_BOOKS_API_KEY: ${{ secrets.GOOGLE_BOOKS_API_KEY }}
 
       - name: Commit metadata updates
         run: |

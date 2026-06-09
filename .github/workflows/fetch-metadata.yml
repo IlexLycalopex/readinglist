@@ -17,6 +17,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run fetch-metadata
+        env:
+          GOOGLE_BOOKS_API_KEY: ${{ secrets.GOOGLE_BOOKS_API_KEY }}
       - name: Commit metadata
         run: |
           git config user.name "github-actions[bot]"

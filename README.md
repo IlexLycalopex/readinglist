@@ -135,7 +135,7 @@ export default defineConfig({
 
 ```
 src/
-  components/       BookCard, AuthorCard, PublisherCard, FilterBar, YearNav, SiteNav
+  components/       BookCard, GroupCard, FilterBar, YearNav, SiteNav
   data/
     years.yaml      index of all years
     books/

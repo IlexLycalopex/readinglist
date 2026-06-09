@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import PublisherCard from '../../components/PublisherCard.astro';
+import GroupCard from '../../components/GroupCard.astro';
 import { loadAllBooks, getAllPublishers } from '../../lib/data';
 
 const books = loadAllBooks();
@@ -10,14 +10,16 @@ const publishers = getAllPublishers(books);
   <div class="page-header">
     <h1>Publishers</h1>
     {publishers.length > 0
-      ? <p class="subtitle">{publishers.length} publishers with multiple books</p>
+      ? <p class="subtitle">{publishers.length} publishers with multiple books — select one to see the books</p>
       : <p class="subtitle">Publisher data will appear here once metadata is fetched.</p>
     }
   </div>
 
   {publishers.length > 0 ? (
     <div class="author-grid">
-      {publishers.map((pub) => <PublisherCard publisher={pub} />)}
+      {publishers.map((pub) => (
+        <GroupCard name={pub.name} books={pub.books} formats={pub.formats} years={pub.years} showAuthor={true} />
+      ))}
     </div>
   ) : (
     <p style="color: var(--text-muted); padding: 2rem 0;">

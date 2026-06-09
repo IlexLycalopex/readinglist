@@ -30,7 +30,7 @@ books:
     format: print
     year_published: 2020
     genre: "Science"
-    publisher: "Birlinn Ltd"
+    publisher: "Birlinn"
     cover_url: "https://books.google.com/books/content?id=b8TRDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
     description: "Shortlisted for the The Great Outdoors Awards – Outdoor Book of the Year 2020 Shortlisted for the Boardman Tasker Award for Mountain Literature 2020 There are strange relics hidden across Scotland's landscape: forgotten places that are touchstones to incredible stories and past lives which still res"
@@ -49,7 +49,7 @@ books:
     format: print
     year_published: 1965
     genre: "Administration of estates, Married women"
-    publisher: "Tandem Library"
+    publisher: null
     cover_url: "https://covers.openlibrary.org/b/id/39754-L.jpg"
     isbn: "9780553236910"
     description: ""
@@ -106,7 +106,7 @@ books:
     format: print
     year_published: 2020
     genre: "Romance literature, New York Times reviewed"
-    publisher: "Charco"
+    publisher: "Charco Press"
     cover_url: "https://covers.openlibrary.org/b/id/10179311-L.jpg"
     isbn: "1916465668"
     description: "Shortlisted for the International Booker Prize 2020 1872. The pampas of Argentina. China is a young woman eking out an existence in a remote gaucho encampment. After her no-good husband is conscripted into the army, China bolts for freedom, setting off on a wagon journey through the pampas in the co"
@@ -125,7 +125,7 @@ books:
     format: print
     year_published: 2013
     genre: "Dorset (england), description and travel, Trails"
-    publisher: "Faber & Faber, Limited"
+    publisher: "Faber & Faber"
     cover_url: "https://covers.openlibrary.org/b/id/10837222-L.jpg"
     isbn: "9780571302710"
     description: ""
@@ -144,7 +144,7 @@ books:
     format: print
     year_published: 1977
     genre: "History, Scotland, social life and customs"
-    publisher: "CANongate"
+    publisher: "Canongate"
     cover_url: "https://covers.openlibrary.org/b/id/8072604-L.jpg"
     isbn: "0903937417"
     description: ""
@@ -163,7 +163,7 @@ books:
     format: print
     year_published: 1996
     genre: "Fiction, Wizards"
-    publisher: "Harper"
+    publisher: "HarperCollins"
     cover_url: "https://covers.openlibrary.org/b/id/14649230-L.jpg"
     isbn: "3442416310"
     description: ""
@@ -220,7 +220,7 @@ books:
     format: print
     year_published: 2012
     genre: "Steampunk fiction, Fiction, fantasy, general"
-    publisher: "Little, Brown Book Group Limited"
+    publisher: "Little, Brown"
     cover_url: "https://covers.openlibrary.org/b/id/10305721-L.jpg"
     isbn: "1429987294"
     description: "This is the story of Harry Ransom. If you know his name it's most likely as the inventor of the Ransom Process, a stroke of genius that changed the world. Or you may have read about how he lost the battle of Jasper City, or won it, depending on where you stand in matters of politics. Friends called "
@@ -239,7 +239,7 @@ books:
     format: print
     year_published: 1995
     genre: "Comanche Indians, Woodrow Call (Fictitious character)"
-    publisher: "Orion mass market paperback"
+    publisher: "Orion"
     cover_url: "https://covers.openlibrary.org/b/id/6601672-L.jpg"
     isbn: "0671001167"
     description: "In Dead Man's Walk, the prequel to the bestselling books, Lonesome Dove and Streets of Laredo, McMurtry dazzles readers once more with the early adventures of two of the most memorable heroes in contemporary fiction--Augustus McCrae and Woodrow Call. National ads/media."
@@ -334,7 +334,7 @@ books:
     format: print
     year_published: 1960
     genre: "American bison hunting, Western stories"
-    publisher: "Qi ming chu ban shi ye gu fen you xian gong si"
+    publisher: null
     cover_url: "https://covers.openlibrary.org/b/id/8043198-L.jpg"
     isbn: "9780839824510"
     description: ""
@@ -353,7 +353,7 @@ books:
     format: print
     year_published: 2020
     genre: "Botany, Fungi"
-    publisher: "Random House Audio"
+    publisher: "Penguin Random House"
     cover_url: "https://covers.openlibrary.org/b/id/10152882-L.jpg"
     isbn: "9780593209806"
     description: "The smash-hit Sunday Times bestseller that will transform your understanding of our planet and life itself. 'Astonishing ... it seems somehow to tip the natural world upside down' Observer 'Completely mind-blowing ... reads like an adventure story' Sunday Times *WINNER OF THE ROYAL SOCIETY BOOK PRIZ"
@@ -372,7 +372,7 @@ books:
     format: print
     year_published: 2019
     genre: "Wilderness areas, Travel"
-    publisher: "Canongate Books"
+    publisher: "Canongate"
     cover_url: "https://covers.openlibrary.org/b/id/12402997-L.jpg"
     isbn: "1786891565"
     description: "There are still wild places out there on our crowded planet. Through a series of personal journeys, Dan Richards explores the appeal of far-flung outposts in mountains, tundra, forests, oceans and deserts. Following a route from the Cairngorms of Scotland to the fire-watch lookouts of Washington Sta"
@@ -410,7 +410,7 @@ books:
     format: print
     year_published: 1995
     genre: "Fiction, Discworld (Imaginary place)"
-    publisher: "Book Club"
+    publisher: null
     cover_url: "https://covers.openlibrary.org/b/id/14645771-L.jpg"
     isbn: "9780552167635"
     description: "'A lie can run round the world before the truth can get its boots on.' William de Worde has somehow found himself editor of Ankh-Morpork's first newspaper. Well, with a name like that . . . Launched into the world of investigative journalism, alongside reporter Sacharissa Cripslock, William soon lea"
@@ -467,7 +467,7 @@ books:
     format: print
     year_published: 2020
     genre: "Fiction, fantasy, dark fantasy"
-    publisher: "Tor.com"
+    publisher: "Tor"
     cover_url: "https://covers.openlibrary.org/b/id/10151919-L.jpg"
     isbn: "1250260515"
     description: "An award-winning author's humorous dark fantasy novella about demonic possession. In a botched demonic extraction, they say the demon feels it ten times worse than the man. But they don't die, and we do. Equilibrium. The unnamed and morally questionable narrator is an exorcist with great follow-thro"
@@ -505,7 +505,7 @@ books:
     format: print
     year_published: 1993
     genre: "Fiction"
-    publisher: "Everyman Publishers"
+    publisher: "Everyman"
     cover_url: "https://covers.openlibrary.org/b/id/97157-L.jpg"
     isbn: "9780140181760"
     description: "In his first novel, Saint-Exup ry pays homage to \"those elemental divinities-night, day, mountain, sea, and storm,\" turning an account of a routine mail flight from France to North Africa into an epic rendering of the pioneer days of commercial aviation. The book is also a poignant reminiscence of a"
@@ -562,7 +562,7 @@ books:
     format: print
     year_published: 1984
     genre: "Fiction, Circus"
-    publisher: "Vintage Books USA"
+    publisher: "Vintage"
     cover_url: "https://covers.openlibrary.org/b/id/7476202-L.jpg"
     isbn: "9780140077032"
     description: "Angela Carter has invented a new, raucous, Cockney voice for her heroine Fevvers, taking us back into a rich, turn of the 19th century world, which reeks of human and animal variety."
@@ -600,7 +600,7 @@ books:
     format: print
     year_published: 2012
     genre: "Family secrets, Crime"
-    publisher: "Vintage Books"
+    publisher: "Vintage"
     cover_url: "https://covers.openlibrary.org/b/id/9807268-L.jpg"
     isbn: "1447280075"
     description: ""
@@ -638,7 +638,7 @@ books:
     format: print
     year_published: 2019
     genre: "Fiction"
-    publisher: "Charco"
+    publisher: "Charco Press"
     cover_url: "https://covers.openlibrary.org/b/id/10197074-L.jpg"
     isbn: "9781916465633"
     description: "A taut, lyrical portrait of four people thrown together on a single day in rural Argentina The Wind That Lays Waste begins in the great pause before a storm. Reverend Pearson is evangelizing across the Argentinian countryside with Leni, his teenage daughter, when their car breaks down. This act of G"
@@ -676,7 +676,7 @@ books:
     format: print
     year_published: 2020
     genre: "Fiction"
-    publisher: "Charco"
+    publisher: "Charco Press"
     cover_url: "https://books.google.com/books/content?id=dTH7DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
     description: "Author of International Booker Finalist Not a River Internationally acclaimed author of Not a River , Selva Almada tackles the issue of gender violence in this hybrid work that follows in the tradition of Truman Capote's In Cold Blood or John Hersey's Hiroshima .Evoking with intimate first-hand know"
@@ -695,7 +695,7 @@ books:
     format: print
     year_published: 2005
     genre: "Fiction, general, English literature"
-    publisher: "Fitzcarraldo"
+    publisher: "Fitzcarraldo Editions"
     cover_url: "https://covers.openlibrary.org/b/id/15149654-L.jpg"
     isbn: "0571217052"
     description: ""
@@ -714,7 +714,7 @@ books:
     format: print
     year_published: 2021
     genre: "American literature"
-    publisher: "Harper"
+    publisher: "HarperCollins"
     cover_url: "https://covers.openlibrary.org/b/id/10864235-L.jpg"
     isbn: "0063066629"
     description: ""
@@ -733,7 +733,7 @@ books:
     format: print
     year_published: 2018
     genre: "Missing persons, Fiction"
-    publisher: "HarperPerennial"
+    publisher: "HarperCollins"
     cover_url: "https://covers.openlibrary.org/b/id/8745649-L.jpg"
     isbn: "9780062844132"
     description: ""
@@ -752,7 +752,7 @@ books:
     format: print
     year_published: 2015
     genre: "Young women, Fiction"
-    publisher: "Fitzcarraldo"
+    publisher: "Fitzcarraldo Editions"
     cover_url: "https://covers.openlibrary.org/b/id/12851545-L.jpg"
     isbn: "1910695092"
     description: ""
@@ -771,7 +771,7 @@ books:
     format: print
     year_published: null
     genre: null
-    publisher: "Charco"
+    publisher: "Charco Press"
     cover_url: ""
     isbn: ""
     description: ""
@@ -790,7 +790,7 @@ books:
     format: audio
     year_published: 1977
     genre: "Great britain, history, Natural history"
-    publisher: "AberdeenUniversity Press"
+    publisher: "Aberdeen University Press"
     cover_url: "https://covers.openlibrary.org/b/id/10665302-L.jpg"
     isbn: "1847674240"
     description: ""
@@ -809,7 +809,7 @@ books:
     format: audio
     year_published: 2022
     genre: "Fiction, fantasy, general"
-    publisher: "Generic"
+    publisher: null
     cover_url: "https://books.google.com/books/content?id=XK2aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: "9781637999134"
     description: "Geralt is a witcher, a man whose magic powers, enhanced by long training and a mysterious elixir, have made him a brilliant fighter and a merciless assassin. Yet he is no ordinary murderer: his targets are the multifarious monsters and vile fiends that ravage the land and attack the innocent. He roa"
@@ -847,7 +847,7 @@ books:
     format: audio
     year_published: 2022
     genre: "American literature, Virus diseases"
-    publisher: "HarperLuxe"
+    publisher: "HarperCollins"
     cover_url: "https://covers.openlibrary.org/b/id/11070804-L.jpg"
     isbn: "1526637197"
     description: ""
@@ -904,7 +904,7 @@ books:
     format: audio
     year_published: 1973
     genre: "Fiction, Diplomats"
-    publisher: "Penguin Books"
+    publisher: "Penguin Random House"
     cover_url: "https://covers.openlibrary.org/b/id/5343587-L.jpg"
     isbn: "9780434305711"
     description: ""
@@ -923,7 +923,7 @@ books:
     format: audio
     year_published: 1950
     genre: "Elves, Hobbits"
-    publisher: "HARPERCOLLINS"
+    publisher: "HarperCollins"
     cover_url: "https://covers.openlibrary.org/b/id/14627062-L.jpg"
     isbn: "9780345332097"
     description: "Begin your journey into Middle-earth. The inspiration for the upcoming original series on Prime Video, The Lord of the Rings: The Rings of Power. The Return of the King is the third part of J.R.R. Tolkien’s epic adventure The Lord of the Rings. One Ring to rule them all, One Ring to find them, One R"
@@ -942,7 +942,7 @@ books:
     format: audio
     year_published: 2020
     genre: "History, modern, 21st century, Political corruption"
-    publisher: "Harper Paperbacks"
+    publisher: "HarperCollins"
     cover_url: "https://covers.openlibrary.org/b/id/10916280-L.jpg"
     isbn: "0062883674"
     description: "A Washington Post Notable Book of the Year • An Economist Book of the Year \"A must-read for anyone wanting to better understand what has already happened here in America and what lies ahead if Trump is reelected in November.... A magisterial account of the money and violence behind the world's most "
@@ -999,7 +999,7 @@ books:
     format: audio
     year_published: 2015
     genre: "Biography, Surfers"
-    publisher: "Penguin Press"
+    publisher: "Penguin Random House"
     cover_url: "https://covers.openlibrary.org/b/id/7901808-L.jpg"
     isbn: "9781594203473"
     description: ""
@@ -1018,7 +1018,7 @@ books:
     format: audio
     year_published: 1967
     genre: "Fiction"
-    publisher: "Signet, New American Library"
+    publisher: "Signet"
     cover_url: "https://covers.openlibrary.org/b/id/15013644-L.jpg"
     isbn: ""
     description: "Introduction by Simon Franklin; Translation by Michael Glenny \"From the Hardcover edition.\""
@@ -1037,7 +1037,7 @@ books:
     format: audio
     year_published: 1942
     genre: "Fiction, historical, general, Russia (federation), fiction"
-    publisher: "Holt Rinehart and Winston (Reinhart editions)"
+    publisher: "Holt, Rinehart and Winston"
     cover_url: "https://covers.openlibrary.org/b/id/7496125-L.jpg"
     isbn: "9798629491583"
     description: ""
@@ -1056,7 +1056,7 @@ books:
     format: audio
     year_published: 2020
     genre: "Recreation, Mountaineering"
-    publisher: "HarperCollins Publishers"
+    publisher: "HarperCollins"
     cover_url: "https://covers.openlibrary.org/b/id/10525684-L.jpg"
     isbn: "000841212X"
     description: "\"Kilian Jornet is the most dominating endurance athlete of his generation.\"—NEW YORK TIMES \"Inspiring and humbling\"— ALEX HONNOLD The most accomplished mountain runner of all time contemplates his record-breaking climbs of Mount Everest in this profound memoir—an intellectual and spiritual journey t"
@@ -1075,7 +1075,7 @@ books:
     format: audio
     year_published: 2004
     genre: "Social life and customs, Comanche Indians"
-    publisher: "St. Martin's Griffin"
+    publisher: "St. Martin's Press"
     cover_url: "https://covers.openlibrary.org/b/id/179674-L.jpg"
     isbn: "1429910119"
     description: ""
@@ -1094,7 +1094,7 @@ books:
     format: audio
     year_published: 1999
     genre: "Swimming, Great britain, description and travel"
-    publisher: "Tin House Books, LLC"
+    publisher: "Tin House Books"
     cover_url: "https://covers.openlibrary.org/b/id/71712-L.jpg"
     isbn: "0701166525"
     description: "A Mother Jones Best Book of the Year \"A beautiful ode to the act of swimming outdoors. . . . Deakin’s insistence on wild swimming for all is really an insistence on a better ecosystem for all.\" —The Atlantic A masterpiece of nature writing, Roger Deakin’s Waterlog is a fascinating and inspiring jour"
@@ -1113,7 +1113,7 @@ books:
     format: audio
     year_published: 2020
     genre: "Biography & Autobiography"
-    publisher: "Penguin Books, Limited"
+    publisher: "Penguin Random House"
     cover_url: "https://books.google.com/books/content?id=gbveDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: "0241988950"
     description: "Lama Yeshe didn't see a car until he was fifteen. But everything changed with the arrival of Chinese army vehicles in 1959. In the wake of the deadly Tibetan Uprising, he escaped to India through the Himalayas as one of only 13 survivors out of 300 refugees. Now in his seventies and a leading monk a"

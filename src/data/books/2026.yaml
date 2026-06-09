@@ -30,7 +30,7 @@ books:
     format: print
     year_published: 1977
     genre: "Great britain, history, Natural history"
-    publisher: "AberdeenUniversity Press"
+    publisher: "Aberdeen University Press"
     cover_url: "https://covers.openlibrary.org/b/id/10665302-L.jpg"
     isbn: "1847674240"
     description: ""
@@ -68,7 +68,7 @@ books:
     format: print
     year_published: 2025
     genre: "Fiction"
-    publisher: "Simon and Schuster"
+    publisher: "Simon & Schuster"
     cover_url: "https://books.google.com/books/content?id=Mx4OEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
     description: "An instant New York Times bestseller, a chilling historical horror novel tracing the life of a vampire who haunts the fields of the Blackfeet reservation looking for justice. A diary, written in 1912 by a Lutheran pastor is discovered within a wall. What it unveils is a slow massacre, a chain of eve"
@@ -163,7 +163,7 @@ books:
     format: print
     year_published: 1998
     genre: "Eccentrics and eccentricities, Fiction"
-    publisher: "Faber and Faber"
+    publisher: "Faber & Faber"
     cover_url: "https://covers.openlibrary.org/b/id/3728476-L.jpg"
     isbn: "0060933755"
     description: ""
@@ -353,7 +353,7 @@ books:
     format: graphic
     year_published: 2012
     genre: "Comics & graphic novels, science fiction, general"
-    publisher: "Titan Books Limited"
+    publisher: "Titan Books"
     cover_url: "https://books.google.com/books/content?id=9PcPAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: "1781160740"
     description: "With all his allegiances wiped away by the mistakes he's made, embedded journalist Matty Roth watches as the Free States of America and the U.S. wage civil war on the island of Manhattan-also known as the DMZ. As Matty covers the battles on the ground, old allies and enemies resurface and Matty must"
@@ -411,7 +411,7 @@ books:
     format: audio
     year_published: 2025
     genre: null
-    publisher: "W. W. Norton & Company"
+    publisher: "W. W. Norton"
     cover_url: "https://covers.openlibrary.org/b/id/14846855-L.jpg"
     isbn: "0393242137"
     description: ""
@@ -430,7 +430,7 @@ books:
     format: audio
     year_published: 2009
     genre: "Travel, Sports"
-    publisher: "Vertebrate Graphics Limited"
+    publisher: "Vertebrate Publishing"
     cover_url: "https://covers.openlibrary.org/b/id/9054223-L.jpg"
     isbn: "1906148651"
     description: "What does it take to be one of the world's best high-altitude mountain climbers? A lot of fundraising; traveling in some of the world's most dangerous countries; enduring cold bivouacs, searing lungs, and a cloudy mind when you can least afford one. It means learning the hard lessons the mountains t"
@@ -507,7 +507,7 @@ books:
     format: audio
     year_published: 1957
     genre: "Fiction, Beat generation"
-    publisher: "Penguin Books"
+    publisher: "Penguin Random House"
     cover_url: "https://covers.openlibrary.org/b/id/8232137-L.jpg"
     isbn: "9780140283297"
     description: ""

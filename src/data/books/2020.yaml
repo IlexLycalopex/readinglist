@@ -87,7 +87,7 @@ books:
     format: print
     year_published: 2019
     genre: "Self-reliant living"
-    publisher: "Blackstone Audio"
+    publisher: "Blackstone Publishing"
     cover_url: "https://covers.openlibrary.org/b/id/10331828-L.jpg"
     isbn: "9781786076014"
     description: "It was 11pm when I checked my email for the last time and turned off my phone for what I hoped would be forever. No running water, no car, no electricity or any of the things it powers: the internet, phone, washing machine, radio or light bulb. Just a wooden cabin, on a smallholding, by the edge of "
@@ -182,7 +182,7 @@ books:
     format: print
     year_published: 1988
     genre: "Aging, Conduct of life"
-    publisher: "imusti"
+    publisher: null
     cover_url: "https://covers.openlibrary.org/b/id/8846298-L.jpg"
     isbn: "9780241973301"
     description: ""
@@ -220,7 +220,7 @@ books:
     format: print
     year_published: 2019
     genre: "Fiction"
-    publisher: "Penguin"
+    publisher: "Penguin Random House"
     cover_url: "https://books.google.com/books/content?id=YvOiDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
     description: "WINNER OF THE NOBEL PRIZE IN LITERATURE New York Times Readers Pick: 100 Best Books of the 21st Century \"A brilliant literary murder mystery.\" —Chicago Tribune \"Extraordinary. Tokarczuk's novel is funny, vivid, dangerous, and disturbing, and it raises some fierce questions about human behavior. My s"

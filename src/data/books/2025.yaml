@@ -49,7 +49,7 @@ books:
     format: print
     year_published: 1918
     genre: "Biography, Description and travel"
-    publisher: "IndyPublish.com"
+    publisher: null
     cover_url: "https://covers.openlibrary.org/b/id/782468-L.jpg"
     isbn: "9781404350502"
     description: "In \"Far Away and Long Ago,\" W. H. Hudson combines autobiography with vivid natural observation to create a poignant reflection on his early life in the rural landscapes of Argentina. The narrative unfolds with lyrical prose, embodying a rich connection to nature, while deftly interweaving themes of "
@@ -125,7 +125,7 @@ books:
     format: graphic
     year_published: 2016
     genre: "Comics & graphic novels, science fiction, Environmentalists -- Comic books, strips, etc"
-    publisher: "Dark Horse Books"
+    publisher: "Dark Horse Comics"
     cover_url: "https://covers.openlibrary.org/b/id/8875745-L.jpg"
     isbn: "1506700098"
     description: "The environment’s first responders In the pages of The Massive, Ninth Wave was struggling to repair a broken world. But before that, it was the preeminent global environmental-rescue unit, taking on criminals, polluters, politicians, and rogue states. Critically acclaimed writer Brian Wood and artis"
@@ -163,7 +163,7 @@ books:
     format: audio
     year_published: 2023
     genre: null
-    publisher: "Simon & Schuster, Limited"
+    publisher: "Simon & Schuster"
     cover_url: "https://covers.openlibrary.org/b/id/14589180-L.jpg"
     isbn: "9781398518995"
     description: ""
@@ -182,7 +182,7 @@ books:
     format: audio
     year_published: 1900
     genre: "Fiction, Drug traffic"
-    publisher: "Contemporary French Fiction"
+    publisher: null
     cover_url: "https://covers.openlibrary.org/b/id/9296899-L.jpg"
     isbn: "1447201809"
     description: "Stumbling upon a bloody massacre, a cache of heroin, and more than two million in cash during a hunting trip, Llewelyn Moss removes the money, a decision that draws him and his young wife into the middle of a violent confrontation."
@@ -201,7 +201,7 @@ books:
     format: audio
     year_published: 1998
     genre: "Fiction, thrillers, general, Paris (france), fiction"
-    publisher: "RANDOM HOUSE."
+    publisher: "Penguin Random House"
     cover_url: "https://covers.openlibrary.org/b/id/228510-L.jpg"
     isbn: "9789076341132"
     description: "The New York Times bestselling author of American Psycho and Less Than Zero delivers a gripping and brilliant dissection of our celebrity obsessed culture. • “Arguably the novel of the 1990’s…Should establish Ellis as the most ambitious and fearless writer of his generation…a must read.” —The Seattl"
@@ -581,7 +581,7 @@ books:
     format: audio
     year_published: 2024
     genre: "Memoir"
-    publisher: "Knopf Doubleday Publishing Group"
+    publisher: "Knopf"
     cover_url: "https://covers.openlibrary.org/b/id/14851163-L.jpg"
     isbn: "0593701844"
     description: "NEW YORK TIMES NOTABLE BOOK • NEW YORK TIMES BESTSELLER • FINALIST FOR THE 2025 WOMEN'S PRIZE • A fascinating meditation on freedom, trust, loss, and our relationship with the natural world, explored through the story of one woman’s unlikely friendship with a wild hare. A BEST BOOK OF THE YEAR: The "
@@ -638,7 +638,7 @@ books:
     format: audio
     year_published: 2000
     genre: "Long Now Manual for Civilization, Fiction, science fiction, general"
-    publisher: "Random House Publishing Group"
+    publisher: "Penguin Random House"
     cover_url: "https://covers.openlibrary.org/b/id/6375226-L.jpg"
     isbn: "9788489746305"
     description: "WINNER OF THE AUGUST DERLETH AND ARTHUR C. CLARKE AWARDS • A masterpiece brimming with scientific splendor, magical intrigue, and fierce characters, from the author who “has reshaped modern fantasy” (The Washington Post) “[China Miéville’s] fantasy novels, including a trilogy set in and around the m"
@@ -733,7 +733,7 @@ books:
     format: audio
     year_published: 2025
     genre: "History"
-    publisher: "Knopf Doubleday Publishing Group"
+    publisher: "Knopf"
     cover_url: "https://books.google.com/books/content?id=kiM1EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: "0593537858"
     description: "The true story of the Black Hills gold rush settlement once described as “the most diabolical town on earth” and of its most colorful cast of characters, from Wild Bill Hickok to Calamity Jane to Al Swearingen and Sheriff Seth Bullock. \"In these pungent pages, you can smell the whiskey, the gunsmoke"
@@ -847,7 +847,7 @@ books:
     format: print
     year_published: 2012
     genre: "Biography & Autobiography"
-    publisher: "W. W. Norton & Company"
+    publisher: "W. W. Norton"
     cover_url: "https://books.google.com/books/content?id=kd8OY0ZFHW8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
     description: "In August 2008, when 11 climbers lost their lives on K2, the world's most dangerous peak, two Sherpas survived and are two of the most skillful mountaineers on earth."
@@ -866,7 +866,7 @@ books:
     format: audio
     year_published: 1985
     genre: "fiction, western cattle drives"
-    publisher: "Distribooks Inc"
+    publisher: null
     cover_url: "https://covers.openlibrary.org/b/id/8376548-L.jpg"
     isbn: "9780330317542"
     description: ""
@@ -904,7 +904,7 @@ books:
     format: print
     year_published: 2023
     genre: null
-    publisher: "Penguin Publishing Group"
+    publisher: "Penguin Random House"
     cover_url: "https://covers.openlibrary.org/b/id/14609258-L.jpg"
     isbn: "9781787303805"
     description: ""

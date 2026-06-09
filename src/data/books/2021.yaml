@@ -30,7 +30,7 @@ books:
     format: print
     year_published: 2002
     genre: "Fiction, New York Times reviewed"
-    publisher: "Random House Audio"
+    publisher: "Penguin Random House"
     cover_url: "https://covers.openlibrary.org/b/id/5730648-L.jpg"
     isbn: "1588363686"
     description: "Moscow, May 1876: What would cause a talented young student from a wealthy family to shoot himself in front of a promenading public in the Alexander Gardens? Decadence and boredom, most likely, is what the commander of the Criminal Investigation Division of the Moscow Police thinks, but still he fin"
@@ -68,7 +68,7 @@ books:
     format: print
     year_published: 1947
     genre: "History, Fiction"
-    publisher: "Pocket Books Inc."
+    publisher: "Pocket Books"
     cover_url: "https://covers.openlibrary.org/b/id/393599-L.jpg"
     isbn: "9780896216211"
     description: ""
@@ -87,7 +87,7 @@ books:
     format: print
     year_published: 2012
     genre: "Natural resources, Commodity control"
-    publisher: "Ye Ren/Tsai Fong Books"
+    publisher: null
     cover_url: "https://covers.openlibrary.org/b/id/14323846-L.jpg"
     isbn: "1846145031"
     description: ""
@@ -106,7 +106,7 @@ books:
     format: print
     year_published: 2013
     genre: "Economic policy, Political aspects"
-    publisher: "Basic Books, a member of the Perseus Book Group"
+    publisher: "Basic Books"
     cover_url: "https://covers.openlibrary.org/b/id/10250954-L.jpg"
     isbn: "0465031250"
     description: ""
@@ -182,7 +182,7 @@ books:
     format: print
     year_published: 2021
     genre: "American literature, science fiction"
-    publisher: "Random House LCC US"
+    publisher: "Penguin Random House"
     cover_url: "https://covers.openlibrary.org/b/id/10622518-L.jpg"
     isbn: "1984819674"
     description: "A deadly underground game might just be altering reality itself in this all-new adventure set in the world of the hit Rabbits podcast. NAMED ONE OF THE BEST BOOKS OF THE YEAR BY THE WALL STREET JOURNAL • “A wild ride . . . impossible to put down.”—Publishers Weekly (starred review) It’s an average w"
@@ -220,7 +220,7 @@ books:
     format: print
     year_published: 2012
     genre: "Sports & Recreation"
-    publisher: "Simon and Schuster"
+    publisher: "Simon & Schuster"
     cover_url: "https://books.google.com/books/content?id=_m6CDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
     description: "Praise for the work of Peter Larson \"Larson presents a wealth of balanced info on the raging debate over proper running form and minimalist running shoes.\" —Erin Beresini, Outside Online “Peter Larson is both a scientist and a realist when it comes to running shoes, and that's a good combination.” —"
@@ -277,7 +277,7 @@ books:
     format: print
     year_published: 2021
     genre: "Psychotropic drugs, Opium"
-    publisher: "Random House Large Print"
+    publisher: "Penguin Random House"
     cover_url: "https://covers.openlibrary.org/b/id/10512625-L.jpg"
     isbn: "0593557050"
     description: "The instant New York Times bestseller | A Washington Post Notable Book | One of NPR's Best Books of the Year “Expert storytelling . . . [Pollan] masterfully elevates a series of big questions about drugs, plants and humans that are likely to leave readers thinking in new ways.” —New York Times Book "
@@ -334,7 +334,7 @@ books:
     format: print
     year_published: 1955
     genre: "Ficción, Fiction"
-    publisher: "TURNER PUBLICACIONES S.L."
+    publisher: "Turner"
     cover_url: "https://covers.openlibrary.org/b/id/5419076-L.jpg"
     isbn: "1511467959"
     description: "Deserted villages of rural Mexico, where images and memories of the past linger like unquiet ghosts, haunted the imaginations of the author. In one such village of the mind, Comala, he set his classic novel Pedro Páramo, a dream-like tale that intertwines a man's quest to find his lost father and re"
@@ -410,7 +410,7 @@ books:
     format: print
     year_published: 2021
     genre: "New York Times reviewed, Authors"
-    publisher: "Bloomsbury Publishing"
+    publisher: "Bloomsbury"
     cover_url: "https://covers.openlibrary.org/b/id/11554276-L.jpg"
     isbn: "9781526655059"
     description: "From internationally bestselling Argentine author Pedro Mairal and Man Booker International-winning translator Jennifer Croft, the unforgettable story of two would-be lovers over the course of a single day. 'A searing tale of seduction and betrayal, both wryly comic and deeply serious' Sigrid Nunez,"
@@ -505,7 +505,7 @@ books:
     format: audio
     year_published: 1977
     genre: "Great britain, history, Natural history"
-    publisher: "AberdeenUniversity Press"
+    publisher: "Aberdeen University Press"
     cover_url: "https://covers.openlibrary.org/b/id/10665302-L.jpg"
     isbn: "9780857861832"
     description: "“In a world of self-help, this is true inspiration, deeply admirable without the distance of heroism, bracing without stridency and, ultimately, generous. The mountain, Shepherd tells us, is ‘a corrective of glib assessment.’ So is its book.” —The New York Times Book Review An internationally bestse"
@@ -524,7 +524,7 @@ books:
     format: audio
     year_published: 2019
     genre: "American literature, Fiction, science fiction, action & adventure"
-    publisher: "Macmillan Audio"
+    publisher: "Macmillan"
     cover_url: "https://covers.openlibrary.org/b/id/8802134-L.jpg"
     isbn: "1529001587"
     description: "Winner of the 2020 Hugo Award for Best Novel A Locus, and Nebula Award nominee for 2019 An NPR Favorite Book of 2019 An Esquire Best Sci-Fi Book of All Time A Guardian Best Science Fiction and Fantasy Book of 2019 and “Not the Booker Prize” Nominee A Goodreads Biggest SFF Book of 2019 and Choice Awa"
@@ -581,7 +581,7 @@ books:
     format: audio
     year_published: 1977
     genre: "Description and travel, Travel"
-    publisher: "VINTAGE (RAND)"
+    publisher: "Vintage"
     cover_url: "https://covers.openlibrary.org/b/id/94640-L.jpg"
     isbn: "9780754001003"
     description: "The masterpiece of travel writing that revolutionized the genre and made its author famous overnight An exhilarating look at a place that still retains the exotic mystery of a far-off, unseen land, Bruce Chatwin’s exquisite account of his journey through Patagonia teems with evocative descriptions, "

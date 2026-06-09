@@ -12,6 +12,7 @@ import { readFileSync, writeFileSync, readdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import yaml from 'js-yaml';
+import { canonicalPublisher } from './publisher-aliases.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, '../src/data/books');
@@ -199,7 +200,7 @@ async function processYear(yearFile) {
     const coverUrl = foundCover ?? meta?.cover_url ?? gMeta?.cover_url ?? '';
     const isbn = meta?.isbn ?? '';
     const yearPub = meta?.year_published ?? gMeta?.year_published ?? null;
-    const publisher = meta?.publisher ?? gMeta?.publisher ?? '';
+    const publisher = canonicalPublisher(meta?.publisher ?? gMeta?.publisher) ?? '';
     const genre = meta?.genre ?? gMeta?.genre ?? '';
     const description = gMeta?.description ?? '';
     const olLink = meta?.openlibrary ?? '';

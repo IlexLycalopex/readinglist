@@ -30,7 +30,7 @@ books:
     format: print
     year_published: 2018
     genre: "Fiction"
-    publisher: "Penguin"
+    publisher: "Penguin Random House"
     cover_url: "https://books.google.com/books/content?id=rS5lDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
     description: "WINNER OF THE NOBEL PRIZE IN LITERATURE WINNER OF THE MAN BOOKER INTERNATIONAL PRIZE NATIONAL BOOK AWARD FINALIST FOR TRANSLATED LITERATURE A visionary work of fiction by \"A writer on the level of W. G. Sebald\" (Annie Proulx) \"A magnificent writer.\" — Svetlana Alexievich, Nobel Prize-winning author "
@@ -68,7 +68,7 @@ books:
     format: print
     year_published: null
     genre: null
-    publisher: "Charco"
+    publisher: "Charco Press"
     cover_url: ""
     isbn: ""
     description: ""
@@ -87,7 +87,7 @@ books:
     format: print
     year_published: 2018
     genre: "Korean Americans, Fiction"
-    publisher: "Center Point Pub"
+    publisher: "Center Point Publishing"
     cover_url: "https://covers.openlibrary.org/b/id/9247670-L.jpg"
     isbn: "9780349011868"
     description: ""
@@ -106,7 +106,7 @@ books:
     format: print
     year_published: 1990
     genre: "Fiction, Mothers and sons"
-    publisher: "Atlantic Monthly Pr"
+    publisher: "Atlantic Monthly Press"
     cover_url: "https://covers.openlibrary.org/b/id/568907-L.jpg"
     isbn: "9781841954882"
     description: ""
@@ -125,7 +125,7 @@ books:
     format: print
     year_published: null
     genre: null
-    publisher: "Fitzcarraldo"
+    publisher: "Fitzcarraldo Editions"
     cover_url: ""
     isbn: ""
     description: ""
@@ -277,7 +277,7 @@ books:
     format: print
     year_published: 2019
     genre: "Environmental engineering"
-    publisher: "Penguin Books, Limited"
+    publisher: "Penguin Random House"
     cover_url: "https://covers.openlibrary.org/b/id/9378622-L.jpg"
     isbn: "9780141991450"
     description: "Extinction Rebellion are inspiring a whole generation to take action on climate breakdown. Now you can become part of the movement - and together, we can make history. It's time. This is our last chance to do anything about the global climate and ecological emergency. Our last chance to save the wor"
@@ -334,7 +334,7 @@ books:
     format: print
     year_published: 2019
     genre: "Fiction"
-    publisher: "Charco"
+    publisher: "Charco Press"
     cover_url: "https://books.google.com/books/content?id=9YHrDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
     description: "Winner PEN Translates Award (UK) Recovering from an unspecified accident, the narrator of Loop finds herself in waiting rooms of different kinds: airport departure lounges, doctors’ surgeries, and above all at home, awaiting the return of her boyfriend, who has travelled to Spain following the death"
@@ -372,7 +372,7 @@ books:
     format: print
     year_published: 2023
     genre: "Language and languages"
-    publisher: "Fitzcarraldo"
+    publisher: "Fitzcarraldo Editions"
     cover_url: "https://covers.openlibrary.org/b/id/13343644-L.jpg"
     isbn: "1804270385"
     description: ""
@@ -391,7 +391,7 @@ books:
     format: graphic
     year_published: 2015
     genre: "Fantasy comics, Science fiction comics"
-    publisher: "HarperCollins Publishers and Blackstone Audio"
+    publisher: "HarperCollins"
     cover_url: "https://covers.openlibrary.org/b/id/10541789-L.jpg"
     isbn: "2205073826"
     description: "The graphic novel debut from rising star Noelle Stevenson, based on her beloved and critically acclaimed web comic, which Slate awarded its Cartoonist Studio Prize, calling it \"a deadpan epic.\" Nemeses! Dragons! Science! Symbolism! All these and more await in this brilliantly subversive, sharply irr"
@@ -410,7 +410,7 @@ books:
     format: audio
     year_published: 1977
     genre: "Great britain, history, Natural history"
-    publisher: "AberdeenUniversity Press"
+    publisher: "Aberdeen University Press"
     cover_url: "https://covers.openlibrary.org/b/id/10665302-L.jpg"
     isbn: "9780857861832"
     description: "“In a world of self-help, this is true inspiration, deeply admirable without the distance of heroism, bracing without stridency and, ultimately, generous. The mountain, Shepherd tells us, is ‘a corrective of glib assessment.’ So is its book.” —The New York Times Book Review An internationally bestse"
@@ -429,7 +429,7 @@ books:
     format: audio
     year_published: 2022
     genre: null
-    publisher: "Penguin Books, Limited"
+    publisher: "Penguin Random House"
     cover_url: "https://covers.openlibrary.org/b/id/12847237-L.jpg"
     isbn: "0141993006"
     description: ""
@@ -467,7 +467,7 @@ books:
     format: audio
     year_published: 1995
     genre: "Political theology, Polar bears"
-    publisher: "Galaxy Plus"
+    publisher: null
     cover_url: "https://covers.openlibrary.org/b/id/8747028-L.jpg"
     isbn: "9780613810364"
     description: "The incredible story of Lyra Belacqua will begin in La Belle Sauvage- the first volume of The Book of Dust. Now you have the opportunity to revisit her adventures in Northern Lights, with this graphic novel adaptation of a masterpiece, which comes to life with incredible full-colour art. Follow Lyra"
@@ -505,7 +505,7 @@ books:
     format: audio
     year_published: 2003
     genre: "Surfing"
-    publisher: "Harpercollins"
+    publisher: "HarperCollins"
     cover_url: "https://covers.openlibrary.org/b/id/21964-L.jpg"
     isbn: "9780060096298"
     description: "Six–time world surfing champion, actor, and US heart–throb Kelly Slater tells of the struggles and triumphs he's experienced throughout his life and how they have helped him to become one of the world's most loved sports figures. From beach blanket bingo to Baywatch, surfing has fascinated people fo"
@@ -524,7 +524,7 @@ books:
     format: audio
     year_published: 2023
     genre: "nyt:combined-print-and-e-book-nonfiction=2023-07-16, New York Times bestseller"
-    publisher: "Norton & Company Limited, W. W."
+    publisher: "W. W. Norton"
     cover_url: "https://covers.openlibrary.org/b/id/15142472-L.jpg"
     isbn: "9781529196481"
     description: "THE #1 INTERNATIONAL BESTSELLER Finalist for the Baillie Gifford Prize for Non-fiction An eye-opening investigation into the science, economics, history, and production of ultra-processed food, now with a new Afterword by the author. Named a Best Book of the Year by NPR • The Economist • The Times •"
@@ -543,7 +543,7 @@ books:
     format: audio
     year_published: 2022
     genre: "Biography & Autobiography"
-    publisher: "Random House"
+    publisher: "Penguin Random House"
     cover_url: "https://books.google.com/books/content?id=gqJaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
     description: "A deeply moving and personal portrait of the extraordinary life of Sir Terry Pratchett, written with unparalleled insight and filled with funny anecdotes, this is the only official biography of one of our finest authors. WINNER OF THE 2023 LOCUS AWARD FOR NON-FICTION WINNER OF THE BRITISH SCIENCE FI"
@@ -657,7 +657,7 @@ books:
     format: audio
     year_published: 2012
     genre: "Voyages and travels, Walking"
-    publisher: "Penguin Books"
+    publisher: "Penguin Random House"
     cover_url: "https://covers.openlibrary.org/b/id/8701934-L.jpg"
     isbn: "9780241143810"
     description: "From the acclaimed author of The Wild Places and Underland, an exploration of walking and thinking In this exquisitely written book, Robert Macfarlane sets off from his Cambridge, England, home to follow the ancient tracks, holloways, drove roads, and sea paths that crisscross both the British lands"

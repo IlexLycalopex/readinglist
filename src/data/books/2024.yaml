@@ -30,7 +30,7 @@ books:
     format: print
     year_published: 2023
     genre: "Biography & Autobiography"
-    publisher: "Random House"
+    publisher: "Penguin Random House"
     cover_url: "https://books.google.com/books/content?id=3MluEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
     description: "BEST BOOK OF 2023 ACCORDING TO THE NEWSTATESMAN AND OBSERVER 'The Swimmer is a wonderful, original achievement; teeming with stories, glittering with images, and experimental in form and tone' Robert Macfarlane Roger Deakin, author of the immortal Waterlog, was a man of many parts: maverick ad-man, "
@@ -49,7 +49,7 @@ books:
     format: print
     year_published: 1988
     genre: "Literary collections, Environmental literature"
-    publisher: "Northland Pub"
+    publisher: "Northland Publishing"
     cover_url: "https://covers.openlibrary.org/b/id/9052640-L.jpg"
     isbn: "0873584643"
     description: ""
@@ -220,7 +220,7 @@ books:
     format: print
     year_published: 2004
     genre: "Open Library Staff Picks, Western stories"
-    publisher: "Harper Paperbacks"
+    publisher: "HarperCollins"
     cover_url: "https://covers.openlibrary.org/b/id/32811-L.jpg"
     isbn: "006079853X"
     description: ""
@@ -258,7 +258,7 @@ books:
     format: audio
     year_published: 2022
     genre: "Fiction"
-    publisher: "Murray Press, John"
+    publisher: "John Murray"
     cover_url: "https://covers.openlibrary.org/b/id/14760077-L.jpg"
     isbn: "9781529394221"
     description: "One of Japan’s great modern masters, Kaoru Takamura, makes her English-language debut with this two-volume publication of her magnum opus. Tokyo, 1995. Five men meet at the racetrack every Sunday to bet on horses. They have little in common except a deep disaffection with their lives, but together t"
@@ -277,7 +277,7 @@ books:
     format: audio
     year_published: 2024
     genre: "English literature"
-    publisher: "HarperCollins Publishers Limited"
+    publisher: "HarperCollins"
     cover_url: "https://books.google.com/books/content?id=veK4zwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     isbn: "0008585059"
     description: "A haunting ode to Cornish folklore and the secrets of the places we call home 'This powerfully brutal novel is the most exciting thing I've read in years' S. J. WATSON 'A strange and beautiful novel' OBSERVER 'A book where language feels like hands reaching into the soil, where landscapes feel alive"
@@ -296,7 +296,7 @@ books:
     format: audio
     year_published: 1994
     genre: "Lobos, Wilderness areas"
-    publisher: "Vintage Books"
+    publisher: "Vintage"
     cover_url: "https://covers.openlibrary.org/b/id/6999576-L.jpg"
     isbn: "0756980097"
     description: "NATIONAL BESTSELLER • The second volume of the award-winning Border Trilogy—From the bestselling author of The Passenger and the Pulitzer Prize–winning novel The Road—fulfills the promise of All the Pretty Horses and at the same time give us a work that is darker and more visionary, a novel with the"
@@ -315,7 +315,7 @@ books:
     format: audio
     year_published: 2025
     genre: "Fiction"
-    publisher: "Random House"
+    publisher: "Penguin Random House"
     cover_url: "https://books.google.com/books/content?id=sjFOEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
     description: "SHORTLISTED FOR THE WALTER SCOTT PRIZE FOR HISTORICAL FICTION • A BEST BOOK OF THE YEAR FROM THE ECONOMIST AND STAR TRIBUNE • Award-winning writer Kevin Barry’s first novel set in America, a savagely funny and achingly romantic tale of young lovers on the lam in 1890s Montana. “An absolute belter of"
@@ -334,7 +334,7 @@ books:
     format: audio
     year_published: 2016
     genre: "Habit, Habit breaking"
-    publisher: "paidos"
+    publisher: "Paidós"
     cover_url: "https://covers.openlibrary.org/b/id/12539702-L.jpg"
     isbn: "9786020667188"
     description: "நீங்கள் உங்கள் வாழ்க்கையை மாற்ற விரும்பினால், நீங்கள் பிரம்மாண்டமாக சிந்திக்க வேண்டும் என்று மக்கள் நினைக்கின்றனர். ஆனால், பழக்கங்களைப் பற்றி விரிவாக ஆய்வு செய்து அதில் உலகப் புகழ்பெற்ற நிபுணர்களில் ஒருவராகத் திகழுகின்ற ஜேம்ஸ் கிளியர் அதற்கு வேறொரு வழியைக் கண்டுபிடித்துள்ளார். தினமும் காலையில் ஐந்து"
@@ -372,7 +372,7 @@ books:
     format: audio
     year_published: 2024
     genre: "Psychology"
-    publisher: "Doubleday Canada"
+    publisher: "Doubleday"
     cover_url: "https://books.google.com/books/content?id=oNa_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
     description: "From the Globe and Mail and New York Times bestselling author of The Power of Habit, an investigation of what makes conversations work, and how we can all learn to be supercommunicators at work and in our lives. We all know people who seem capable of connecting with almost anyone. They are the ones "
@@ -410,7 +410,7 @@ books:
     format: audio
     year_published: 2006
     genre: "Literature, Science Fiction"
-    publisher: "Penguin Group USA, Inc."
+    publisher: "Penguin Random House"
     cover_url: "https://covers.openlibrary.org/b/id/8355736-L.jpg"
     isbn: "9780425222355"
     description: "Multilingual Tito engages in sensitive information transfers from his single-room apartment, while journalist Hollis frets over her start-up magazine's censure of its own promotions, and prescription drug addict Milgrim wonders about the military connections of an enigmatic benefactor. Reprint."
@@ -429,7 +429,7 @@ books:
     format: audio
     year_published: 2004
     genre: "Politics and government, Biography"
-    publisher: "Penguin Random House Audio"
+    publisher: "Penguin Random House"
     cover_url: "https://covers.openlibrary.org/b/id/8261375-L.jpg"
     isbn: "9780147501554"
     description: "The #1 New York Times bestseller, and the inspiration for the hit Broadway musical Hamilton! Pulitzer Prize-winning author Ron Chernow presents a landmark biography of Alexander Hamilton, the Founding Father who galvanized, inspired, scandalized, and shaped the newborn nation. \"Grand-scale biography"

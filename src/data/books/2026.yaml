@@ -581,7 +581,7 @@ books:
     author: "Norma MacKinnon"
     pages: null
     date_started: "2026-06-01"
-    date_finished: null
+    date_finished: "2026-06-12"
     format: print
     year_published: null
     genre: null
@@ -591,7 +591,6 @@ books:
     description: ""
     tags: []
     notes: ""
-    reading: true
     links:
       openlibrary: ""
       wikipedia: ""

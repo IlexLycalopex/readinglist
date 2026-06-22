@@ -373,8 +373,8 @@ books:
     year_published: null
     genre: null
     publisher: null
-    cover_url: ""
-    isbn: ""
+    cover_url: "https://covers.openlibrary.org/b/isbn/9780857669179-L.jpg"
+    isbn: "9780857669179"
     description: ""
     tags: []
     notes: ""

@@ -69,8 +69,8 @@ books:
     year_published: null
     genre: null
     publisher: "Charco Press"
-    cover_url: ""
-    isbn: ""
+    cover_url: "https://covers.openlibrary.org/b/isbn/9781913867157-L.jpg"
+    isbn: "9781913867157"
     description: ""
     tags: []
     notes: ""
@@ -126,8 +126,8 @@ books:
     year_published: null
     genre: null
     publisher: "Fitzcarraldo Editions"
-    cover_url: ""
-    isbn: ""
+    cover_url: "https://covers.openlibrary.org/b/isbn/9781913097325-L.jpg"
+    isbn: "9781913097325"
     description: ""
     tags: []
     notes: ""

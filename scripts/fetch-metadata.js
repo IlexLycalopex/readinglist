@@ -114,7 +114,9 @@ async function fetchGoogleBooks(title, author, isbn) {
   const key = process.env.GOOGLE_BOOKS_API_KEY;
   const q = isbn ? encodeURIComponent(`isbn:${isbn}`) : encodeURIComponent(`intitle:${title} inauthor:${author}`);
   const url = `https://www.googleapis.com/books/v1/volumes?q=${q}${key ? `&key=${key}` : ''}`;
-  const data = await fetchWithRetry(url);
+  // Without a key, shared CI runner IPs are already past quota, so a 429 here
+  // won't clear up within this run — retrying just burns the exponential backoff.
+  const data = await fetchWithRetry(url, key ? MAX_RETRIES : 0);
   const item = (data.items?.find((i) => i.volumeInfo?.imageLinks?.thumbnail) ?? data.items?.[0])?.volumeInfo;
   if (!item) return null;
 
@@ -184,7 +186,9 @@ async function processYear(yearFile) {
     }
 
     let gMeta = null;
-    const needsGBooks = !(foundCover ?? meta?.cover_url) || !meta?.description;
+    // Google Books also supplies a description, but it's not worth the rate-limit
+    // cost once a cover has already been resolved via ISBN/work/Open Library.
+    const needsGBooks = !(foundCover ?? meta?.cover_url);
     if (needsGBooks) {
       try {
         const isbn = existingIsbn ?? meta?.isbn;

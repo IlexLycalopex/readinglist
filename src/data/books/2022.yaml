@@ -772,8 +772,8 @@ books:
     year_published: null
     genre: null
     publisher: "Charco Press"
-    cover_url: ""
-    isbn: ""
+    cover_url: "https://covers.openlibrary.org/b/isbn/9781916277861-L.jpg"
+    isbn: "9781916277861"
     description: ""
     tags: []
     notes: ""
@@ -981,8 +981,8 @@ books:
     year_published: null
     genre: null
     publisher: null
-    cover_url: ""
-    isbn: ""
+    cover_url: "https://covers.openlibrary.org/b/isbn/9781713547426-L.jpg"
+    isbn: "9781713547426"
     description: ""
     tags: []
     notes: "Author unknown — needs review."

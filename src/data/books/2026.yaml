@@ -547,7 +547,7 @@ books:
     year_published: 2026
     genre: "Health, Nature, Wellbeing"
     publisher: "The Do Book Company"
-    cover_url: ""
+    cover_url: "https://covers.openlibrary.org/b/isbn/9781914168673-L.jpg"
     isbn: "9781914168673"
     description: ""
     tags: []
@@ -566,7 +566,7 @@ books:
     year_published: 2017
     genre: "Fiction, general, Utopias"
     publisher: "Penguin Random House"
-    cover_url: ""
+    cover_url: "https://covers.openlibrary.org/b/isbn/1473539307-L.jpg"
     isbn: "1473539307"
     description: ""
     tags: []
@@ -585,8 +585,8 @@ books:
     year_published: null
     genre: null
     publisher: null
-    cover_url: ""
-    isbn: ""
+    cover_url: "https://covers.openlibrary.org/b/isbn/9781861064028-L.jpg"
+    isbn: "9781861064028"
     description: ""
     tags: []
     notes: ""
@@ -604,8 +604,8 @@ books:
     year_published: null
     genre: null
     publisher: null
-    cover_url: ""
-    isbn: ""
+    cover_url: "https://covers.openlibrary.org/b/isbn/9781919225906-L.jpg"
+    isbn: "9781919225906"
     description: ""
     tags: []
     notes: ""

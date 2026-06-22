@@ -126,8 +126,8 @@ books:
     year_published: null
     genre: null
     publisher: null
-    cover_url: ""
-    isbn: ""
+    cover_url: "https://m.media-amazon.com/images/I/61ci4PkLsIL._AC_UF894,1000_QL80_.jpg"
+    isbn: "9798321623527"
     description: ""
     tags: []
     notes: ""

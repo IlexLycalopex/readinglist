@@ -547,7 +547,7 @@ books:
     year_published: 2026
     genre: "Health, Nature, Wellbeing"
     publisher: "The Do Book Company"
-    cover_url: "https://covers.openlibrary.org/b/isbn/9781914168673-L.jpg"
+    cover_url: "https://cdn.waterstones.com/bookjackets/large/9781/9141/9781914168673.jpg"
     isbn: "9781914168673"
     description: ""
     tags: []
@@ -566,7 +566,7 @@ books:
     year_published: 2017
     genre: "Fiction, general, Utopias"
     publisher: "Penguin Random House"
-    cover_url: "https://covers.openlibrary.org/b/isbn/1473539307-L.jpg"
+    cover_url: "https://m.media-amazon.com/images/I/91281k62-fL._AC_UF894,1000_QL80_.jpg"
     isbn: "1473539307"
     description: ""
     tags: []
@@ -585,7 +585,7 @@ books:
     year_published: null
     genre: null
     publisher: null
-    cover_url: "https://covers.openlibrary.org/b/isbn/9781861064028-L.jpg"
+    cover_url: "https://m.media-amazon.com/images/I/71eGZVMQqDL._AC_UF1000,1000_QL80_.jpg"
     isbn: "9781861064028"
     description: ""
     tags: []
@@ -604,7 +604,7 @@ books:
     year_published: null
     genre: null
     publisher: null
-    cover_url: "https://covers.openlibrary.org/b/isbn/9781919225906-L.jpg"
+    cover_url: "https://mrbsemporium.com/wp-content/uploads/2025/10/MR-Bs-EVOL-cover-1.jpg"
     isbn: "9781919225906"
     description: ""
     tags: []

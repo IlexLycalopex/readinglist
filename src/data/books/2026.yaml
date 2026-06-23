@@ -1,5 +1,5 @@
 year: 2026
-total_books: 32
+total_books: 33
 
 books:
   - order: 1
@@ -349,7 +349,7 @@ books:
     author: "Brian Wood"
     pages: null
     date_started: null
-    date_finished: null
+    date_finished: "2026-06-22"
     format: graphic
     year_published: 2012
     genre: "Comics & graphic novels, science fiction, general"
@@ -359,7 +359,6 @@ books:
     description: "With all his allegiances wiped away by the mistakes he's made, embedded journalist Matty Roth watches as the Free States of America and the U.S. wage civil war on the island of Manhattan-also known as the DMZ. As Matty covers the battles on the ground, old allies and enemies resurface and Matty must"
     tags: []
     notes: ""
-    reading: true
     links:
       openlibrary: "https://openlibrary.org/works/OL37924314W"
       wikipedia: ""
@@ -606,6 +605,26 @@ books:
     publisher: null
     cover_url: "https://mrbsemporium.com/wp-content/uploads/2025/10/MR-Bs-EVOL-cover-1.jpg"
     isbn: "9781919225906"
+    description: ""
+    tags: []
+    notes: ""
+    reading: true
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 33
+    title: "DMZ Vol 12 The Five Nations of New York"
+    author: "Brian Wood"
+    pages: null
+    date_started: "2026-06-23"
+    date_finished: null
+    format: graphic
+    year_published: 2012
+    genre: "Comics & Graphic Novels"
+    publisher: "Vertigo"
+    cover_url: ""
+    isbn: ""
     description: ""
     tags: []
     notes: ""

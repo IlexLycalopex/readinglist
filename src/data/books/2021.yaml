@@ -81,7 +81,7 @@ books:
   - order: 5
     title: "Winner Take All"
     author: "Dambisa Moyo"
-    pages: null
+    pages: 272
     date_started: "2021-01-31"
     date_finished: "2021-02-03"
     format: print
@@ -385,7 +385,7 @@ books:
   - order: 21
     title: "Dark Horses at the Patagonian Frontier"
     author: "Jon Burrough"
-    pages: null
+    pages: 240
     date_started: "2021-11-03"
     date_finished: "2021-11-20"
     format: print
@@ -499,7 +499,7 @@ books:
   - order: 27
     title: "The Living Mountain"
     author: "Nan Shepherd"
-    pages: null
+    pages: 160
     date_started: null
     date_finished: null
     format: audio
@@ -518,7 +518,7 @@ books:
   - order: 28
     title: "A Memory Called Empire"
     author: "Arkady Martine"
-    pages: null
+    pages: 462
     date_started: null
     date_finished: null
     format: audio
@@ -537,7 +537,7 @@ books:
   - order: 29
     title: "A Desolation Called Peace"
     author: "Arkady Martine"
-    pages: null
+    pages: 496
     date_started: null
     date_finished: null
     format: audio
@@ -556,7 +556,7 @@ books:
   - order: 30
     title: "Empire of Things"
     author: "Frank Trentmann"
-    pages: null
+    pages: 880
     date_started: null
     date_finished: null
     format: audio
@@ -575,7 +575,7 @@ books:
   - order: 31
     title: "In Patagonia"
     author: "Bruce Chatwin"
-    pages: null
+    pages: 240
     date_started: null
     date_finished: null
     format: audio

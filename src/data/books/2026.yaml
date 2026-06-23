@@ -5,7 +5,7 @@ books:
   - order: 1
     title: "You Dreamed of Empires"
     author: "Álvaro Enrigue"
-    pages: null
+    pages: 240
     date_started: null
     date_finished: null
     format: print
@@ -24,7 +24,7 @@ books:
   - order: 2
     title: "The Living Mountain"
     author: "Nan Shepherd"
-    pages: null
+    pages: 160
     date_started: null
     date_finished: null
     format: print
@@ -43,7 +43,7 @@ books:
   - order: 3
     title: "The Monkey Wrench Gang"
     author: "Edward Abbey"
-    pages: null
+    pages: 387
     date_started: null
     date_finished: null
     format: print
@@ -62,7 +62,7 @@ books:
   - order: 4
     title: "The Buffalo Hunter Hunter"
     author: "Stephen Graham Jones"
-    pages: null
+    pages: 448
     date_started: null
     date_finished: null
     format: print
@@ -81,7 +81,7 @@ books:
   - order: 5
     title: "A River Runs Through It and Other Stories"
     author: "Norman Maclean"
-    pages: null
+    pages: 217
     date_started: null
     date_finished: null
     format: print
@@ -100,7 +100,7 @@ books:
   - order: 6
     title: "Pharmakon"
     author: "Almudena Sánchez"
-    pages: null
+    pages: 150
     date_started: null
     date_finished: null
     format: print
@@ -119,7 +119,7 @@ books:
   - order: 7
     title: "The Plains"
     author: "Federico Falco"
-    pages: null
+    pages: 214
     date_started: null
     date_finished: null
     format: print
@@ -138,7 +138,7 @@ books:
   - order: 8
     title: "I Who Have Never Known Men"
     author: "Jacqueline Harpman"
-    pages: null
+    pages: 208
     date_started: null
     date_finished: null
     format: print
@@ -157,7 +157,7 @@ books:
   - order: 9
     title: "Wide Open"
     author: "Nicola Barker"
-    pages: null
+    pages: 304
     date_started: null
     date_finished: null
     format: print
@@ -176,7 +176,7 @@ books:
   - order: 10
     title: "There Is No Antimemetics Division"
     author: "qntm"
-    pages: null
+    pages: 288
     date_started: null
     date_finished: null
     format: print
@@ -195,7 +195,7 @@ books:
   - order: 11
     title: "Retribution Road"
     author: "Antonin Varenne"
-    pages: null
+    pages: 528
     date_started: null
     date_finished: null
     format: print
@@ -214,7 +214,7 @@ books:
   - order: 12
     title: "The Quiet Room"
     author: "Terry Miles"
-    pages: null
+    pages: 432
     date_started: null
     date_finished: "2026-05-23"
     format: print
@@ -233,7 +233,7 @@ books:
   - order: 13
     title: "DMZ Vol 5 The Hidden War"
     author: "Brian Wood"
-    pages: null
+    pages: 144
     date_started: null
     date_finished: null
     format: graphic
@@ -252,7 +252,7 @@ books:
   - order: 14
     title: "DMZ Vol 6 Blood in the Game"
     author: "Brian Wood"
-    pages: null
+    pages: 144
     date_started: null
     date_finished: null
     format: graphic
@@ -271,7 +271,7 @@ books:
   - order: 15
     title: "DMZ Vol 7 War Powers"
     author: "Brian Wood"
-    pages: null
+    pages: 168
     date_started: null
     date_finished: null
     format: graphic
@@ -290,7 +290,7 @@ books:
   - order: 16
     title: "DMZ Vol 8 Hearts and Minds"
     author: "Brian Wood"
-    pages: null
+    pages: 192
     date_started: null
     date_finished: null
     format: graphic
@@ -309,7 +309,7 @@ books:
   - order: 17
     title: "DMZ Vol 9 MIA"
     author: "Brian Wood"
-    pages: null
+    pages: 128
     date_started: null
     date_finished: null
     format: graphic
@@ -328,7 +328,7 @@ books:
   - order: 18
     title: "DMZ Vol 10 Collective Punishment"
     author: "Brian Wood"
-    pages: null
+    pages: 128
     date_started: null
     date_finished: null
     format: graphic
@@ -347,7 +347,7 @@ books:
   - order: 19
     title: "DMZ Vol 11 Free States Rising"
     author: "Brian Wood"
-    pages: null
+    pages: 168
     date_started: null
     date_finished: "2026-06-22"
     format: graphic
@@ -366,7 +366,7 @@ books:
   - order: 20
     title: "Lonesome Dove"
     author: "Larry McMurtry"
-    pages: null
+    pages: 858
     date_started: null
     date_finished: null
     format: audio
@@ -385,7 +385,7 @@ books:
   - order: 21
     title: "A Wild Sheep Chase"
     author: "Haruki Murakami"
-    pages: null
+    pages: 353
     date_started: null
     date_finished: null
     format: audio
@@ -404,7 +404,7 @@ books:
   - order: 22
     title: "Is a River Alive"
     author: "Robert Macfarlane"
-    pages: null
+    pages: 384
     date_started: null
     date_finished: null
     format: audio
@@ -423,7 +423,7 @@ books:
   - order: 23
     title: "Beyond the Mountain"
     author: "Steve House"
-    pages: null
+    pages: 288
     date_started: null
     date_finished: null
     format: audio
@@ -442,7 +442,7 @@ books:
   - order: 24
     title: "Zero History"
     author: "William Gibson"
-    pages: null
+    pages: 560
     date_started: null
     date_finished: null
     format: audio
@@ -461,7 +461,7 @@ books:
   - order: 25
     title: "Dreams of El Dorado"
     author: "H.W. Brands"
-    pages: null
+    pages: 544
     date_started: null
     date_finished: "2026-05-16"
     format: audio
@@ -480,7 +480,7 @@ books:
   - order: 26
     title: "Blood Meridian"
     author: "Cormac McCarthy"
-    pages: null
+    pages: 351
     date_started: "2026-05-16"
     date_finished: null
     format: audio
@@ -500,7 +500,7 @@ books:
   - order: 27
     title: "On the Road"
     author: "Jack Kerouac"
-    pages: null
+    pages: 307
     date_started: null
     date_finished: null
     format: audio
@@ -520,7 +520,7 @@ books:
   - order: 28
     title: "Murder at the Black Cat Café"
     author: "Seishi Yokomizo"
-    pages: null
+    pages: 224
     date_started: "2026-05-24"
     date_finished: "2026-06-01"
     format: print
@@ -558,7 +558,7 @@ books:
   - order: 30
     title: "H(A)PPY"
     author: "Nicola Barker"
-    pages: null
+    pages: 304
     date_started: "2026-06-01"
     date_finished: "2026-06-22"
     format: print
@@ -577,7 +577,7 @@ books:
   - order: 31
     title: "An Estancia in Patagonia"
     author: "Norma MacKinnon"
-    pages: null
+    pages: 176
     date_started: "2026-06-01"
     date_finished: "2026-06-12"
     format: print
@@ -596,7 +596,7 @@ books:
   - order: 32
     title: "The Evol Algorithm"
     author: "K. M. Moke"
-    pages: null
+    pages: 416
     date_started: "2026-06-22"
     date_finished: null
     format: print
@@ -616,7 +616,7 @@ books:
   - order: 33
     title: "DMZ Vol 12 The Five Nations of New York"
     author: "Brian Wood"
-    pages: null
+    pages: 168
     date_started: "2026-06-23"
     date_finished: null
     format: graphic

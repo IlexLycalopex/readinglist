@@ -43,7 +43,7 @@ books:
   - order: 3
     title: "Fair Land Fair Land"
     author: "A.B. Guthrie Jr."
-    pages: null
+    pages: 262
     date_started: null
     date_finished: "2024-07-06"
     format: print
@@ -62,7 +62,7 @@ books:
   - order: 4
     title: "The Rooftop"
     author: "Fernanda Trías"
-    pages: null
+    pages: 112
     date_started: null
     date_finished: null
     format: print
@@ -81,7 +81,7 @@ books:
   - order: 5
     title: "Raising Steam"
     author: "Terry Pratchett"
-    pages: null
+    pages: 380
     date_started: null
     date_finished: "2024-08-22"
     format: print
@@ -138,7 +138,7 @@ books:
   - order: 8
     title: "Surrender"
     author: "Joanna Pocock"
-    pages: null
+    pages: 340
     date_started: "2024-09-15"
     date_finished: "2024-10-11"
     format: print
@@ -157,7 +157,7 @@ books:
   - order: 9
     title: "The Book of Elsewhere"
     author: "Keanu Reeves; China Miéville"
-    pages: null
+    pages: 352
     date_started: "2024-10-12"
     date_finished: "2024-10-30"
     format: print
@@ -176,7 +176,7 @@ books:
   - order: 10
     title: "September and the Night"
     author: "Maica Rafecas"
-    pages: null
+    pages: 150
     date_started: "2024-10-31"
     date_finished: "2024-11-09"
     format: print
@@ -214,7 +214,7 @@ books:
   - order: 12
     title: "The Complete Western Stories of Elmore Leonard"
     author: "Elmore Leonard"
-    pages: null
+    pages: 544
     date_started: null
     date_finished: null
     format: print
@@ -233,7 +233,7 @@ books:
   - order: 13
     title: "Doppelganger"
     author: "Naomi Klein"
-    pages: null
+    pages: 416
     date_started: null
     date_finished: null
     format: audio
@@ -252,7 +252,7 @@ books:
   - order: 14
     title: "Lady Joker"
     author: "Kaoru Takamura"
-    pages: null
+    pages: 600
     date_started: null
     date_finished: null
     format: audio
@@ -271,7 +271,7 @@ books:
   - order: 15
     title: "Meet Me at the Surface"
     author: "Jodie Matthews"
-    pages: null
+    pages: 304
     date_started: null
     date_finished: null
     format: audio
@@ -290,7 +290,7 @@ books:
   - order: 16
     title: "The Crossing"
     author: "Cormac McCarthy"
-    pages: null
+    pages: 432
     date_started: null
     date_finished: null
     format: audio
@@ -309,7 +309,7 @@ books:
   - order: 17
     title: "The Heart in Winter"
     author: "Kevin Barry"
-    pages: null
+    pages: 256
     date_started: null
     date_finished: null
     format: audio
@@ -328,7 +328,7 @@ books:
   - order: 18
     title: "Atomic Habits"
     author: "James Clear"
-    pages: null
+    pages: 320
     date_started: null
     date_finished: null
     format: audio
@@ -347,7 +347,7 @@ books:
   - order: 19
     title: "The Left Hand of Darkness"
     author: "Ursula K. Le Guin"
-    pages: null
+    pages: 304
     date_started: null
     date_finished: null
     format: audio
@@ -366,7 +366,7 @@ books:
   - order: 20
     title: "Super Communicators"
     author: "Charles Duhigg"
-    pages: null
+    pages: 448
     date_started: null
     date_finished: null
     format: audio
@@ -385,7 +385,7 @@ books:
   - order: 21
     title: "Putin's People"
     author: "Catherine Belton"
-    pages: null
+    pages: 640
     date_started: null
     date_finished: null
     format: audio
@@ -404,7 +404,7 @@ books:
   - order: 22
     title: "Spook Country"
     author: "William Gibson"
-    pages: null
+    pages: 384
     date_started: null
     date_finished: null
     format: audio
@@ -423,7 +423,7 @@ books:
   - order: 23
     title: "Alexander Hamilton"
     author: "Ron Chernow"
-    pages: null
+    pages: 818
     date_started: null
     date_finished: null
     format: audio

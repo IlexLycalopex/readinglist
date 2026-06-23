@@ -5,7 +5,7 @@ books:
   - order: 1
     title: "A Sunny Place for Shady People"
     author: "Mariana Enriquez"
-    pages: null
+    pages: 272
     date_started: null
     date_finished: null
     format: print
@@ -24,7 +24,7 @@ books:
   - order: 2
     title: "The President's Room"
     author: "Ricardo Romero"
-    pages: null
+    pages: 82
     date_started: null
     date_finished: null
     format: print
@@ -43,7 +43,7 @@ books:
   - order: 3
     title: "Far Away and Long Ago"
     author: "W.H. Hudson"
-    pages: null
+    pages: 248
     date_started: null
     date_finished: null
     format: print
@@ -62,7 +62,7 @@ books:
   - order: 4
     title: "Byobu"
     author: "Ida Vitale"
-    pages: null
+    pages: 85
     date_started: null
     date_finished: null
     format: print
@@ -81,7 +81,7 @@ books:
   - order: 5
     title: "Resistance"
     author: "Julián Fuks"
-    pages: null
+    pages: 154
     date_started: null
     date_finished: null
     format: print
@@ -100,7 +100,7 @@ books:
   - order: 6
     title: "Channel Zero"
     author: "Brian Wood"
-    pages: null
+    pages: 144
     date_started: null
     date_finished: null
     format: graphic
@@ -119,7 +119,7 @@ books:
   - order: 7
     title: "The Massive Volume 4"
     author: "Brian Wood"
-    pages: null
+    pages: 144
     date_started: null
     date_finished: null
     format: graphic
@@ -138,7 +138,7 @@ books:
   - order: 8
     title: "The Massive Volume 5 Ragnarok"
     author: "Brian Wood"
-    pages: null
+    pages: 152
     date_started: null
     date_finished: null
     format: graphic
@@ -157,7 +157,7 @@ books:
   - order: 9
     title: "People Hacker"
     author: "Jenny Radcliffe"
-    pages: null
+    pages: 304
     date_started: null
     date_finished: null
     format: audio
@@ -176,7 +176,7 @@ books:
   - order: 10
     title: "No Country for Old Men"
     author: "Cormac McCarthy"
-    pages: null
+    pages: 309
     date_started: null
     date_finished: null
     format: audio
@@ -195,7 +195,7 @@ books:
   - order: 11
     title: "Glamorama"
     author: "Bret Easton Ellis"
-    pages: null
+    pages: 482
     date_started: null
     date_finished: null
     format: audio
@@ -214,7 +214,7 @@ books:
   - order: 12
     title: "True Grit"
     author: "Charles Portis"
-    pages: null
+    pages: 215
     date_started: null
     date_finished: null
     format: audio
@@ -233,7 +233,7 @@ books:
   - order: 13
     title: "The Galaxy and the Ground Within"
     author: "Becky Chambers"
-    pages: null
+    pages: 336
     date_started: null
     date_finished: null
     format: audio
@@ -252,7 +252,7 @@ books:
   - order: 14
     title: "The Premonition"
     author: "Banana Yoshimoto"
-    pages: null
+    pages: 144
     date_started: null
     date_finished: null
     format: print
@@ -271,7 +271,7 @@ books:
   - order: 15
     title: "Killer in the Rain"
     author: "Raymond Chandler"
-    pages: null
+    pages: 332
     date_started: null
     date_finished: null
     format: print
@@ -290,7 +290,7 @@ books:
   - order: 16
     title: "The Making of the Modern Middle East"
     author: "Jeremy Bowen"
-    pages: null
+    pages: 368
     date_started: null
     date_finished: null
     format: audio
@@ -309,7 +309,7 @@ books:
   - order: 17
     title: "Wild Horses"
     author: "Jordi Cussà; Tiago Miller"
-    pages: null
+    pages: 376
     date_started: null
     date_finished: null
     format: print
@@ -328,7 +328,7 @@ books:
   - order: 18
     title: "Chew Vol 1"
     author: "John Layman"
-    pages: null
+    pages: 128
     date_started: null
     date_finished: null
     format: graphic
@@ -347,7 +347,7 @@ books:
   - order: 19
     title: "Chew Vol 2"
     author: "John Layman"
-    pages: null
+    pages: 128
     date_started: null
     date_finished: null
     format: graphic
@@ -366,7 +366,7 @@ books:
   - order: 20
     title: "Chew Vol 3"
     author: "John Layman"
-    pages: null
+    pages: 126
     date_started: null
     date_finished: null
     format: graphic
@@ -385,7 +385,7 @@ books:
   - order: 21
     title: "Chew Vol 4"
     author: "John Layman"
-    pages: null
+    pages: 120
     date_started: null
     date_finished: null
     format: graphic
@@ -404,7 +404,7 @@ books:
   - order: 22
     title: "Chew Vol 5"
     author: "John Layman"
-    pages: null
+    pages: 125
     date_started: null
     date_finished: null
     format: graphic
@@ -423,7 +423,7 @@ books:
   - order: 23
     title: "Chew Vol 6"
     author: "John Layman"
-    pages: null
+    pages: 132
     date_started: null
     date_finished: null
     format: graphic
@@ -442,7 +442,7 @@ books:
   - order: 24
     title: "Chew Vol 7"
     author: "John Layman"
-    pages: null
+    pages: 120
     date_started: null
     date_finished: null
     format: graphic
@@ -461,7 +461,7 @@ books:
   - order: 25
     title: "Chew Vol 8"
     author: "John Layman"
-    pages: null
+    pages: 124
     date_started: null
     date_finished: null
     format: graphic
@@ -480,7 +480,7 @@ books:
   - order: 26
     title: "Chew Vol 9 Chicken Tenders"
     author: "John Layman"
-    pages: null
+    pages: 160
     date_started: null
     date_finished: null
     format: graphic
@@ -499,7 +499,7 @@ books:
   - order: 27
     title: "Chew Vol 10 Blood Puddin'"
     author: "John Layman"
-    pages: null
+    pages: 128
     date_started: null
     date_finished: null
     format: graphic
@@ -518,7 +518,7 @@ books:
   - order: 28
     title: "Chew Vol 11"
     author: "John Layman"
-    pages: null
+    pages: 144
     date_started: null
     date_finished: null
     format: graphic
@@ -537,7 +537,7 @@ books:
   - order: 29
     title: "Chew Vol 12"
     author: "John Layman"
-    pages: null
+    pages: 184
     date_started: null
     date_finished: null
     format: graphic
@@ -556,7 +556,7 @@ books:
   - order: 30
     title: "Beartooth"
     author: "Callan Wink"
-    pages: null
+    pages: 272
     date_started: null
     date_finished: null
     format: print
@@ -575,7 +575,7 @@ books:
   - order: 31
     title: "Raising Hare"
     author: "Chloe Dalton"
-    pages: null
+    pages: 285
     date_started: null
     date_finished: null
     format: audio
@@ -594,7 +594,7 @@ books:
   - order: 32
     title: "A Visit to Don Otavio"
     author: "Sybille Bedford"
-    pages: null
+    pages: 318
     date_started: null
     date_finished: null
     format: print
@@ -613,7 +613,7 @@ books:
   - order: 33
     title: "Salt Crystals"
     author: "Cristina Bendek"
-    pages: null
+    pages: 216
     date_started: null
     date_finished: null
     format: print
@@ -632,7 +632,7 @@ books:
   - order: 34
     title: "Perdido Street Station"
     author: "China Miéville"
-    pages: null
+    pages: 710
     date_started: null
     date_finished: null
     format: audio
@@ -651,7 +651,7 @@ books:
   - order: 35
     title: "Batman Noir The Long Halloween"
     author: "Jeph Loeb"
-    pages: null
+    pages: 384
     date_started: null
     date_finished: null
     format: graphic
@@ -670,7 +670,7 @@ books:
   - order: 36
     title: "Thud!"
     author: "Terry Pratchett"
-    pages: null
+    pages: 362
     date_started: null
     date_finished: null
     format: print
@@ -689,7 +689,7 @@ books:
   - order: 37
     title: "Americana (And The Act Of Getting Over It)"
     author: "Luke Healy"
-    pages: null
+    pages: 336
     date_started: null
     date_finished: null
     format: graphic
@@ -708,7 +708,7 @@ books:
   - order: 38
     title: "Crossroads of Ravens"
     author: "Andrzej Sapkowski"
-    pages: null
+    pages: 400
     date_started: null
     date_finished: null
     format: audio
@@ -727,7 +727,7 @@ books:
   - order: 39
     title: "Deadwood"
     author: "Peter Cozzens"
-    pages: null
+    pages: 432
     date_started: null
     date_finished: null
     format: audio
@@ -746,7 +746,7 @@ books:
   - order: 40
     title: "DMZ Vol 1 On the Ground"
     author: "Brian Wood"
-    pages: null
+    pages: 128
     date_started: null
     date_finished: null
     format: graphic
@@ -765,7 +765,7 @@ books:
   - order: 41
     title: "DMZ Vol 2 Body of a Journalist"
     author: "Brian Wood"
-    pages: null
+    pages: 165
     date_started: null
     date_finished: null
     format: graphic
@@ -784,7 +784,7 @@ books:
   - order: 42
     title: "DMZ Vol 3 Public Works"
     author: "Brian Wood"
-    pages: null
+    pages: 128
     date_started: null
     date_finished: null
     format: graphic
@@ -803,7 +803,7 @@ books:
   - order: 43
     title: "Tonyinterruptor"
     author: "Nicola Barker"
-    pages: null
+    pages: 224
     date_started: null
     date_finished: null
     format: print
@@ -822,7 +822,7 @@ books:
   - order: 44
     title: "Goodbye Tsugumi"
     author: "Banana Yoshimoto"
-    pages: null
+    pages: 192
     date_started: null
     date_finished: null
     format: print
@@ -841,7 +841,7 @@ books:
   - order: 45
     title: "Buried in the Sky"
     author: "Peter Zuckerman; Amanda Padoan"
-    pages: null
+    pages: 286
     date_started: null
     date_finished: null
     format: print
@@ -860,7 +860,7 @@ books:
   - order: 46
     title: "Lonesome Dove"
     author: "Larry McMurtry"
-    pages: null
+    pages: 858
     date_started: null
     date_finished: null
     format: audio
@@ -879,7 +879,7 @@ books:
   - order: 47
     title: "DMZ Vol 4 Friendly Fire"
     author: "Brian Wood"
-    pages: null
+    pages: 128
     date_started: null
     date_finished: null
     format: graphic
@@ -898,7 +898,7 @@ books:
   - order: 48
     title: "You Dreamed of Empires"
     author: "Álvaro Enrigue"
-    pages: null
+    pages: 240
     date_started: null
     date_finished: null
     format: print

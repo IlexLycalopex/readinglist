@@ -290,7 +290,7 @@ books:
   - order: 16
     title: "Spring"
     author: "Ali Smith"
-    pages: null
+    pages: 339
     date_started: "2023-06-17"
     date_finished: "2023-06-25"
     format: print
@@ -347,7 +347,7 @@ books:
   - order: 19
     title: "The Massive: Black Pacific"
     author: "Brian Wood"
-    pages: null
+    pages: 176
     date_started: null
     date_finished: null
     format: graphic
@@ -404,7 +404,7 @@ books:
   - order: 22
     title: "The Living Mountain"
     author: "Nan Shepherd"
-    pages: null
+    pages: 160
     date_started: null
     date_finished: null
     format: audio
@@ -423,7 +423,7 @@ books:
   - order: 23
     title: "Regenesis"
     author: "George Monbiot"
-    pages: null
+    pages: 352
     date_started: null
     date_finished: null
     format: audio
@@ -442,7 +442,7 @@ books:
   - order: 24
     title: "Wildwood"
     author: "Roger Deakin"
-    pages: null
+    pages: 416
     date_started: null
     date_finished: null
     format: audio
@@ -461,7 +461,7 @@ books:
   - order: 25
     title: "Northern Lights"
     author: "Philip Pullman"
-    pages: null
+    pages: 416
     date_started: null
     date_finished: null
     format: audio
@@ -480,7 +480,7 @@ books:
   - order: 26
     title: "Blood of Elves"
     author: "Andrzej Sapkowski"
-    pages: null
+    pages: 416
     date_started: null
     date_finished: null
     format: audio
@@ -499,7 +499,7 @@ books:
   - order: 27
     title: "Pipe Dreams"
     author: "Kelly Slater"
-    pages: null
+    pages: 338
     date_started: null
     date_finished: null
     format: audio
@@ -518,7 +518,7 @@ books:
   - order: 28
     title: "Ultra-Processed People"
     author: "Chris van Tulleken"
-    pages: null
+    pages: 376
     date_started: null
     date_finished: null
     format: audio
@@ -537,7 +537,7 @@ books:
   - order: 29
     title: "Terry Pratchett: A Life with Footnotes"
     author: "Rob Wilkins"
-    pages: null
+    pages: 448
     date_started: null
     date_finished: null
     format: audio
@@ -556,7 +556,7 @@ books:
   - order: 30
     title: "The Draw of the Sea"
     author: "Wyl Menmuir"
-    pages: null
+    pages: 304
     date_started: null
     date_finished: null
     format: audio
@@ -575,7 +575,7 @@ books:
   - order: 31
     title: "Rewilding the Sea"
     author: "Charles Clover"
-    pages: null
+    pages: 288
     date_started: null
     date_finished: null
     format: audio
@@ -594,7 +594,7 @@ books:
   - order: 32
     title: "The Treeline"
     author: "Ben Rawlence"
-    pages: null
+    pages: 320
     date_started: null
     date_finished: null
     format: audio
@@ -613,7 +613,7 @@ books:
   - order: 33
     title: "Ghosts of K2"
     author: "Mick Conefrey"
-    pages: null
+    pages: 317
     date_started: null
     date_finished: null
     format: audio
@@ -632,7 +632,7 @@ books:
   - order: 34
     title: "Dance Dance Dance"
     author: "Haruki Murakami"
-    pages: null
+    pages: 416
     date_started: null
     date_finished: null
     format: audio
@@ -651,7 +651,7 @@ books:
   - order: 35
     title: "The Old Ways"
     author: "Robert Macfarlane"
-    pages: null
+    pages: 432
     date_started: null
     date_finished: null
     format: audio

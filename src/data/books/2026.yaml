@@ -624,11 +624,11 @@ books:
     genre: "Comics & Graphic Novels"
     publisher: "Vertigo"
     cover_url: ""
-    isbn: ""
+    isbn: "9781781163603"
     description: ""
     tags: []
     notes: ""
     reading: true
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL31218372W"
       wikipedia: ""

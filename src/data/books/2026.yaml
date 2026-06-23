@@ -480,7 +480,7 @@ books:
   - order: 26
     title: "Blood Meridian"
     author: "Cormac McCarthy"
-    pages: null
+    pages: 351
     date_started: "2026-05-16"
     date_finished: null
     format: audio
@@ -500,7 +500,7 @@ books:
   - order: 27
     title: "On the Road"
     author: "Jack Kerouac"
-    pages: null
+    pages: 307
     date_started: null
     date_finished: null
     format: audio
@@ -520,7 +520,7 @@ books:
   - order: 28
     title: "Murder at the Black Cat Café"
     author: "Seishi Yokomizo"
-    pages: null
+    pages: 224
     date_started: "2026-05-24"
     date_finished: "2026-06-01"
     format: print
@@ -558,7 +558,7 @@ books:
   - order: 30
     title: "H(A)PPY"
     author: "Nicola Barker"
-    pages: null
+    pages: 304
     date_started: "2026-06-01"
     date_finished: "2026-06-22"
     format: print
@@ -577,7 +577,7 @@ books:
   - order: 31
     title: "An Estancia in Patagonia"
     author: "Norma MacKinnon"
-    pages: null
+    pages: 176
     date_started: "2026-06-01"
     date_finished: "2026-06-12"
     format: print
@@ -596,7 +596,7 @@ books:
   - order: 32
     title: "The Evol Algorithm"
     author: "K. M. Moke"
-    pages: null
+    pages: 416
     date_started: "2026-06-22"
     date_finished: null
     format: print
@@ -616,7 +616,7 @@ books:
   - order: 33
     title: "DMZ Vol 12 The Five Nations of New York"
     author: "Brian Wood"
-    pages: null
+    pages: 168
     date_started: "2026-06-23"
     date_finished: null
     format: graphic

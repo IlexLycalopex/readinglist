@@ -618,7 +618,7 @@ books:
     author: "Brian Wood"
     pages: 168
     date_started: "2026-06-23"
-    date_finished: null
+    date_finished: "2026-06-24"
     format: graphic
     year_published: 2012
     genre: "Comics & Graphic Novels"
@@ -628,7 +628,6 @@ books:
     description: ""
     tags: []
     notes: ""
-    reading: true
     links:
       openlibrary: "https://openlibrary.org/works/OL31218372W"
       wikipedia: ""

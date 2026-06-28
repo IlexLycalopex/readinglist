@@ -638,15 +638,15 @@ books:
     date_started: "2026-06-28"
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2025
+    genre: "Facebook (Electronic resource), Facebook (Web site)"
+    publisher: "Macmillan"
+    cover_url: "https://covers.openlibrary.org/b/id/14852090-L.jpg"
+    isbn: "1035065932"
     description: ""
     tags: []
     notes: ""
     reading: true
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL42735465W"
       wikipedia: ""

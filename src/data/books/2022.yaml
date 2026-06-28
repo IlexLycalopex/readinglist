@@ -9,12 +9,12 @@ books:
     date_started: "2021-12-30"
     date_finished: "2022-01-02"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2019
+    genre: "Biography & Autobiography"
+    publisher: "National Geographic Books"
+    cover_url: "https://books.google.com/books/content?id=z4WPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "Bring nature into your home with the inspiring true story of hope and the healing powers of the natural world, in one of the most talked about books of the decade FROM THE MILLION-COPY BESTSELLING AUTHOR 'This is what you need right now to muster hope and resilience . . . a beautiful story and a rem"
     tags: []
     notes: ""
     links:
@@ -24,16 +24,16 @@ books:
   - order: 2
     title: "The Unremembered Places"
     author: "Patrick Baker"
-    pages: null
+    pages: 224
     date_started: "2022-01-03"
     date_finished: "2022-01-14"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2020
+    genre: "Science"
+    publisher: "Birlinn"
+    cover_url: "https://books.google.com/books/content?id=b8TRDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "Shortlisted for the The Great Outdoors Awards – Outdoor Book of the Year 2020 Shortlisted for the Boardman Tasker Award for Mountain Literature 2020 There are strange relics hidden across Scotland's landscape: forgotten places that are touchstones to incredible stories and past lives which still res"
     tags: []
     notes: ""
     links:
@@ -47,16 +47,16 @@ books:
     date_started: "2022-01-15"
     date_finished: "2022-01-24"
     format: print
-    year_published: null
-    genre: null
+    year_published: 1965
+    genre: "Administration of estates, Married women"
     publisher: null
-    cover_url: ""
-    isbn: ""
+    cover_url: "https://covers.openlibrary.org/b/id/39754-L.jpg"
+    isbn: "9780553236910"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL2636665W"
       wikipedia: ""
 
   - order: 4
@@ -66,12 +66,12 @@ books:
     date_started: "2022-01-24"
     date_finished: "2022-01-31"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2013
+    genre: "History"
+    publisher: "National Geographic Books"
+    cover_url: "https://books.google.com/books/content?id=YMmMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "For decades, Colombia was the 'narcostate'. Now it's seen as one of the rising stars of the global economy. Where does the truth lie? How did a land likened to paradise by the first conquistadores become a byword for hell on earth? And how is it rebuilding itself after decades of violence? Writer an"
     tags: []
     notes: ""
     links:
@@ -85,16 +85,16 @@ books:
     date_started: "2022-02-01"
     date_finished: "2022-02-12"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2020
+    genre: "Climatic changes, Protest movements"
+    publisher: "Ponte alle Grazie"
+    cover_url: "https://covers.openlibrary.org/b/id/13827656-L.jpg"
+    isbn: "9782358721950"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL21684840W"
       wikipedia: ""
 
   - order: 6
@@ -104,16 +104,16 @@ books:
     date_started: "2022-02-12"
     date_finished: "2022-02-19"
     format: print
-    year_published: null
-    genre: null
-    publisher: "Charco"
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2020
+    genre: "Romance literature, New York Times reviewed"
+    publisher: "Charco Press"
+    cover_url: "https://covers.openlibrary.org/b/id/10179311-L.jpg"
+    isbn: "1916465668"
+    description: "Shortlisted for the International Booker Prize 2020 1872. The pampas of Argentina. China is a young woman eking out an existence in a remote gaucho encampment. After her no-good husband is conscripted into the army, China bolts for freedom, setting off on a wagon journey through the pampas in the co"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20862980W"
       wikipedia: ""
 
   - order: 7
@@ -123,16 +123,16 @@ books:
     date_started: "2022-02-19"
     date_finished: "2022-02-24"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2013
+    genre: "Dorset (england), description and travel, Trails"
+    publisher: "Faber & Faber"
+    cover_url: "https://covers.openlibrary.org/b/id/10837222-L.jpg"
+    isbn: "9780571302710"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL21066970W"
       wikipedia: ""
 
   - order: 8
@@ -142,16 +142,16 @@ books:
     date_started: "2022-02-25"
     date_finished: "2022-03-03"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1977
+    genre: "History, Scotland, social life and customs"
+    publisher: "Canongate"
+    cover_url: "https://covers.openlibrary.org/b/id/8072604-L.jpg"
+    isbn: "0903937417"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL5603835W"
       wikipedia: ""
 
   - order: 9
@@ -161,16 +161,16 @@ books:
     date_started: "2022-03-03"
     date_finished: "2022-03-13"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1996
+    genre: "Fiction, Wizards"
+    publisher: "HarperCollins"
+    cover_url: "https://covers.openlibrary.org/b/id/14649230-L.jpg"
+    isbn: "3442416310"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL453662W"
       wikipedia: ""
 
   - order: 10
@@ -180,12 +180,12 @@ books:
     date_started: "2022-03-13"
     date_finished: "2022-03-17"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2022
+    genre: "Fiction"
+    publisher: "Blackstone Publishing"
+    cover_url: "https://books.google.com/books/content?id=F_B8EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "In Evil Hour is the thrilling story about the smears, defamations, infidelities, and torrential rains that afflict a small Colombian town, and the sacrifice of a boy that brings torment and chaos to an end, from the masterful Gabriel García Márquez, author of One Hundred Years of Solitude and Love i"
     tags: []
     notes: "Stopped at p.135."
     links:
@@ -199,16 +199,16 @@ books:
     date_started: "2022-03-17"
     date_finished: "2022-03-29"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1998
+    genre: "Fiction, Wizards"
+    publisher: "HarperCollins"
+    cover_url: "https://covers.openlibrary.org/b/id/14645770-L.jpg"
+    isbn: "0061347434"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL453711W"
       wikipedia: ""
 
   - order: 12
@@ -218,16 +218,16 @@ books:
     date_started: "2022-03-30"
     date_finished: "2022-04-27"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2012
+    genre: "Steampunk fiction, Fiction, fantasy, general"
+    publisher: "Little, Brown"
+    cover_url: "https://covers.openlibrary.org/b/id/10305721-L.jpg"
+    isbn: "1429987294"
+    description: "This is the story of Harry Ransom. If you know his name it's most likely as the inventor of the Ransom Process, a stroke of genius that changed the world. Or you may have read about how he lost the battle of Jasper City, or won it, depending on where you stand in matters of politics. Friends called "
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL16695002W"
       wikipedia: ""
 
   - order: 13
@@ -237,16 +237,16 @@ books:
     date_started: "2022-04-28"
     date_finished: "2022-05-14"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1995
+    genre: "Comanche Indians, Woodrow Call (Fictitious character)"
+    publisher: "Orion"
+    cover_url: "https://covers.openlibrary.org/b/id/6601672-L.jpg"
+    isbn: "0671001167"
+    description: "In Dead Man's Walk, the prequel to the bestselling books, Lonesome Dove and Streets of Laredo, McMurtry dazzles readers once more with the early adventures of two of the most memorable heroes in contemporary fiction--Augustus McCrae and Woodrow Call. National ads/media."
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL134596W"
       wikipedia: ""
 
   - order: 14
@@ -256,16 +256,16 @@ books:
     date_started: "2022-05-06"
     date_finished: "2022-05-09"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2018
+    genre: "Romance literature, New York Times reviewed"
+    publisher: "Pushkin Press"
+    cover_url: "https://covers.openlibrary.org/b/id/10112533-L.jpg"
+    isbn: "125080020X"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20812009W"
       wikipedia: ""
 
   - order: 15
@@ -275,12 +275,12 @@ books:
     date_started: "2022-05-15"
     date_finished: "2022-05-18"
     format: print
-    year_published: null
-    genre: null
+    year_published: 2021
+    genre: "Fiction"
     publisher: "Granta Books"
-    cover_url: ""
+    cover_url: "https://books.google.com/books/content?id=8ikVEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "SHORTLISTED FOR THE INTERNATIONAL BOOKER PRIZE • “The lauded Argentine author of What We Lost in the Fire returns with enthralling stories conjured from literary sorcery” (O: The Oprah Magazine), in the tradition of Shirley Jackson and Jorge Luis Borges. KIRKUS PRIZE FINALIST • ONE OF THE BEST BOOKS"
     tags: []
     notes: ""
     links:
@@ -294,16 +294,16 @@ books:
     date_started: "2022-05-19"
     date_finished: "2022-05-22"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1999
+    genre: "English literature, nyt:combined-print-and-e-book-fiction=2022-04-24"
+    publisher: "Pan Macmillan"
+    cover_url: "https://covers.openlibrary.org/b/id/11465138-L.jpg"
+    isbn: "1529083494"
+    description: "NEW YORK TIMES BESTSELLER • The award-winning, best-selling author of Station Eleven and The Glass Hotel returns with a novel of art, time travel, love, and plague that takes the reader from Vancouver Island in 1912 to a dark colony on the moon five hundred years later, unfurling a story of humanity"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL24731706W"
       wikipedia: ""
 
   - order: 17
@@ -313,16 +313,16 @@ books:
     date_started: "2022-05-23"
     date_finished: "2022-06-15"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1987
+    genre: "Detective and mystery fiction, hard-boiled"
+    publisher: "Ediciones B"
+    cover_url: "https://covers.openlibrary.org/b/id/1474254-L.jpg"
+    isbn: "0446504483"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL553754W"
       wikipedia: ""
 
   - order: 18
@@ -332,16 +332,16 @@ books:
     date_started: "2022-06-06"
     date_finished: "2022-06-11"
     format: print
-    year_published: null
-    genre: null
+    year_published: 1960
+    genre: "American bison hunting, Western stories"
     publisher: null
-    cover_url: ""
-    isbn: ""
+    cover_url: "https://covers.openlibrary.org/b/id/8043198-L.jpg"
+    isbn: "9780839824510"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL3511457W"
       wikipedia: ""
 
   - order: 19
@@ -351,16 +351,16 @@ books:
     date_started: "2022-06-14"
     date_finished: "2022-06-18"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2020
+    genre: "Botany, Fungi"
+    publisher: "Penguin Random House"
+    cover_url: "https://covers.openlibrary.org/b/id/10152882-L.jpg"
+    isbn: "9780593209806"
+    description: "The smash-hit Sunday Times bestseller that will transform your understanding of our planet and life itself. 'Astonishing ... it seems somehow to tip the natural world upside down' Observer 'Completely mind-blowing ... reads like an adventure story' Sunday Times *WINNER OF THE ROYAL SOCIETY BOOK PRIZ"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20758206W"
       wikipedia: ""
 
   - order: 20
@@ -370,16 +370,16 @@ books:
     date_started: "2022-06-19"
     date_finished: "2022-06-29"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2019
+    genre: "Wilderness areas, Travel"
+    publisher: "Canongate"
+    cover_url: "https://covers.openlibrary.org/b/id/12402997-L.jpg"
+    isbn: "1786891565"
+    description: "There are still wild places out there on our crowded planet. Through a series of personal journeys, Dan Richards explores the appeal of far-flung outposts in mountains, tundra, forests, oceans and deserts. Following a route from the Cairngorms of Scotland to the fire-watch lookouts of Washington Sta"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL21199791W"
       wikipedia: ""
 
   - order: 21
@@ -389,16 +389,16 @@ books:
     date_started: "2022-06-30"
     date_finished: "2022-07-05"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2011
+    genre: "Large type books, Fiction"
+    publisher: "Ecco"
+    cover_url: "https://covers.openlibrary.org/b/id/7438807-L.jpg"
+    isbn: "0062041266"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL16190670W"
       wikipedia: ""
 
   - order: 22
@@ -408,16 +408,16 @@ books:
     date_started: "2022-07-05"
     date_finished: "2022-07-17"
     format: print
-    year_published: null
-    genre: null
+    year_published: 1995
+    genre: "Fiction, Discworld (Imaginary place)"
     publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    cover_url: "https://covers.openlibrary.org/b/id/14645771-L.jpg"
+    isbn: "9780552167635"
+    description: "'A lie can run round the world before the truth can get its boots on.' William de Worde has somehow found himself editor of Ankh-Morpork's first newspaper. Well, with a name like that . . . Launched into the world of investigative journalism, alongside reporter Sacharissa Cripslock, William soon lea"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL453693W"
       wikipedia: ""
 
   - order: 23
@@ -427,16 +427,16 @@ books:
     date_started: "2022-07-17"
     date_finished: "2022-07-27"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2020
+    genre: "Fiction, general, Mary, Blessed Virgin, Saint -- Apparitions and miracles -- Fiction"
+    publisher: "Charco Press"
+    cover_url: "https://covers.openlibrary.org/b/id/10190897-L.jpg"
+    isbn: "1999722701"
+    description: "“Queer writing at its most exhilarating.” —Times Literary Supplement The slums of Buenos Aires, the government, the mafia, the Virgin Mary, corrupt police, sex workers, thieves, drug dealers, and debauchery all combine in this sweeping novel deemed a ‘revelation for contemporary literature’ and ‘pur"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20871117W"
       wikipedia: ""
 
   - order: 24
@@ -446,16 +446,16 @@ books:
     date_started: "2022-07-27"
     date_finished: "2022-08-11"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1983
+    genre: "Description and travel, Travel"
+    publisher: "Rider & Co"
+    cover_url: "https://covers.openlibrary.org/b/id/393018-L.jpg"
+    isbn: "9781844130481"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL15557W"
       wikipedia: ""
 
   - order: 25
@@ -465,16 +465,16 @@ books:
     date_started: "2022-08-12"
     date_finished: "2022-08-13"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2020
+    genre: "Fiction, fantasy, dark fantasy"
+    publisher: "Tor"
+    cover_url: "https://covers.openlibrary.org/b/id/10151919-L.jpg"
+    isbn: "1250260515"
+    description: "An award-winning author's humorous dark fantasy novella about demonic possession. In a botched demonic extraction, they say the demon feels it ten times worse than the man. But they don't die, and we do. Equilibrium. The unnamed and morally questionable narrator is an exorcist with great follow-thro"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20842951W"
       wikipedia: ""
 
   - order: 26
@@ -484,16 +484,16 @@ books:
     date_started: "2022-08-14"
     date_finished: "2022-08-16"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2006
+    genre: "Railroad construction workers, Fiction"
+    publisher: "Granta Books"
+    cover_url: "https://covers.openlibrary.org/b/id/7079698-L.jpg"
+    isbn: "3499237709"
+    description: "A New York Times Notable Book for 2011 One of The Economist's 2011 Books of the Year One of NPR's 10 Best Novels of 2011 From the National Book Award-winning author Denis Johnson (Tree of Smoke) comes Train Dreams, an epic in miniature, and one of Johnson's most evocative works of fiction. Suffused "
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL15916948W"
       wikipedia: ""
 
   - order: 27
@@ -503,16 +503,16 @@ books:
     date_started: "2022-08-18"
     date_finished: "2022-08-23"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1993
+    genre: "Fiction"
+    publisher: "Everyman"
+    cover_url: "https://covers.openlibrary.org/b/id/97157-L.jpg"
+    isbn: "9780140181760"
+    description: "In his first novel, Saint-Exup ry pays homage to \"those elemental divinities-night, day, mountain, sea, and storm,\" turning an account of a routine mail flight from France to North Africa into an epic rendering of the pioneer days of commercial aviation. The book is also a poignant reminiscence of a"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL10269W"
       wikipedia: ""
 
   - order: 28
@@ -522,16 +522,16 @@ books:
     date_started: "2022-08-25"
     date_finished: "2022-09-10"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1998
+    genre: "Discworld (Imaginary place), Fiction"
+    publisher: "ISIS Audio"
+    cover_url: "https://covers.openlibrary.org/b/id/14646440-L.jpg"
+    isbn: "1407035177"
+    description: "King Verence, in a fit of enlightened democracy and ebullient goodwill, invites Uberwald's undead, the Magpyrs, into Lancre to celebrate the birth of his daughter. But everyone knows you don't invite vampires into your house—unless you want permanent guests. Once ensconced within the castle, these w"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL453671W"
       wikipedia: ""
 
   - order: 29
@@ -541,16 +541,16 @@ books:
     date_started: "2022-08-11"
     date_finished: "2022-09-14"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2017
+    genre: "Interpersonal relations, Christmas stories"
+    publisher: "Hamish Hamilton"
+    cover_url: "https://covers.openlibrary.org/b/id/9114500-L.jpg"
+    isbn: "9780241207031"
+    description: "From Man Booker Prize Finalist Ali Smith, Winter is the second novel in her Seasonal Quartet. This much-anticipated follow-up to Autumn is one of the Best Books of the Year from the New York Public Library. “A stunning meditation on a complex, emotional moment in history.” —Time Winter. Bleak. Frost"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL19727014W"
       wikipedia: ""
 
   - order: 30
@@ -560,16 +560,16 @@ books:
     date_started: "2022-09-15"
     date_finished: "2022-09-23"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1984
+    genre: "Fiction, Circus"
+    publisher: "Vintage"
+    cover_url: "https://covers.openlibrary.org/b/id/7476202-L.jpg"
+    isbn: "9780140077032"
+    description: "Angela Carter has invented a new, raucous, Cockney voice for her heroine Fevvers, taking us back into a rich, turn of the 19th century world, which reeks of human and animal variety."
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL697429W"
       wikipedia: ""
 
   - order: 31
@@ -579,16 +579,16 @@ books:
     date_started: "2022-09-24"
     date_finished: "2022-09-27"
     format: print
-    year_published: null
-    genre: null
+    year_published: 1997
+    genre: "British, Fiction"
     publisher: "Eland"
-    cover_url: ""
-    isbn: ""
-    description: ""
+    cover_url: "https://books.google.com/books/content?id=TL0JaAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    isbn: "9789505151622"
+    description: "This title is a celebration of Argentina, which chronicles the rise and fall of the British colony in the '20s and '30s through the imaginative biography of one of its charismatic representatives - a hard-drinking, womanising Scotsman, who cut his way through the bars and brothels of the city whilst"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL727458W"
       wikipedia: ""
 
   - order: 32
@@ -598,16 +598,16 @@ books:
     date_started: "2022-09-28"
     date_finished: "2022-10-01"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2012
+    genre: "Family secrets, Crime"
+    publisher: "Vintage"
+    cover_url: "https://covers.openlibrary.org/b/id/9807268-L.jpg"
+    isbn: "1447280075"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL16239866W"
       wikipedia: ""
 
   - order: 33
@@ -617,16 +617,16 @@ books:
     date_started: "2022-10-02"
     date_finished: "2022-10-10"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1991
+    genre: "Backpacking, Description and travel"
+    publisher: "Century"
+    cover_url: "https://covers.openlibrary.org/b/id/7011522-L.jpg"
+    isbn: "9780712635820"
+    description: "When John Pilkington journeyed through Patagonia, he found that being Patagonian is more a matter of how you feel than where you live. Patagonians are resolute dreamers, and as he meets the Welsh and Scottish settlers, the Nazi refugees and the hippy exiles he meditates on what it is that drives peo"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL3808527W"
       wikipedia: ""
 
   - order: 34
@@ -636,16 +636,16 @@ books:
     date_started: "2022-10-11"
     date_finished: "2022-10-11"
     format: print
-    year_published: null
-    genre: null
-    publisher: "Charco"
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2019
+    genre: "Fiction"
+    publisher: "Charco Press"
+    cover_url: "https://covers.openlibrary.org/b/id/10197074-L.jpg"
+    isbn: "9781916465633"
+    description: "A taut, lyrical portrait of four people thrown together on a single day in rural Argentina The Wind That Lays Waste begins in the great pause before a storm. Reverend Pearson is evangelizing across the Argentinian countryside with Leni, his teenage daughter, when their car breaks down. This act of G"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20875267W"
       wikipedia: ""
 
   - order: 35
@@ -655,16 +655,16 @@ books:
     date_started: "2022-10-12"
     date_finished: "2022-10-20"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1949
+    genre: "Fiction, Frontier and pioneer life"
+    publisher: "W. Sloane Associates"
+    cover_url: "https://covers.openlibrary.org/b/id/256261-L.jpg"
+    isbn: "9780896215955"
+    description: "Not many people in Midbury especially liked F. Y. Grimsley, a rancher with twenty thousand acres and five hundred head of cattle. Still, when Grimsley is found dead on his back doorstep with a mysterious gash on his head, Chief Chick Charleston and his crew have to use their dusty detective skills t"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL2944434W"
       wikipedia: ""
 
   - order: 36
@@ -674,12 +674,12 @@ books:
     date_started: "2022-10-21"
     date_finished: "2022-10-22"
     format: print
-    year_published: null
-    genre: null
-    publisher: "Charco"
-    cover_url: ""
+    year_published: 2020
+    genre: "Fiction"
+    publisher: "Charco Press"
+    cover_url: "https://books.google.com/books/content?id=dTH7DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "Author of International Booker Finalist Not a River Internationally acclaimed author of Not a River , Selva Almada tackles the issue of gender violence in this hybrid work that follows in the tradition of Truman Capote's In Cold Blood or John Hersey's Hiroshima .Evoking with intimate first-hand know"
     tags: []
     notes: ""
     links:
@@ -693,16 +693,16 @@ books:
     date_started: "2022-10-22"
     date_finished: "2022-10-22"
     format: print
-    year_published: null
-    genre: null
-    publisher: "Fitzcarraldo"
-    cover_url: ""
-    isbn: ""
+    year_published: 2005
+    genre: "Fiction, general, English literature"
+    publisher: "Fitzcarraldo Editions"
+    cover_url: "https://covers.openlibrary.org/b/id/15149654-L.jpg"
+    isbn: "0571217052"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL29342274W"
       wikipedia: ""
 
   - order: 38
@@ -712,16 +712,16 @@ books:
     date_started: "2022-10-23"
     date_finished: "2022-10-26"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2021
+    genre: "American literature"
+    publisher: "HarperCollins"
+    cover_url: "https://covers.openlibrary.org/b/id/10864235-L.jpg"
+    isbn: "0063066629"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL24341025W"
       wikipedia: ""
 
   - order: 39
@@ -731,35 +731,35 @@ books:
     date_started: "2022-10-26"
     date_finished: "2022-10-31"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2018
+    genre: "Missing persons, Fiction"
+    publisher: "HarperCollins"
+    cover_url: "https://covers.openlibrary.org/b/id/8745649-L.jpg"
+    isbn: "9780062844132"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL19754703W"
       wikipedia: ""
 
   - order: 40
     title: "Pond"
     author: "Claire-Louise Bennett"
-    pages: null
+    pages: 184
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: "Fitzcarraldo"
-    cover_url: ""
-    isbn: ""
+    year_published: 2015
+    genre: "Young women, Fiction"
+    publisher: "Fitzcarraldo Editions"
+    cover_url: "https://covers.openlibrary.org/b/id/12851545-L.jpg"
+    isbn: "1910695092"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL20032810W"
       wikipedia: ""
 
   - order: 41
@@ -771,9 +771,9 @@ books:
     format: print
     year_published: null
     genre: null
-    publisher: "Charco"
-    cover_url: ""
-    isbn: ""
+    publisher: "Charco Press"
+    cover_url: "https://covers.openlibrary.org/b/isbn/9781916277861-L.jpg"
+    isbn: "9781916277861"
     description: ""
     tags: []
     notes: ""
@@ -784,111 +784,111 @@ books:
   - order: 42
     title: "The Living Mountain"
     author: "Nan Shepherd"
-    pages: null
+    pages: 160
     date_started: "2022-01-02"
     date_finished: "2022-01-04"
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1977
+    genre: "Great britain, history, Natural history"
+    publisher: "Aberdeen University Press"
+    cover_url: "https://covers.openlibrary.org/b/id/10665302-L.jpg"
+    isbn: "1847674240"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL12862894W"
       wikipedia: ""
 
   - order: 43
     title: "The Last Wish"
     author: "Andrzej Sapkowski"
-    pages: null
+    pages: 288
     date_started: "2022-01-05"
     date_finished: "2022-01-13"
     format: audio
-    year_published: null
-    genre: null
+    year_published: 2022
+    genre: "Fiction, fantasy, general"
     publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    cover_url: "https://books.google.com/books/content?id=XK2aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    isbn: "9781637999134"
+    description: "Geralt is a witcher, a man whose magic powers, enhanced by long training and a mysterious elixir, have made him a brilliant fighter and a merciless assassin. Yet he is no ordinary murderer: his targets are the multifarious monsters and vile fiends that ravage the land and attack the innocent. He roa"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL42560110W"
       wikipedia: ""
 
   - order: 44
     title: "Sword of Destiny"
     author: "Andrzej Sapkowski"
-    pages: null
+    pages: 400
     date_started: "2022-01-14"
     date_finished: "2022-01-27"
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2019
+    genre: "Fiction"
+    publisher: "Gollancz"
+    cover_url: "https://covers.openlibrary.org/b/id/11102583-L.jpg"
+    isbn: "912359795X"
+    description: "Geralt the Witcher battles monsters, demons and prejudices alike in Sword of Destiny, the second collection of adventures in Andrzej Sapkowski’s groundbreaking epic fantasy series that inspired the Netflix show and the hit video games. The New York Times Bestselling Series Over Fifteen Million Copie"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL24487194W"
       wikipedia: ""
 
   - order: 45
     title: "How High We Go in the Dark"
     author: "Sequoia Nagamatsu"
-    pages: null
+    pages: 304
     date_started: "2022-01-27"
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2022
+    genre: "American literature, Virus diseases"
+    publisher: "HarperCollins"
+    cover_url: "https://covers.openlibrary.org/b/id/11070804-L.jpg"
+    isbn: "1526637197"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL24465533W"
       wikipedia: ""
 
   - order: 46
     title: "Chasing the Scream"
     author: "Johann Hari"
-    pages: null
+    pages: 400
     date_started: null
     date_finished: "2022-02-17"
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2015
+    genre: "Drug traffic, History"
+    publisher: "Bloomsbury"
+    cover_url: "https://covers.openlibrary.org/b/id/12622416-L.jpg"
+    isbn: "1408857839"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL17104285W"
       wikipedia: ""
 
   - order: 47
     title: "The Last Great Mountain"
     author: "Mick Conefrey"
-    pages: null
+    pages: 324
     date_started: "2022-02-01"
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
+    year_published: 2020
+    genre: "Biography & Autobiography"
     publisher: null
-    cover_url: ""
+    cover_url: "https://books.google.com/books/content?id=36KCzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "The Last Great Mountain tells the story of the first ascent of Kangchenjunga the third highest but reputedly the hardest mountain in the world. It was an astonishing achievement for a British team led by Everest veteran Charles Evans. Drawing on interviews, diaries and unpublished accounts, Mick Con"
     tags: []
     notes: ""
     links:
@@ -898,77 +898,77 @@ books:
   - order: 48
     title: "The Honorary Consul"
     author: "Graham Greene"
-    pages: null
+    pages: 272
     date_started: "2022-02-18"
     date_finished: "2022-02-28"
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1973
+    genre: "Fiction, Diplomats"
+    publisher: "Penguin Random House"
+    cover_url: "https://covers.openlibrary.org/b/id/5343587-L.jpg"
+    isbn: "9780434305711"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL105977W"
       wikipedia: ""
 
   - order: 49
     title: "The Return of the King"
     author: "J.R.R. Tolkien"
-    pages: null
+    pages: 544
     date_started: null
     date_finished: "2022-03-28"
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1950
+    genre: "Elves, Hobbits"
+    publisher: "HarperCollins"
+    cover_url: "https://covers.openlibrary.org/b/id/14627062-L.jpg"
+    isbn: "9780345332097"
+    description: "Begin your journey into Middle-earth. The inspiration for the upcoming original series on Prime Video, The Lord of the Rings: The Rings of Power. The Return of the King is the third part of J.R.R. Tolkien’s epic adventure The Lord of the Rings. One Ring to rule them all, One Ring to find them, One R"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL27455W"
       wikipedia: ""
 
   - order: 50
     title: "Kleptopia"
     author: "Tom Burgis"
-    pages: null
+    pages: 336
     date_started: "2022-03-28"
     date_finished: "2022-04-04"
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2020
+    genre: "History, modern, 21st century, Political corruption"
+    publisher: "HarperCollins"
+    cover_url: "https://covers.openlibrary.org/b/id/10916280-L.jpg"
+    isbn: "0062883674"
+    description: "A Washington Post Notable Book of the Year • An Economist Book of the Year \"A must-read for anyone wanting to better understand what has already happened here in America and what lies ahead if Trump is reelected in November.... A magisterial account of the money and violence behind the world's most "
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL21650130W"
       wikipedia: ""
 
   - order: 51
     title: "Anathem"
     author: "Neal Stephenson"
-    pages: null
+    pages: 937
     date_started: "2022-04-05"
     date_finished: "2022-04-30"
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2008
+    genre: "Monasteries, Philosophy"
+    publisher: "HarperCollins"
+    cover_url: "https://covers.openlibrary.org/b/id/6304233-L.jpg"
+    isbn: "364104412X"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL14911626W"
       wikipedia: ""
 
   - order: 52
@@ -981,8 +981,8 @@ books:
     year_published: null
     genre: null
     publisher: null
-    cover_url: ""
-    isbn: ""
+    cover_url: "https://covers.openlibrary.org/b/isbn/9781713547426-L.jpg"
+    isbn: "9781713547426"
     description: ""
     tags: []
     notes: "Author unknown — needs review."
@@ -993,149 +993,149 @@ books:
   - order: 53
     title: "Barbarian Days"
     author: "William Finnegan"
-    pages: null
+    pages: 447
     date_started: "2022-05-03"
     date_finished: "2022-05-15"
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2015
+    genre: "Biography, Surfers"
+    publisher: "Penguin Random House"
+    cover_url: "https://covers.openlibrary.org/b/id/7901808-L.jpg"
+    isbn: "9781594203473"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL17625868W"
       wikipedia: ""
 
   - order: 54
     title: "The Master and Margarita"
     author: "Mikhail Bulgakov"
-    pages: null
+    pages: 448
     date_started: "2022-05-15"
     date_finished: "2022-05-28"
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 1967
+    genre: "Fiction"
+    publisher: "Signet"
+    cover_url: "https://covers.openlibrary.org/b/id/15013644-L.jpg"
     isbn: ""
-    description: ""
+    description: "Introduction by Simon Franklin; Translation by Michael Glenny \"From the Hardcover edition.\""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL36999384W"
       wikipedia: ""
 
   - order: 55
     title: "Dead Souls"
     author: "Nikolai Gogol"
-    pages: null
+    pages: 512
     date_started: "2022-05-29"
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1942
+    genre: "Fiction, historical, general, Russia (federation), fiction"
+    publisher: "Holt, Rinehart and Winston"
+    cover_url: "https://covers.openlibrary.org/b/id/7496125-L.jpg"
+    isbn: "9798629491583"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL17396611W"
       wikipedia: ""
 
   - order: 56
     title: "Above the Clouds"
     author: "Kilian Jornet"
-    pages: null
+    pages: 240
     date_started: null
     date_finished: "2022-06-27"
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2020
+    genre: "Recreation, Mountaineering"
+    publisher: "HarperCollins"
+    cover_url: "https://covers.openlibrary.org/b/id/10525684-L.jpg"
+    isbn: "000841212X"
+    description: "\"Kilian Jornet is the most dominating endurance athlete of his generation.\"—NEW YORK TIMES \"Inspiring and humbling\"— ALEX HONNOLD The most accomplished mountain runner of all time contemplates his record-breaking climbs of Mount Everest in this profound memoir—an intellectual and spiritual journey t"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL21865742W"
       wikipedia: ""
 
   - order: 57
     title: "The Captured"
     author: "Scott Zesch"
-    pages: null
+    pages: 384
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2004
+    genre: "Social life and customs, Comanche Indians"
+    publisher: "St. Martin's Press"
+    cover_url: "https://covers.openlibrary.org/b/id/179674-L.jpg"
+    isbn: "1429910119"
     description: ""
     tags: ["june/july 2022"]
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL1967845W"
       wikipedia: ""
 
   - order: 58
     title: "Waterlog"
     author: "Roger Deakin"
-    pages: null
+    pages: 368
     date_started: "2022-07-15"
     date_finished: "2022-08-27"
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1999
+    genre: "Swimming, Great britain, description and travel"
+    publisher: "Tin House Books"
+    cover_url: "https://covers.openlibrary.org/b/id/71712-L.jpg"
+    isbn: "0701166525"
+    description: "A Mother Jones Best Book of the Year \"A beautiful ode to the act of swimming outdoors. . . . Deakin’s insistence on wild swimming for all is really an insistence on a better ecosystem for all.\" —The Atlantic A masterpiece of nature writing, Roger Deakin’s Waterlog is a fascinating and inspiring jour"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL7920086W"
       wikipedia: ""
 
   - order: 59
     title: "From a Mountain in Tibet"
     author: "Yeshe Losal Rinpoche"
-    pages: null
+    pages: 272
     date_started: "2022-08-27"
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2020
+    genre: "Biography & Autobiography"
+    publisher: "Penguin Random House"
+    cover_url: "https://books.google.com/books/content?id=gbveDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    isbn: "0241988950"
+    description: "Lama Yeshe didn't see a car until he was fifteen. But everything changed with the arrival of Chinese army vehicles in 1959. In the wake of the deadly Tibetan Uprising, he escaped to India through the Himalayas as one of only 13 survivors out of 300 refugees. Now in his seventies and a leading monk a"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL26350796W"
       wikipedia: ""
 
   - order: 60
     title: "The Calling"
     author: "Barry Blanchard"
-    pages: null
+    pages: 432
     date_started: "2022-09-10"
     date_finished: "2022-12-31"
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2014
+    genre: "Sports & Recreation"
+    publisher: "Patagonia"
+    cover_url: "https://books.google.com/books/content?id=IgLnBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "With heart-pounding descriptions of avalanches and treacherous ascents, Barry Blanchard chronicles his transformation from a poor Metis (half-breed) kid from the wrong side of the tracks to one of the most respected alpinists in the world. He describes early climbs attempted with nothing to guide hi"
     tags: []
     notes: ""
     links:

@@ -110,7 +110,7 @@ const printCount = allBooks.filter((b) => b.format === 'print').length;
         <div class="bar-chart">
           {prolificAuthors.map((a) => (
             <div class="bar-row">
-              <span class="bar-row__label" style="width:9rem;text-align:left;font-size:0.78rem;color:var(--text-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{a.name}</span>
+              <span class="bar-row__label bar-row__label--wide">{a.name}</span>
               <div class="bar-row__track">
                 <div class="bar-row__fill" style={`width:${(a.bookCount / prolificAuthors[0].bookCount) * 100}%`}></div>
               </div>
@@ -128,7 +128,7 @@ const printCount = allBooks.filter((b) => b.format === 'print').length;
         <div class="bar-chart">
           {topGenres.map(([genre, count]) => (
             <div class="bar-row">
-              <span class="bar-row__label" style="width:9rem;text-align:left;font-size:0.78rem;color:var(--text-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{genre}</span>
+              <span class="bar-row__label bar-row__label--wide">{genre}</span>
               <div class="bar-row__track">
                 <div class="bar-row__fill" style={`width:${(count / maxGenreCount) * 100}%; background: var(--accent-graphic)`}></div>
               </div>

@@ -27,6 +27,8 @@ jobs:
 
       - name: Fetch book metadata
         run: npm run fetch-metadata
+        env:
+          GOOGLE_BOOKS_API_KEY: ${{ secrets.GOOGLE_BOOKS_API_KEY }}
 
       - name: Commit metadata updates
         run: |
@@ -35,6 +37,7 @@ jobs:
           git add src/data/books/
           if ! git diff --staged --quiet; then
             git commit -m "chore: update book metadata [skip ci]"
+            git pull --rebase origin main
             git push
           fi
 

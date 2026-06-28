@@ -9,16 +9,16 @@ books:
     date_started: "2023-12-09"
     date_finished: "2024-02-15"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2023
+    genre: "Fiction"
+    publisher: "New Directions"
+    cover_url: "https://covers.openlibrary.org/b/id/13874315-L.jpg"
+    isbn: "9780811231299"
+    description: "From the winner of the Prix Goncourt, an exciting comic masterwork rooted in the French countryside. WINNER OF THE 2024 FRENCH-AMERICAN FOUNDATION TRANSLATION PRIZE LONGLISTED FOR THE 2024 NATIONAL TRANSLATION AWARD IN PROSE To research his thesis on contemporary agrarian life, anthropology student "
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL34502991W"
       wikipedia: ""
 
   - order: 2
@@ -28,12 +28,12 @@ books:
     date_started: "2024-01-16"
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2023
+    genre: "Biography & Autobiography"
+    publisher: "Penguin Random House"
+    cover_url: "https://books.google.com/books/content?id=3MluEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "BEST BOOK OF 2023 ACCORDING TO THE NEWSTATESMAN AND OBSERVER 'The Swimmer is a wonderful, original achievement; teeming with stories, glittering with images, and experimental in form and tone' Robert Macfarlane Roger Deakin, author of the immortal Waterlog, was a man of many parts: maverick ad-man, "
     tags: []
     notes: ""
     links:
@@ -43,35 +43,35 @@ books:
   - order: 3
     title: "Fair Land Fair Land"
     author: "A.B. Guthrie Jr."
-    pages: null
+    pages: 262
     date_started: null
     date_finished: "2024-07-06"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1988
+    genre: "Literary collections, Environmental literature"
+    publisher: "Northland Publishing"
+    cover_url: "https://covers.openlibrary.org/b/id/9052640-L.jpg"
+    isbn: "0873584643"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL2944425W"
       wikipedia: ""
 
   - order: 4
     title: "The Rooftop"
     author: "Fernanda Trías"
-    pages: null
+    pages: 112
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2021
+    genre: "Fiction"
+    publisher: "Charco Press"
+    cover_url: "https://books.google.com/books/content?id=tHw8EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "In a rundown apartment building, in an unnamed city in Uruguay, a father and daughter close themselves off from the world. \"The world is this house,\" says Clara, and the rooftop becomes their last recess of freedom. A pet canary is their only witness. As Clara’s connection to the outside is stripped"
     tags: []
     notes: ""
     links:
@@ -81,20 +81,20 @@ books:
   - order: 5
     title: "Raising Steam"
     author: "Terry Pratchett"
-    pages: null
+    pages: 380
     date_started: null
     date_finished: "2024-08-22"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2013
+    genre: "Discworld (Imaginary place), Fiction, fantasy, epic"
+    publisher: "Corgi"
+    cover_url: "https://covers.openlibrary.org/b/id/14646849-L.jpg"
+    isbn: "9781467671279"
+    description: "NEW YORK TIMES BESTSELLER • The international bestselling author of the hilarious Discworld series—a writer who’s been compared to Mark Twain and Kurt Vonnegut—introduces the first steam engine into his complex, zany fantasy world. “Everything that makes Pratchett one of the world’s most delightful "
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL17079157W"
       wikipedia: ""
 
   - order: 6
@@ -104,16 +104,16 @@ books:
     date_started: "2024-08-23"
     date_finished: "2024-08-24"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2024
+    genre: "Fiction"
+    publisher: "Graywolf Press"
+    cover_url: "https://books.google.com/books/content?id=1HzTEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    isbn: "9781644452868"
+    description: "* SHORTLISTED FOR THE 2024 INTERNATIONAL BOOKER PRIZE * It’s not a river, it’s this river. A hot, motionless afternoon. Enero and El Negro are fishing with Tilo, their dead friend’s teenage son. After hours of struggling with a hooked stingray, Enero aims his revolver into the water and shoots it. T"
     tags: []
     notes: "🔥🔥"
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL37857050W"
       wikipedia: ""
 
   - order: 7
@@ -126,8 +126,8 @@ books:
     year_published: null
     genre: null
     publisher: null
-    cover_url: ""
-    isbn: ""
+    cover_url: "https://m.media-amazon.com/images/I/61ci4PkLsIL._AC_UF894,1000_QL80_.jpg"
+    isbn: "9798321623527"
     description: ""
     tags: []
     notes: ""
@@ -138,58 +138,58 @@ books:
   - order: 8
     title: "Surrender"
     author: "Joanna Pocock"
-    pages: null
+    pages: 340
     date_started: "2024-09-15"
     date_finished: "2024-10-11"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2019
+    genre: "English literature, Travel"
+    publisher: "House of Anansi Press"
+    cover_url: "https://covers.openlibrary.org/b/id/14710676-L.jpg"
+    isbn: "9781487007249"
+    description: "Blending personal memoir with reportage,Surrender is a narrative nonfiction work on the changing landscape of the West and the scavenger, rewilder and Ecosexual communities, inspired by a two-year stay in Montana. In the style of Barry Lopez and Annie Dillard, Joanna Pocock, the winner of the 2018 F"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL21334272W"
       wikipedia: ""
 
   - order: 9
     title: "The Book of Elsewhere"
     author: "Keanu Reeves; China Miéville"
-    pages: null
+    pages: 352
     date_started: "2024-10-12"
     date_finished: "2024-10-30"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2024
+    genre: "Fiction, science fiction, general, Science fiction"
+    publisher: "Oceano"
+    cover_url: "https://covers.openlibrary.org/b/id/14647296-L.jpg"
+    isbn: "9781420518726"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL37570368W"
       wikipedia: ""
 
   - order: 10
     title: "September and the Night"
     author: "Maica Rafecas"
-    pages: null
+    pages: 150
     date_started: "2024-10-31"
     date_finished: "2024-11-09"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2023
+    genre: "Romance literature"
+    publisher: "Fum D'Estampa Press"
+    cover_url: "https://books.google.com/books/content?id=qN2FzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    isbn: "9781913744458"
+    description: "A moving story about environment, family and the paths ever leading us back home."
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL35708434W"
       wikipedia: ""
 
   - order: 11
@@ -199,126 +199,126 @@ books:
     date_started: null
     date_finished: "2024-11-26"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2007
+    genre: "Postal service, Discworld (Imaginary place)"
+    publisher: "Penguin Random House"
+    cover_url: "https://covers.openlibrary.org/b/id/14645701-L.jpg"
+    isbn: "9780061795893"
+    description: "It s an offer you can t refuse.Who would not to wish to be the man in charge of Ankh-Morpork s Royal Mint and the bank next door?It s a job for life. But, as former con-man Moist von Lipwig is learning, the life is not necessarily for long.Th"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL453907W"
       wikipedia: ""
 
   - order: 12
     title: "The Complete Western Stories of Elmore Leonard"
     author: "Elmore Leonard"
-    pages: null
+    pages: 544
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2004
+    genre: "Open Library Staff Picks, Western stories"
+    publisher: "HarperCollins"
+    cover_url: "https://covers.openlibrary.org/b/id/32811-L.jpg"
+    isbn: "006079853X"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL111661W"
       wikipedia: ""
 
   - order: 13
     title: "Doppelganger"
     author: "Naomi Klein"
-    pages: null
+    pages: 416
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2023
+    genre: "nyt:combined-print-and-e-book-nonfiction=2023-10-01, New York Times bestseller"
+    publisher: "Paidós"
+    cover_url: "https://covers.openlibrary.org/b/id/14377472-L.jpg"
+    isbn: "9788449341892"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL35713502W"
       wikipedia: ""
 
   - order: 14
     title: "Lady Joker"
     author: "Kaoru Takamura"
-    pages: null
+    pages: 600
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2022
+    genre: "Fiction"
+    publisher: "John Murray"
+    cover_url: "https://covers.openlibrary.org/b/id/14760077-L.jpg"
+    isbn: "9781529394221"
+    description: "One of Japan’s great modern masters, Kaoru Takamura, makes her English-language debut with this two-volume publication of her magnum opus. Tokyo, 1995. Five men meet at the racetrack every Sunday to bet on horses. They have little in common except a deep disaffection with their lives, but together t"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL26350107W"
       wikipedia: ""
 
   - order: 15
     title: "Meet Me at the Surface"
     author: "Jodie Matthews"
-    pages: null
+    pages: 304
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2024
+    genre: "English literature"
+    publisher: "HarperCollins"
+    cover_url: "https://books.google.com/books/content?id=veK4zwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    isbn: "0008585059"
+    description: "A haunting ode to Cornish folklore and the secrets of the places we call home 'This powerfully brutal novel is the most exciting thing I've read in years' S. J. WATSON 'A strange and beautiful novel' OBSERVER 'A book where language feels like hands reaching into the soil, where landscapes feel alive"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL37584812W"
       wikipedia: ""
 
   - order: 16
     title: "The Crossing"
     author: "Cormac McCarthy"
-    pages: null
+    pages: 432
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1994
+    genre: "Lobos, Wilderness areas"
+    publisher: "Vintage"
+    cover_url: "https://covers.openlibrary.org/b/id/6999576-L.jpg"
+    isbn: "0756980097"
+    description: "NATIONAL BESTSELLER • The second volume of the award-winning Border Trilogy—From the bestselling author of The Passenger and the Pulitzer Prize–winning novel The Road—fulfills the promise of All the Pretty Horses and at the same time give us a work that is darker and more visionary, a novel with the"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL40883W"
       wikipedia: ""
 
   - order: 17
     title: "The Heart in Winter"
     author: "Kevin Barry"
-    pages: null
+    pages: 256
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2025
+    genre: "Fiction"
+    publisher: "Penguin Random House"
+    cover_url: "https://books.google.com/books/content?id=sjFOEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "SHORTLISTED FOR THE WALTER SCOTT PRIZE FOR HISTORICAL FICTION • A BEST BOOK OF THE YEAR FROM THE ECONOMIST AND STAR TRIBUNE • Award-winning writer Kevin Barry’s first novel set in America, a savagely funny and achingly romantic tale of young lovers on the lam in 1890s Montana. “An absolute belter of"
     tags: []
     notes: ""
     links:
@@ -328,54 +328,54 @@ books:
   - order: 18
     title: "Atomic Habits"
     author: "James Clear"
-    pages: null
+    pages: 320
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2016
+    genre: "Habit, Habit breaking"
+    publisher: "Paidós"
+    cover_url: "https://covers.openlibrary.org/b/id/12539702-L.jpg"
+    isbn: "9786020667188"
+    description: "நீங்கள் உங்கள் வாழ்க்கையை மாற்ற விரும்பினால், நீங்கள் பிரம்மாண்டமாக சிந்திக்க வேண்டும் என்று மக்கள் நினைக்கின்றனர். ஆனால், பழக்கங்களைப் பற்றி விரிவாக ஆய்வு செய்து அதில் உலகப் புகழ்பெற்ற நிபுணர்களில் ஒருவராகத் திகழுகின்ற ஜேம்ஸ் கிளியர் அதற்கு வேறொரு வழியைக் கண்டுபிடித்துள்ளார். தினமும் காலையில் ஐந்து"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL17930368W"
       wikipedia: ""
 
   - order: 19
     title: "The Left Hand of Darkness"
     author: "Ursula K. Le Guin"
-    pages: null
+    pages: 304
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1969
+    genre: "Ciencia-ficción, Hugo Award Winner"
+    publisher: "Ace Books"
+    cover_url: "https://covers.openlibrary.org/b/id/10618463-L.jpg"
+    isbn: "9780441478095"
+    description: "50TH ANNIVERSARY EDITION—WITH A NEW INTRODUCTION BY DAVID MITCHELL AND A NEW AFTERWORD BY CHARLIE JANE ANDERS Ursula K. Le Guin’s groundbreaking work of science fiction—winner of the Hugo and Nebula Awards. A lone human ambassador is sent to the icebound planet of Winter, a world without sexual prej"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL59800W"
       wikipedia: ""
 
   - order: 20
     title: "Super Communicators"
     author: "Charles Duhigg"
-    pages: null
+    pages: 448
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2024
+    genre: "Psychology"
+    publisher: "Doubleday"
+    cover_url: "https://books.google.com/books/content?id=oNa_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "From the Globe and Mail and New York Times bestselling author of The Power of Habit, an investigation of what makes conversations work, and how we can all learn to be supercommunicators at work and in our lives. We all know people who seem capable of connecting with almost anyone. They are the ones "
     tags: []
     notes: ""
     links:
@@ -385,56 +385,56 @@ books:
   - order: 21
     title: "Putin's People"
     author: "Catherine Belton"
-    pages: null
+    pages: 640
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2020
+    genre: "Soviet union, history, nyt:paperback-nonfiction=2022-05-22"
+    publisher: "Prometheus"
+    cover_url: "https://covers.openlibrary.org/b/id/10434819-L.jpg"
+    isbn: "0007578814"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL21873594W"
       wikipedia: ""
 
   - order: 22
     title: "Spook Country"
     author: "William Gibson"
-    pages: null
+    pages: 384
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2006
+    genre: "Literature, Science Fiction"
+    publisher: "Penguin Random House"
+    cover_url: "https://covers.openlibrary.org/b/id/8355736-L.jpg"
+    isbn: "9780425222355"
+    description: "Multilingual Tito engages in sensitive information transfers from his single-room apartment, while journalist Hollis frets over her start-up magazine's censure of its own promotions, and prescription drug addict Milgrim wonders about the military connections of an enigmatic benefactor. Reprint."
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL261552W"
       wikipedia: ""
 
   - order: 23
     title: "Alexander Hamilton"
     author: "Ron Chernow"
-    pages: null
+    pages: 818
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2004
+    genre: "Politics and government, Biography"
+    publisher: "Penguin Random House"
+    cover_url: "https://covers.openlibrary.org/b/id/8261375-L.jpg"
+    isbn: "9780147501554"
+    description: "The #1 New York Times bestseller, and the inspiration for the hit Broadway musical Hamilton! Pulitzer Prize-winning author Ron Chernow presents a landmark biography of Alexander Hamilton, the Founding Father who galvanized, inspired, scandalized, and shaped the newborn nation. \"Grand-scale biography"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL2665176W"
       wikipedia: ""

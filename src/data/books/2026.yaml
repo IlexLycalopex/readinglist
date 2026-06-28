@@ -1,58 +1,58 @@
 year: 2026
-total_books: 25
+total_books: 34
 
 books:
   - order: 1
     title: "You Dreamed of Empires"
     author: "Álvaro Enrigue"
-    pages: null
+    pages: 240
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2023
+    genre: "Fiction"
+    publisher: "Penguin Random House"
+    cover_url: "https://covers.openlibrary.org/b/id/14609258-L.jpg"
+    isbn: "9780593544808"
+    description: "A NEW YORK TIMES TOP TEN BOOK OF 2024 A NEW YORK PUBLIC LIBRARY TOP TEN BOOK OF THE YEAR \"Short, strange, spiky and sublime.” —Dwight Garner, New York Times “Funny, ghastly, eye-opening, marvelous.” —Wall Street Journal From the visionary author of Sudden Death, a hallucinatory, revelatory colonial "
     tags: []
     notes: "Carried over from 2025."
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL35720233W"
       wikipedia: ""
 
   - order: 2
     title: "The Living Mountain"
     author: "Nan Shepherd"
-    pages: null
+    pages: 160
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1977
+    genre: "Great britain, history, Natural history"
+    publisher: "Aberdeen University Press"
+    cover_url: "https://covers.openlibrary.org/b/id/10665302-L.jpg"
+    isbn: "1847674240"
     description: ""
     tags: []
     notes: "Re-read."
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL12862894W"
       wikipedia: ""
 
   - order: 3
     title: "The Monkey Wrench Gang"
     author: "Edward Abbey"
-    pages: null
+    pages: 387
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2011
+    genre: "Fiction"
+    publisher: "Rosetta Books"
+    cover_url: "https://books.google.com/books/content?id=UUQqAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "A motley crew of saboteurs wreaks havoc on the corporations destroying America's Western wilderness in this \"wildly funny, infinitely wise\" classic ( The Houston Chronicle). When George Washington Hayduke III returns home from war in the jungles of Southeast Asia, he finds the unspoiled West he once"
     tags: []
     notes: "Re-read."
     links:
@@ -62,16 +62,16 @@ books:
   - order: 4
     title: "The Buffalo Hunter Hunter"
     author: "Stephen Graham Jones"
-    pages: null
+    pages: 448
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2025
+    genre: "Fiction"
+    publisher: "Simon & Schuster"
+    cover_url: "https://books.google.com/books/content?id=Mx4OEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "An instant New York Times bestseller, a chilling historical horror novel tracing the life of a vampire who haunts the fields of the Blackfeet reservation looking for justice. A diary, written in 1912 by a Lutheran pastor is discovered within a wall. What it unveils is a slow massacre, a chain of eve"
     tags: []
     notes: ""
     links:
@@ -81,54 +81,54 @@ books:
   - order: 5
     title: "A River Runs Through It and Other Stories"
     author: "Norman Maclean"
-    pages: null
+    pages: 217
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 1976
+    genre: "Social life and customs, Scottish Americans"
+    publisher: "Picador"
+    cover_url: "https://covers.openlibrary.org/b/id/10710412-L.jpg"
+    isbn: "1665163755"
+    description: "Collection of three Western stories, featuring the title piece about the relationship between a father and his two sons, bound together by love and fly fishing."
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL4045454W"
       wikipedia: ""
 
   - order: 6
     title: "Pharmakon"
     author: "Almudena Sánchez"
-    pages: null
+    pages: 150
     date_started: null
     date_finished: null
     format: print
-    year_published: null
+    year_published: 2023
     genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    publisher: "Fum D'Estampa Press"
+    cover_url: "https://books.google.com/books/content?id=r2l0zwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    isbn: "1913744205"
+    description: "A delicate, beautifully written testimony to depression from one of Spain's most exciting new voices."
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL29331265W"
       wikipedia: ""
 
   - order: 7
     title: "The Plains"
     author: "Federico Falco"
-    pages: null
+    pages: 214
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2024
+    genre: "Fiction"
+    publisher: "Charco Press"
+    cover_url: "https://books.google.com/books/content?id=YyUUEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "After a loss, a year in the country: four seasons to transform a garden and a self. “In the city the notion of the hours of the day, of the passage of time, is lost. In the countryside that is impossible,” the narrator tells us. He goes on to recount his day-to-day life in the house with garden wher"
     tags: []
     notes: ""
     links:
@@ -138,95 +138,94 @@ books:
   - order: 8
     title: "I Who Have Never Known Men"
     author: "Jacqueline Harpman"
-    pages: null
+    pages: 208
     date_started: null
     date_finished: null
     format: print
-    year_published: null
+    year_published: 2024
     genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    publisher: "Penguin Random House"
+    cover_url: "https://covers.openlibrary.org/b/id/14840892-L.jpg"
+    isbn: "9781529954463"
     description: ""
     tags: []
     notes: "👌"
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL37585316W"
       wikipedia: ""
 
   - order: 9
     title: "Wide Open"
     author: "Nicola Barker"
-    pages: null
+    pages: 304
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1998
+    genre: "Eccentrics and eccentricities, Fiction"
+    publisher: "Faber & Faber"
+    cover_url: "https://covers.openlibrary.org/b/id/3728476-L.jpg"
+    isbn: "0060933755"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL1857896W"
       wikipedia: ""
 
   - order: 10
     title: "There Is No Antimemetics Division"
     author: "qntm"
-    pages: null
+    pages: 288
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2008
+    genre: "SCP Foundation, antimemetics"
+    publisher: "Independently published"
+    cover_url: "https://covers.openlibrary.org/b/id/11457905-L.jpg"
+    isbn: "0593983769"
+    description: "NATIONAL BESTSELLER • Humanity is under assault by malevolent “antimemes”—ideas that attack memory, identity, and the fabric of reality itself—in this whip-smart tale of science-fiction horror, an entirely reimagined and expanded version of the beloved online novel. “Utterly brilliant . . . a dazzli"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL24726867W"
       wikipedia: ""
 
   - order: 11
     title: "Retribution Road"
     author: "Antonin Varenne"
-    pages: null
+    pages: 528
     date_started: null
     date_finished: null
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2018
+    genre: "London (england), fiction, Fiction, suspense"
+    publisher: "Taylor & Francis Group"
+    cover_url: "https://books.google.com/books/content?id=JMLVCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    isbn: "9780857053725"
+    description: "\"We owe you our lives, Sergeant, but you are our worst nightmare . . .\" Burma, 1852. Sergeant Arthur Bowman, a sergeant in the East India Company, is sent on a secret mission during the Second Anglo-Burmese War. But the expedition is foiled - his men are captured and tortured. Throughout their ordea"
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL21606907W"
       wikipedia: ""
 
   - order: 12
     title: "The Quiet Room"
     author: "Terry Miles"
-    pages: null
+    pages: 432
     date_started: null
-    date_finished: null
+    date_finished: "2026-05-23"
     format: print
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2023
+    genre: "Fiction"
+    publisher: "Del Rey"
+    cover_url: "https://books.google.com/books/content?id=ikOlEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "The lore and legends around the underground game known as Rabbits gain new dimensions in The Quiet Room, a twisty tale set in the world of the hit Rabbits podcast. “Another mind-bending adventure replete with mystery.”—Publishers Weekly After nearly winning the eleventh iteration of Rabbits, the mys"
     tags: []
     notes: ""
-    reading: true
     links:
       openlibrary: ""
       wikipedia: ""
@@ -234,16 +233,16 @@ books:
   - order: 13
     title: "DMZ Vol 5 The Hidden War"
     author: "Brian Wood"
-    pages: null
+    pages: 144
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2008
+    genre: "Comics & Graphic Novels"
+    publisher: "Vertigo"
+    cover_url: "https://books.google.com/books/content?id=oVjsAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "The fifth volume in the critically acclaimed series that looks at life during wartime- America's 21st Century Civil War. The world and characters of the DMZ-a wartorn Manhattan-are expanded and enriched in this volume as Matty Roth turns hisattention to 'the hidden war'-the thousands of ordinary peo"
     tags: []
     notes: ""
     links:
@@ -253,16 +252,16 @@ books:
   - order: 14
     title: "DMZ Vol 6 Blood in the Game"
     author: "Brian Wood"
-    pages: null
+    pages: 144
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2009
+    genre: "Comics & Graphic Novels"
+    publisher: "Vertigo"
+    cover_url: "https://books.google.com/books/content?id=ISXQAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "The world and characters of the DMZ — a futuristic, war-torn Manhattan — are expanded and enriched in this sixth volume of the acclaimed series as journalist Matty Roth. The United States has decided to resume reconciliation talks with the Free States, but a major new player in the Free States polit"
     tags: []
     notes: ""
     links:
@@ -272,16 +271,16 @@ books:
   - order: 15
     title: "DMZ Vol 7 War Powers"
     author: "Brian Wood"
-    pages: null
+    pages: 168
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2009
+    genre: "Comics & Graphic Novels"
+    publisher: "Vertigo"
+    cover_url: "https://books.google.com/books/content?id=2iXQAgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "The story of Matty Roth, the ultimate embedded war journalist trapped in a most unlikely war zone: the streets of New York City, or as the world now knows it,the DMZ. In this seventh volume in the graphic novel series, the status quo of the series istossed out the window as Matty, back from his misa"
     tags: []
     notes: ""
     links:
@@ -291,16 +290,16 @@ books:
   - order: 16
     title: "DMZ Vol 8 Hearts and Minds"
     author: "Brian Wood"
-    pages: null
+    pages: 192
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2010
+    genre: "Comics & Graphic Novels"
+    publisher: "Vertigo"
+    cover_url: "https://books.google.com/books/content?id=_yXQAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "The world and characters of the DMZ - a futuristic, war-torn Manhattan - are expanded and enriched in this eighth volume of the acclaimed series. Journalist Matty Roth redefines his role in the DMZ following the tumultuous events of the past year No longer content to be merely a citizen journalist o"
     tags: []
     notes: ""
     links:
@@ -310,16 +309,16 @@ books:
   - order: 17
     title: "DMZ Vol 9 MIA"
     author: "Brian Wood"
-    pages: null
+    pages: 128
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2011
+    genre: "Comics & Graphic Novels"
+    publisher: "Vertigo"
+    cover_url: "https://books.google.com/books/content?id=RiXQAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "The ninth volume in the critically acclaimed series that looks at life during wartime--America's 21st century Civil War. After the shattering events of DMZ VOL. 8: HEARTS AND MINDS, M.I.A. takes Matty to a remote and desolate section of the city.Self-exile forces him to take a good, hard look at him"
     tags: []
     notes: ""
     links:
@@ -329,16 +328,16 @@ books:
   - order: 18
     title: "DMZ Vol 10 Collective Punishment"
     author: "Brian Wood"
-    pages: null
+    pages: 128
     date_started: null
     date_finished: null
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2011
+    genre: "Comics & Graphic Novels"
+    publisher: "Vertigo"
+    cover_url: "https://books.google.com/books/content?id=FvcPAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "In this collection of five single-issue stories, citizens and soldiers-new characters and old-weather the storm of a brutal \"shock and awe\" bombing campaign on the DMZ. Includes a story concerning the enigmatic Wilson, the self-professed protector of Chinatown and confidant to series star Matty Roth"
     tags: []
     notes: ""
     links:
@@ -348,55 +347,54 @@ books:
   - order: 19
     title: "DMZ Vol 11 Free States Rising"
     author: "Brian Wood"
-    pages: null
+    pages: 168
     date_started: null
-    date_finished: null
+    date_finished: "2026-06-22"
     format: graphic
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2012
+    genre: "Comics & graphic novels, science fiction, general"
+    publisher: "Titan Books"
+    cover_url: "https://books.google.com/books/content?id=9PcPAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    isbn: "1781160740"
+    description: "With all his allegiances wiped away by the mistakes he's made, embedded journalist Matty Roth watches as the Free States of America and the U.S. wage civil war on the island of Manhattan-also known as the DMZ. As Matty covers the battles on the ground, old allies and enemies resurface and Matty must"
     tags: []
     notes: ""
-    reading: true
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL37924314W"
       wikipedia: ""
 
   - order: 20
     title: "Lonesome Dove"
     author: "Larry McMurtry"
-    pages: null
+    pages: 858
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 1985
+    genre: "fiction, western cattle drives"
+    publisher: "Pocket Books"
+    cover_url: "https://covers.openlibrary.org/b/id/8376548-L.jpg"
+    isbn: "0606351140"
     description: ""
     tags: []
     notes: "Carried over from 2025."
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL134601W"
       wikipedia: ""
 
   - order: 21
     title: "A Wild Sheep Chase"
     author: "Haruki Murakami"
-    pages: null
+    pages: 353
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
+    year_published: 2010
+    genre: "Fiction"
+    publisher: "Vintage"
+    cover_url: "https://books.google.com/books/content?id=OeL2QLWyHwAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     isbn: ""
-    description: ""
+    description: "A New York Times bestselling author—and “a mythmaker for the millennium, a wiseacre wiseman” (New York Times Book Review)—delivers a surreal and elaborate quest that takes readers from Tokyo to the remote mountains of northern Japan, where the unnamed protagonist has a surprising confrontation with "
     tags: []
     notes: "Re-read."
     links:
@@ -406,53 +404,150 @@ books:
   - order: 22
     title: "Is a River Alive"
     author: "Robert Macfarlane"
-    pages: null
+    pages: 384
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
+    year_published: 2025
     genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    publisher: "W. W. Norton"
+    cover_url: "https://covers.openlibrary.org/b/id/14846855-L.jpg"
+    isbn: "0393242137"
     description: ""
     tags: []
     notes: ""
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL42398965W"
       wikipedia: ""
 
   - order: 23
     title: "Beyond the Mountain"
     author: "Steve House"
-    pages: null
+    pages: 288
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
-    description: ""
+    year_published: 2009
+    genre: "Travel, Sports"
+    publisher: "Vertebrate Publishing"
+    cover_url: "https://covers.openlibrary.org/b/id/9054223-L.jpg"
+    isbn: "1906148651"
+    description: "What does it take to be one of the world's best high-altitude mountain climbers? A lot of fundraising; traveling in some of the world's most dangerous countries; enduring cold bivouacs, searing lungs, and a cloudy mind when you can least afford one. It means learning the hard lessons the mountains t"
     tags: []
     notes: "Re-read."
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL15390274W"
       wikipedia: ""
 
   - order: 24
     title: "Zero History"
     author: "William Gibson"
-    pages: null
+    pages: 560
     date_started: null
     date_finished: null
     format: audio
-    year_published: null
-    genre: null
-    publisher: null
-    cover_url: ""
-    isbn: ""
+    year_published: 2010
+    genre: "New York Times bestseller, nyt:hardcover_fiction=2010-09-26"
+    publisher: "G.P. Putnam's Sons"
+    cover_url: "https://covers.openlibrary.org/b/id/7072428-L.jpg"
+    isbn: "9780425240779"
+    description: "Hollis Henry never intended to work for global marketing magnate Hubertus Bigend again. But now she’s broke, and Bigend has just the thing to get her back in the game... Milgrim can disappear in almost any setting, and his Russian is perfectly idiomatic—so much so that he spoke it with his therapist"
+    tags: []
+    notes: ""
+    links:
+      openlibrary: "https://openlibrary.org/works/OL15413799W"
+      wikipedia: ""
+
+  - order: 25
+    title: "Dreams of El Dorado"
+    author: "H.W. Brands"
+    pages: 544
+    date_started: null
+    date_finished: "2026-05-16"
+    format: audio
+    year_published: 2019
+    genre: "Frontier and pioneer life, West (u.s.), discovery and exploration"
+    publisher: "Basic Books"
+    cover_url: "https://covers.openlibrary.org/b/id/8982523-L.jpg"
+    isbn: "1541672526"
+    description: "From a New York Times bestselling author, a masterful history of the American West—from the California Gold Rush to the settling of Oklahoma and beyond. \"Epic in its scale, fearless in its scope, this is a bravura performance from one of our master historians.\" —Hampton Sides, bestselling author of "
+    tags: []
+    notes: ""
+    links:
+      openlibrary: "https://openlibrary.org/works/OL20320929W"
+      wikipedia: ""
+
+  - order: 26
+    title: "Blood Meridian"
+    author: "Cormac McCarthy"
+    pages: 351
+    date_started: "2026-05-16"
+    date_finished: null
+    format: audio
+    year_published: 1985
+    genre: "Fiction, Western"
+    publisher: "Vintage"
+    cover_url: "https://books.google.com/books/content?id=s-QzccStux4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    isbn: "9780679728757"
+    description: ""
+    tags: []
+    notes: ""
+    reading: true
+    links:
+      openlibrary: "https://openlibrary.org/works/OL40879W"
+      wikipedia: ""
+
+  - order: 27
+    title: "On the Road"
+    author: "Jack Kerouac"
+    pages: 307
+    date_started: null
+    date_finished: null
+    format: audio
+    year_published: 1957
+    genre: "Fiction, Beat generation"
+    publisher: "Penguin Random House"
+    cover_url: "https://covers.openlibrary.org/b/id/8232137-L.jpg"
+    isbn: "9780140283297"
+    description: ""
+    tags: []
+    notes: ""
+    coming_up: true
+    links:
+      openlibrary: "https://openlibrary.org/works/OL81631W"
+      wikipedia: ""
+
+  - order: 28
+    title: "Murder at the Black Cat Café"
+    author: "Seishi Yokomizo"
+    pages: 224
+    date_started: "2026-05-24"
+    date_finished: "2026-06-01"
+    format: print
+    year_published: 2024
+    genre: "Mystery, Crime fiction"
+    publisher: "Pushkin Vertigo"
+    cover_url: "https://books.google.com/books/content?id=OBb80AEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    isbn: "9781805335511"
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: "https://openlibrary.org/works/OL42434268W"
+      wikipedia: ""
+
+  - order: 29
+    title: "Do Blue"
+    author: "Nick Hounsfield & Abby Richardson"
+    pages: null
+    date_started: "2026-05-26"
+    date_finished: "2026-06-01"
+    format: print
+    year_published: 2026
+    genre: "Health, Nature, Wellbeing"
+    publisher: "The Do Book Company"
+    cover_url: "https://cdn.waterstones.com/bookjackets/large/9781/9141/9781914168673.jpg"
+    isbn: "9781914168673"
     description: ""
     tags: []
     notes: ""
@@ -460,13 +555,89 @@ books:
       openlibrary: ""
       wikipedia: ""
 
-  - order: 25
-    title: "Dreams of El Dorado"
-    author: "H.W. Brands"
+  - order: 30
+    title: "H(A)PPY"
+    author: "Nicola Barker"
+    pages: 304
+    date_started: "2026-06-01"
+    date_finished: "2026-06-22"
+    format: print
+    year_published: 2017
+    genre: "Fiction, general, Utopias"
+    publisher: "Penguin Random House"
+    cover_url: "https://m.media-amazon.com/images/I/91281k62-fL._AC_UF894,1000_QL80_.jpg"
+    isbn: "1473539307"
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: "https://openlibrary.org/works/OL21145876W"
+      wikipedia: ""
+
+  - order: 31
+    title: "An Estancia in Patagonia"
+    author: "Norma MacKinnon"
+    pages: 176
+    date_started: "2026-06-01"
+    date_finished: "2026-06-12"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: "https://m.media-amazon.com/images/I/71eGZVMQqDL._AC_UF1000,1000_QL80_.jpg"
+    isbn: "9781861064028"
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 32
+    title: "The Evol Algorithm"
+    author: "K. M. Moke"
+    pages: 416
+    date_started: "2026-06-22"
+    date_finished: "2026-06-28"
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: "https://mrbsemporium.com/wp-content/uploads/2025/10/MR-Bs-EVOL-cover-1.jpg"
+    isbn: "9781919225906"
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: ""
+      wikipedia: ""
+
+  - order: 33
+    title: "DMZ Vol 12 The Five Nations of New York"
+    author: "Brian Wood"
+    pages: 168
+    date_started: "2026-06-23"
+    date_finished: "2026-06-24"
+    format: graphic
+    year_published: 2012
+    genre: "Comics & Graphic Novels"
+    publisher: "Vertigo"
+    cover_url: "https://m.media-amazon.com/images/I/81wj8gCp4jL._UF1000,1000_QL80_.jpg"
+    isbn: "9781781163603"
+    description: ""
+    tags: []
+    notes: ""
+    links:
+      openlibrary: "https://openlibrary.org/works/OL31218372W"
+      wikipedia: ""
+
+  - order: 34
+    title: "Careless People"
+    author: "Sarah Wynn-Williams"
     pages: null
-    date_started: null
+    date_started: "2026-06-28"
     date_finished: null
-    format: audio
+    format: print
     year_published: null
     genre: null
     publisher: null

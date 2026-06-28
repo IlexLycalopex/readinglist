@@ -11,6 +11,8 @@
 import { readFileSync, writeFileSync, readdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import yaml from 'js-yaml';
+import { canonicalPublisher } from './publisher-aliases.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, '../src/data/books');
@@ -27,11 +29,16 @@ async function fetchWithRetry(url, retries = MAX_RETRIES) {
   for (let i = 0; i <= retries; i++) {
     try {
       const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
+      if (res.status === 429) {
+        // Rate limited — needs a much longer wait than an ordinary failure
+        const retryAfter = Number(res.headers.get('retry-after')) || 5 * Math.pow(2, i);
+        throw Object.assign(new Error('HTTP 429'), { retryAfterMs: retryAfter * 1000 });
+      }
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return await res.json();
     } catch (err) {
       if (i === retries) throw err;
-      await sleep(DELAY_MS * Math.pow(2, i));
+      await sleep(err.retryAfterMs ?? DELAY_MS * Math.pow(2, i));
     }
   }
 }
@@ -49,10 +56,44 @@ function cleanTitleForSearch(title) {
   return title;
 }
 
+async function urlExists(url) {
+  // GET, not HEAD: the covers API redirects to archive.org, which is unreliable with HEAD
+  try {
+    const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
+    if (res.ok) {
+      await res.body?.cancel();
+      return true;
+    }
+    return false;
+  } catch {
+    return false;
+  }
+}
+
+// Most precise source: the Open Library covers API keyed by ISBN.
+// default=false makes it 404 instead of serving a blank placeholder.
+async function fetchCoverByIsbn(isbn) {
+  const url = `https://covers.openlibrary.org/b/isbn/${isbn}-L.jpg`;
+  return (await urlExists(`${url}?default=false`)) ? url : null;
+}
+
+// If the entry already links an Open Library work, ask the work record for its
+// covers; works often have none while their editions do, so fall back to those.
+async function fetchCoverFromWork(workUrl) {
+  const data = await fetchWithRetry(`${workUrl}.json`);
+  let coverId = data.covers?.find((c) => c > 0);
+  if (!coverId) {
+    const editions = await fetchWithRetry(`${workUrl}/editions.json?limit=20`);
+    coverId = editions.entries?.flatMap((e) => e.covers ?? []).find((c) => c > 0);
+  }
+  return coverId ? `https://covers.openlibrary.org/b/id/${coverId}-L.jpg` : null;
+}
+
 async function fetchOpenLibrary(title, author) {
   const url = `https://openlibrary.org/search.json?title=${encodeURIComponent(title)}&author=${encodeURIComponent(author)}&limit=5&fields=cover_i,isbn,first_publish_year,publisher,subject,key`;
   const data = await fetchWithRetry(url);
-  const doc = data.docs?.[0];
+  // Prefer a result that actually has a cover over a bare first hit
+  const doc = data.docs?.find((d) => d.cover_i) ?? data.docs?.[0];
   if (!doc) return null;
 
   const coverId = doc.cover_i;
@@ -66,11 +107,17 @@ async function fetchOpenLibrary(title, author) {
   };
 }
 
-async function fetchGoogleBooks(title, author) {
-  const q = encodeURIComponent(`intitle:${title} inauthor:${author}`);
-  const url = `https://www.googleapis.com/books/v1/volumes?q=${q}`;
-  const data = await fetchWithRetry(url);
-  const item = data.items?.[0]?.volumeInfo;
+async function fetchGoogleBooks(title, author, isbn) {
+  // An ISBN query is exact; fall back to title/author search without one.
+  // GitHub's shared runner IPs are rate-limited without a key — set the
+  // GOOGLE_BOOKS_API_KEY secret to use a dedicated quota.
+  const key = process.env.GOOGLE_BOOKS_API_KEY;
+  const q = isbn ? encodeURIComponent(`isbn:${isbn}`) : encodeURIComponent(`intitle:${title} inauthor:${author}`);
+  const url = `https://www.googleapis.com/books/v1/volumes?q=${q}${key ? `&key=${key}` : ''}`;
+  // Without a key, shared CI runner IPs are already past quota, so a 429 here
+  // won't clear up within this run — retrying just burns the exponential backoff.
+  const data = await fetchWithRetry(url, key ? MAX_RETRIES : 0);
+  const item = (data.items?.find((i) => i.volumeInfo?.imageLinks?.thumbnail) ?? data.items?.[0])?.volumeInfo;
   if (!item) return null;
 
   return {
@@ -85,6 +132,7 @@ async function fetchGoogleBooks(title, author) {
 async function processYear(yearFile) {
   const filePath = join(DATA_DIR, yearFile);
   let content = readFileSync(filePath, 'utf-8');
+  const originalBookCount = yaml.load(content).books.length;
 
   const bookBlocks = content.split(/(?=\n  - order:)/);
 
@@ -106,10 +154,28 @@ async function processYear(yearFile) {
     }
 
     const title = titleMatch[1];
-    const author = authorMatch[1].split(';')[0].trim();
+    // Multi-author entries ("A & B", "A and B", "A; B") confuse search — use the first author
+    const author = authorMatch[1].split(/;|&|\band\b/)[0].trim();
     const searchTitle = cleanTitleForSearch(title);
+    const existingIsbn = block.match(/isbn:\s*"([^"]+)"/)?.[1] ?? null;
+    const existingWork = block.match(/openlibrary:\s*"(https:\/\/openlibrary\.org\/works\/[^"]+)"/)?.[1] ?? null;
 
     console.log(`  Fetching: "${title}" by ${author}${searchTitle !== title ? ` (searching: "${searchTitle}")` : ''}`);
+
+    // Covers, most precise source first: ISBN, then a known OL work, then search
+    let foundCover = null;
+    if (existingIsbn) {
+      foundCover = await fetchCoverByIsbn(existingIsbn);
+      if (foundCover) console.log(`    ✓ Cover via ISBN`);
+    }
+    if (!foundCover && existingWork) {
+      try {
+        foundCover = await fetchCoverFromWork(existingWork);
+        if (foundCover) console.log(`    ✓ Cover via Open Library work`);
+      } catch (err) {
+        console.log(`    ✗ Open Library work lookup failed: ${err.message}`);
+      }
+    }
 
     let meta = null;
     try {
@@ -120,10 +186,14 @@ async function processYear(yearFile) {
     }
 
     let gMeta = null;
-    const needsGBooks = !meta?.cover_url || !meta?.description;
+    // Google Books also supplies a description, but it's not worth the rate-limit
+    // cost once a cover has already been resolved via ISBN/work/Open Library.
+    const needsGBooks = !(foundCover ?? meta?.cover_url);
     if (needsGBooks) {
       try {
-        gMeta = await fetchGoogleBooks(searchTitle, author);
+        const isbn = existingIsbn ?? meta?.isbn;
+        gMeta = await fetchGoogleBooks(searchTitle, author, isbn);
+        if (!gMeta && isbn) gMeta = await fetchGoogleBooks(searchTitle, author, null);
         if (gMeta) console.log(`    ✓ Google Books`);
       } catch (err) {
         console.log(`    ✗ Google Books failed: ${err.message}`);
@@ -131,10 +201,10 @@ async function processYear(yearFile) {
     }
 
     let b = block;
-    const coverUrl = meta?.cover_url ?? gMeta?.cover_url ?? '';
+    const coverUrl = foundCover ?? meta?.cover_url ?? gMeta?.cover_url ?? '';
     const isbn = meta?.isbn ?? '';
     const yearPub = meta?.year_published ?? gMeta?.year_published ?? null;
-    const publisher = meta?.publisher ?? gMeta?.publisher ?? '';
+    const publisher = canonicalPublisher(meta?.publisher ?? gMeta?.publisher) ?? '';
     const genre = meta?.genre ?? gMeta?.genre ?? '';
     const description = gMeta?.description ?? '';
     const olLink = meta?.openlibrary ?? '';
@@ -154,7 +224,13 @@ async function processYear(yearFile) {
   }
 
   if (updated) {
-    writeFileSync(filePath, processedBlocks.join(''), 'utf-8');
+    const output = processedBlocks.join('');
+    // The edits above are regex-based; refuse to save anything that no longer parses
+    const parsed = yaml.load(output);
+    if (!Array.isArray(parsed?.books) || parsed.books.length !== originalBookCount) {
+      throw new Error(`refusing to save ${yearFile}: edited YAML is invalid or lost entries`);
+    }
+    writeFileSync(filePath, output, 'utf-8');
     console.log(`  → Saved ${yearFile}`);
   } else {
     console.log(`  → No updates needed for ${yearFile}`);

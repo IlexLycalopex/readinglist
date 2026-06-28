@@ -68,6 +68,17 @@ npm run fetch-metadata          # all years
 npm run fetch-metadata -- 2025  # specific year only
 ```
 
+Covers are looked up by ISBN first (Open Library covers API), then via the
+entry's `links.openlibrary` work (including its editions), then by
+title/author search on Open Library and Google Books.
+
+Google Books rate-limits unauthenticated requests from GitHub's shared
+runners. To avoid this, create a free API key (Google Cloud Console →
+"Books API") and add it as a repository secret named `GOOGLE_BOOKS_API_KEY`.
+
+If a cover can't be found anywhere, paste any image URL into `cover_url`
+manually — entries with a non-empty value are never touched.
+
 Committing the filled YAML is optional — if you do, it avoids re-fetching those entries on the next deploy. If you don't, the deploy fetches them automatically and bakes the data into the built pages.
 
 ---
@@ -135,7 +146,7 @@ export default defineConfig({
 
 ```
 src/
-  components/       BookCard, AuthorCard, PublisherCard, FilterBar, YearNav, SiteNav
+  components/       BookCard, GroupCard, FilterBar, YearNav, SiteNav
   data/
     years.yaml      index of all years
     books/

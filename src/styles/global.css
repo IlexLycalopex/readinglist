@@ -7,31 +7,43 @@
   --text-muted:   #8a8078;
   --text-faint:   #504840;
   --accent:       #d4714a;
+  --accent-audio:   #6a9fd4;
+  --accent-graphic: #4caf82;
+  --font:         system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --display:      'Bebas Neue', Impact, sans-serif;
+  --mono:         'SF Mono', 'Fira Code', monospace;
   --radius:       8px;
   --radius-lg:    12px;
   --transition:   0.18s ease;
-  --display:      'Bebas Neue', Impact, sans-serif;
-  --mono:         'SF Mono', 'Fira Code', monospace;
-
-  --accent-audio:   #6a9fd4;
-  --accent-graphic: #4caf82;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; }
+html { background: var(--bg); color: var(--text); font-family: var(--font); scroll-behavior: smooth; }
+body { min-height: 100vh; }
 
-body {
-  background: var(--bg);
-  color: var(--text);
-  font-family: system-ui, -apple-system, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  min-height: 100vh;
+a { color: inherit; text-decoration: none; }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 3px;
 }
 
-a { color: var(--accent); text-decoration: none; }
-a:hover { text-decoration: underline; }
+/* Skip to content */
+.skip-to-content {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 9999;
+  padding: 8px 20px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.875rem;
+  border-radius: 0 0 var(--radius) var(--radius);
+}
+.skip-to-content:focus { left: 24px; }
 
 img { display: block; max-width: 100%; }
 
@@ -41,16 +53,100 @@ h1, h2, h3 {
   line-height: 1.1;
 }
 
+/* ── Layout ─────────────────────────────────────────────────────── */
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 24px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1.5rem;
+/* ── Site nav ───────────────────────────────────────────────────── */
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(11,9,8,0.72);
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.site-nav__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 54px;
+  gap: 12px;
+}
+.site-nav__logo {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--text);
+  white-space: nowrap;
+  flex-shrink: 0;
+  letter-spacing: -0.01em;
+}
+.site-nav__logo svg { color: var(--accent); flex-shrink: 0; }
+.site-nav__logo:hover span { color: var(--accent); }
+.site-nav__logo span { transition: color var(--transition); }
+
+.site-nav__links {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.site-nav__links::-webkit-scrollbar { display: none; }
+
+.site-nav__pill {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-muted);
+  transition: color var(--transition), background var(--transition);
+  white-space: nowrap;
+}
+.site-nav__pill:hover { color: var(--text); background: var(--bg-hover); }
+.site-nav__pill.active {
+  color: var(--text);
+  background: var(--bg-hover);
+  border: 1px solid var(--border);
+}
+
+.site-nav__sep {
+  width: 1px;
+  height: 18px;
+  background: var(--border);
+  margin: 0 6px;
+  flex-shrink: 0;
+}
+
+/* On phones the year pills overflow into an invisible scroll and push the
+   section links off-screen — years stay reachable via the home page cards
+   and the per-year nav, so drop them and keep one clean row. */
+@media (max-width: 640px) {
+  .site-nav__pill--year, .site-nav__sep { display: none; }
+  .site-nav__pill { padding: 9px 13px; font-size: 0.82rem; }
+}
+
+@media (max-width: 360px) {
+  .site-nav__logo span { display: none; }
+}
+
+/* ── Footer ─────────────────────────────────────────────────────── */
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 32px 0;
+  color: var(--text-faint);
+  font-size: 0.8rem;
+  margin-top: 4rem;
 }
 
 /* Book grid */
@@ -104,15 +200,14 @@ h1, h2, h3 {
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   padding: 1.5rem;
-  text-decoration: none;
   display: block;
-  transition: background var(--transition), border-color var(--transition);
+  transition: background var(--transition), border-color var(--transition), transform var(--transition);
 }
 
 .year-card:hover {
   background: var(--bg-hover);
   border-color: var(--accent);
-  text-decoration: none;
+  transform: translateY(-2px);
 }
 
 .year-card__year {
@@ -145,55 +240,6 @@ h1, h2, h3 {
 .format-pip--audio   { background: var(--accent-audio); }
 .format-pip--graphic { background: var(--accent-graphic); }
 
-/* Hero card */
-.hero-card {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 2rem;
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-  margin: 2rem 0;
-  max-width: 600px;
-}
-
-.hero-card__cover {
-  width: 100px;
-  flex-shrink: 0;
-}
-
-.hero-card__cover img,
-.hero-card__cover .cover-placeholder {
-  width: 100px;
-  aspect-ratio: 2/3;
-  object-fit: cover;
-  border-radius: var(--radius);
-}
-
-.hero-card__meta {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.hero-card__label {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--text-muted);
-}
-
-.hero-card__title {
-  font-size: 1.4rem;
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-.hero-card__author {
-  color: var(--text-muted);
-}
-
 /* Author/Publisher cards */
 .author-grid {
   display: grid;
@@ -208,14 +254,13 @@ h1, h2, h3 {
   border-radius: var(--radius-lg);
   padding: 1.25rem;
   display: block;
-  text-decoration: none;
-  transition: background var(--transition), border-color var(--transition);
+  transition: background var(--transition), border-color var(--transition), transform var(--transition);
 }
 
 .author-card:hover {
   background: var(--bg-hover);
   border-color: var(--accent);
-  text-decoration: none;
+  transform: translateY(-2px);
 }
 
 .author-card__name {
@@ -241,6 +286,47 @@ h1, h2, h3 {
   color: var(--text-faint);
 }
 
+.author-card summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.author-card summary::-webkit-details-marker { display: none; }
+
+.author-card[open] {
+  grid-column: 1 / -1;
+  transform: none;
+}
+
+.author-card__books {
+  list-style: none;
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+}
+
+.author-card__books li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.3rem 0;
+  font-size: 0.88rem;
+}
+
+.author-card__books .format-pip { flex-shrink: 0; align-self: center; }
+
+.author-card__book-title { font-weight: 600; }
+
+.author-card__book-author { color: var(--text-muted); }
+
+.author-card__book-year {
+  margin-left: auto;
+  color: var(--text-faint);
+  white-space: nowrap;
+}
+
+.author-card__book-year:hover { color: var(--accent); }
+
 /* Page headers */
 .page-header {
   padding: 3rem 0 2rem;
@@ -258,32 +344,6 @@ h1, h2, h3 {
   margin-top: 0.5rem;
   font-size: 1.1rem;
 }
-
-/* Book detail list row */
-.book-row {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  padding: 0.75rem 0;
-  border-bottom: 1px solid var(--border);
-}
-
-.book-row__thumb {
-  width: 40px;
-  flex-shrink: 0;
-}
-
-.book-row__thumb img,
-.book-row__thumb .cover-placeholder {
-  width: 40px;
-  aspect-ratio: 2/3;
-  object-fit: cover;
-  border-radius: 3px;
-}
-
-.book-row__info { flex: 1; min-width: 0; }
-.book-row__title { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.book-row__meta  { font-size: 0.82rem; color: var(--text-muted); }
 
 /* Cover placeholder */
 .cover-placeholder {
@@ -318,7 +378,8 @@ h1, h2, h3 {
   width: 100%;
 }
 
-.modal__title { font-size: 1.2rem; font-weight: 700; margin-bottom: 1rem; }
+.modal__title { font-size: 1.2rem; font-weight: 700; }
+.modal__author { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem; }
 .modal__close { float: right; background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1.5rem; }
 
 /* Dashboard */
@@ -361,9 +422,17 @@ h1, h2, h3 {
 }
 
 .bar-row__label { width: 3rem; text-align: right; color: var(--text-muted); flex-shrink: 0; }
+.bar-row__label--wide {
+  width: 9rem;
+  text-align: left;
+  font-size: 0.78rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .bar-row__track { flex: 1; height: 20px; background: var(--bg-hover); border-radius: 4px; overflow: hidden; }
 .bar-row__fill  { height: 100%; border-radius: 4px; background: var(--accent); transition: width 0.3s ease; }
-.bar-row__value { width: 2rem; color: var(--text-muted); font-size: 0.8rem; }
+.bar-row__value { width: 2rem; color: var(--text); font-size: 0.9rem; font-family: var(--display); letter-spacing: 0.04em; }
 
 /* Format split bars */
 .format-bar {
@@ -401,8 +470,89 @@ h1, h2, h3 {
   flex-shrink: 0;
 }
 
+/* Tags */
+.book-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.3rem;
+}
+.book-card__tag {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 10px;
+  background: var(--bg-hover);
+  border: 1px solid var(--border);
+  color: var(--text-faint);
+}
+
+/* Year card active indicator */
+.year-card__active-badge {
+  display: inline-block;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  border-radius: 10px;
+  padding: 2px 8px;
+  margin-top: 0.5rem;
+}
+
+/* Pip overflow label */
+.year-card__pip-overflow {
+  font-size: 0.68rem;
+  color: var(--text-faint);
+  font-weight: 600;
+  align-self: center;
+}
+
+/* Filter bar count */
+.filter-bar__count {
+  font-size: 0.8rem;
+  color: var(--text-faint);
+  align-self: center;
+  white-space: nowrap;
+}
+.filter-bar__empty {
+  width: 100%;
+  padding: 3rem 0;
+  text-align: center;
+  color: var(--text-faint);
+  font-size: 0.95rem;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
-  .hero-card { flex-direction: column; }
-  .stats-strip { gap: 1rem; }
+  .container { padding: 0 16px; }
+
+  .page-header { padding: 2rem 0 1.25rem; }
+
+  .stats-strip { gap: 1.25rem 1.75rem; }
+  .stat__value { font-size: 1.6rem; }
+
+  /* Two-up grids instead of one giant column per card */
+  .book-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 0.75rem;
+    padding: 1.25rem 0;
+  }
+  .year-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 0.75rem;
+    padding: 1.25rem 0;
+  }
+  .year-card { padding: 1.1rem; }
+  .year-card__year { font-size: 2.4rem; }
+
+  .author-grid { gap: 0.75rem; padding: 1.25rem 0; }
+
+  .modal { padding: 1.5rem; }
+
+  .bar-row__label--wide { width: 6.5rem; }
 }

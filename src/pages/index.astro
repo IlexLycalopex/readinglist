@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import { loadYears, loadAllYears, loadAllBooks } from '../lib/data';
 
 const years = loadYears();
+const yearStatusMap = new Map(years.map((y) => [y.id, y.status]));
 const allYearData = loadAllYears();
 const allBooks = loadAllBooks();
 
@@ -90,18 +91,23 @@ const formatIcon: Record<string, string> = {
     <div class="year-grid">
       {allYearData.map((yd) => {
         const counts = formatCount(yd);
-        const pips = [
+        const allPips = [
           ...Array(counts.print).fill('print'),
           ...Array(counts.audio).fill('audio'),
           ...Array(counts.graphic).fill('graphic'),
-        ].slice(0, 20);
+        ];
+        const shownPips = allPips.slice(0, 20);
+        const overflow = allPips.length - shownPips.length;
+        const isActive = yearStatusMap.get(String(yd.year)) === 'active';
         return (
           <a href={`${base}/${yd.year}/`} class="year-card">
             <div class="year-card__year">{yd.year}</div>
             <div class="year-card__count">{yd.books.length} books</div>
             <div class="year-card__formats">
-              {pips.map((fmt) => <span class={`format-pip format-pip--${fmt}`} />)}
+              {shownPips.map((fmt) => <span class={`format-pip format-pip--${fmt}`} />)}
+              {overflow > 0 && <span class="year-card__pip-overflow">+{overflow}</span>}
             </div>
+            {isActive && <span class="year-card__active-badge">Active</span>}
           </a>
         );
       })}

@@ -1,5 +1,5 @@
 year: 2026
-total_books: 33
+total_books: 34
 
 books:
   - order: 1
@@ -598,7 +598,7 @@ books:
     author: "K. M. Moke"
     pages: 416
     date_started: "2026-06-22"
-    date_finished: null
+    date_finished: "2026-06-28"
     format: print
     year_published: null
     genre: null
@@ -608,7 +608,6 @@ books:
     description: ""
     tags: []
     notes: ""
-    reading: true
     links:
       openlibrary: ""
       wikipedia: ""
@@ -630,4 +629,24 @@ books:
     notes: ""
     links:
       openlibrary: "https://openlibrary.org/works/OL31218372W"
+      wikipedia: ""
+
+  - order: 34
+    title: "Careless People"
+    author: "Sarah Wynn-Williams"
+    pages: null
+    date_started: "2026-06-28"
+    date_finished: null
+    format: print
+    year_published: null
+    genre: null
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: ""
+    tags: []
+    notes: ""
+    reading: true
+    links:
+      openlibrary: ""
       wikipedia: ""

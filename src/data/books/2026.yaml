@@ -482,7 +482,7 @@ books:
     author: "Cormac McCarthy"
     pages: 351
     date_started: "2026-05-16"
-    date_finished: null
+    date_finished: "2026-06-29"
     format: audio
     year_published: 1985
     genre: "Fiction, Western"
@@ -492,7 +492,6 @@ books:
     description: ""
     tags: []
     notes: ""
-    reading: true
     links:
       openlibrary: "https://openlibrary.org/works/OL40879W"
       wikipedia: ""
@@ -501,7 +500,7 @@ books:
     title: "On the Road"
     author: "Jack Kerouac"
     pages: 307
-    date_started: null
+    date_started: "2026-06-29"
     date_finished: null
     format: audio
     year_published: 1957
@@ -512,7 +511,7 @@ books:
     description: ""
     tags: []
     notes: ""
-    coming_up: true
+    reading: true
     links:
       openlibrary: "https://openlibrary.org/works/OL81631W"
       wikipedia: ""

@@ -659,7 +659,7 @@ books:
     year_published: 2026
     genre: "Business, Consulting"
     publisher: null
-    cover_url: ""
+    cover_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJBCMsG2s9HenyoLUyFlavfAfG66chdReYjZojbveg1g&s"
     isbn: ""
     description: "A practical handbook for consulting leaders on scaling a firm, from two industry veterans who've started, grown, and sold consultancies."
     tags: []

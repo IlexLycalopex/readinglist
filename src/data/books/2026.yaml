@@ -1,5 +1,5 @@
 year: 2026
-total_books: 34
+total_books: 35
 
 books:
   - order: 1
@@ -635,7 +635,7 @@ books:
     author: "Sarah Wynn-Williams"
     pages: null
     date_started: "2026-06-28"
-    date_finished: null
+    date_finished: "2026-07-09"
     format: print
     year_published: 2025
     genre: "Facebook (Electronic resource), Facebook (Web site)"
@@ -645,7 +645,26 @@ books:
     description: ""
     tags: []
     notes: ""
-    reading: true
     links:
       openlibrary: "https://openlibrary.org/works/OL42735465W"
+      wikipedia: ""
+
+  - order: 35
+    title: "The $50M Consulting Firm Playbook"
+    author: "Mark Orttung & Doug Taylor"
+    pages: null
+    date_started: "2026-07-09"
+    date_finished: null
+    format: print
+    year_published: 2026
+    genre: "Business, Consulting"
+    publisher: null
+    cover_url: ""
+    isbn: ""
+    description: "A practical handbook for consulting leaders on scaling a firm, from two industry veterans who've started, grown, and sold consultancies."
+    tags: []
+    notes: ""
+    reading: true
+    links:
+      openlibrary: ""
       wikipedia: ""

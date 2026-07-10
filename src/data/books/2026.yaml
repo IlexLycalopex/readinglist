@@ -654,7 +654,7 @@ books:
     author: "Mark Orttung & Doug Taylor"
     pages: null
     date_started: "2026-07-09"
-    date_finished: null
+    date_finished: "2026-07-10"
     format: print
     year_published: 2026
     genre: "Business, Consulting"
@@ -664,7 +664,6 @@ books:
     description: "A practical handbook for consulting leaders on scaling a firm, from two industry veterans who've started, grown, and sold consultancies."
     tags: []
     notes: ""
-    reading: true
     links:
       openlibrary: ""
       wikipedia: ""

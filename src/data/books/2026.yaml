@@ -1,5 +1,5 @@
 year: 2026
-total_books: 35
+total_books: 36
 
 books:
   - order: 1
@@ -667,3 +667,23 @@ books:
     links:
       openlibrary: ""
       wikipedia: ""
+
+  - order: 36
+    title: "The Fifth Elephant"
+    author: "Terry Pratchett"
+    pages: 464
+    date_started: "2026-07-10"
+    date_finished: null
+    format: print
+    year_published: 1999
+    genre: "Fiction, Discworld (Imaginary place)"
+    publisher: "Corgi"
+    cover_url: "https://covers.openlibrary.org/b/isbn/9780552146166-L.jpg"
+    isbn: "9780552146166"
+    description: "Sam Vimes, Commander of the Ankh-Morpork City Watch, is sent to Überwald as ambassador for the coronation of the Low King of the Dwarfs — where diplomacy quickly gives way to detective work among dwarfs, werewolves and vampires. The 24th Discworld novel."
+    tags: []
+    notes: ""
+    reading: true
+    links:
+      openlibrary: "https://openlibrary.org/works/OL453684W"
+      wikipedia: "https://en.wikipedia.org/wiki/The_Fifth_Elephant"

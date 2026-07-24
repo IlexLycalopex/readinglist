@@ -698,7 +698,7 @@ books:
     year_published: 2026
     genre: "Fiction"
     publisher: "Algonquin Books"
-    cover_url: ""
+    cover_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-E_gIVrDyFd_22jXV6iNmWyfALs4PjM8Tv6dpNQm3wMeGkxvT4o61UZX1xjRT9XlD2HRpBe_g3C1kW-iaTNQVyDixz54YkbrEPcoliCk&s=10"
     isbn: "9781643757100"
     description: "A eucalyptus farm worker named Pedro survives a strange fungal disease that has jumped to humans for the first time, drawing the fascination of a foreign mycologist and a local priest while his children are left to fend for themselves. Translated from the Spanish by Robin Myers."
     tags: []

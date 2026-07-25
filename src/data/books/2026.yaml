@@ -693,7 +693,7 @@ books:
     author: "Simón López Trujillo"
     pages: 144
     date_started: "2026-07-24"
-    date_finished: null
+    date_finished: "2026-07-25"
     format: print
     year_published: 2026
     genre: "Fiction"
@@ -703,7 +703,6 @@ books:
     description: "A eucalyptus farm worker named Pedro survives a strange fungal disease that has jumped to humans for the first time, drawing the fascination of a foreign mycologist and a local priest while his children are left to fend for themselves. Translated from the Spanish by Robin Myers."
     tags: []
     notes: ""
-    reading: true
     links:
       openlibrary: ""
       wikipedia: ""

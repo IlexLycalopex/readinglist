@@ -1,5 +1,5 @@
 year: 2026
-total_books: 37
+total_books: 38
 
 books:
   - order: 1
@@ -673,7 +673,7 @@ books:
     author: "Terry Pratchett"
     pages: 464
     date_started: "2026-07-10"
-    date_finished: null
+    date_finished: "2026-07-27"
     format: print
     year_published: 1999
     genre: "Fiction, Discworld (Imaginary place)"
@@ -683,7 +683,6 @@ books:
     description: "Sam Vimes, Commander of the Ankh-Morpork City Watch, is sent to Überwald as ambassador for the coronation of the Low King of the Dwarfs — where diplomacy quickly gives way to detective work among dwarfs, werewolves and vampires. The 24th Discworld novel."
     tags: []
     notes: ""
-    reading: true
     links:
       openlibrary: "https://openlibrary.org/works/OL453684W"
       wikipedia: "https://en.wikipedia.org/wiki/The_Fifth_Elephant"
@@ -706,3 +705,23 @@ books:
     links:
       openlibrary: ""
       wikipedia: ""
+
+  - order: 38
+    title: "Taiwan Travelogue"
+    author: "Yáng Shuāng-zǐ"
+    pages: 298
+    date_started: "2026-07-27"
+    date_finished: null
+    format: print
+    year_published: 2024
+    genre: "Fiction"
+    publisher: "Graywolf Press"
+    cover_url: ""
+    isbn: "9781644453155"
+    description: "In 1938 Japanese-ruled Taiwan, a Japanese novelist travels the island by rail with her Taiwanese interpreter, their friendship unfolding over shared meals as colonial power hangs between them. Translated by Lin King; winner of the 2024 National Book Award for Translated Literature."
+    tags: []
+    notes: ""
+    reading: true
+    links:
+      openlibrary: ""
+      wikipedia: "https://en.wikipedia.org/wiki/Taiwan_Travelogue"

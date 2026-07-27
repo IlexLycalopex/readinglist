@@ -716,12 +716,12 @@ books:
     year_published: 2024
     genre: "Fiction"
     publisher: "Graywolf Press"
-    cover_url: ""
+    cover_url: "https://covers.openlibrary.org/b/isbn/9781644453155-L.jpg"
     isbn: "9781644453155"
     description: "In 1938 Japanese-ruled Taiwan, a Japanese novelist travels the island by rail with her Taiwanese interpreter, their friendship unfolding over shared meals as colonial power hangs between them. Translated by Lin King; winner of the 2024 National Book Award for Translated Literature."
     tags: []
     notes: ""
     reading: true
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL37871931W"
       wikipedia: "https://en.wikipedia.org/wiki/Taiwan_Travelogue"

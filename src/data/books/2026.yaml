@@ -735,12 +735,12 @@ books:
     year_published: 1930
     genre: "Fiction, Detective and mystery stories"
     publisher: "Vintage"
-    cover_url: ""
+    cover_url: "https://covers.openlibrary.org/b/isbn/9780679722649-L.jpg"
     isbn: "9780679722649"
     description: "Private detective Sam Spade is drawn into a deadly hunt for a jewel-encrusted statuette after his partner is murdered, matching wits with the alluring Brigid O'Shaughnessy and the sinister Casper Gutman. Hammett's 1930 classic defined the hard-boiled detective novel."
     tags: []
     notes: ""
     reading: true
     links:
-      openlibrary: ""
+      openlibrary: "https://openlibrary.org/works/OL47266W"
       wikipedia: "https://en.wikipedia.org/wiki/The_Maltese_Falcon_(novel)"

@@ -1,5 +1,5 @@
 year: 2026
-total_books: 38
+total_books: 39
 
 books:
   - order: 1
@@ -501,7 +501,7 @@ books:
     author: "Jack Kerouac"
     pages: 307
     date_started: "2026-06-29"
-    date_finished: null
+    date_finished: "2026-07-28"
     format: audio
     year_published: 1957
     genre: "Fiction, Beat generation"
@@ -511,7 +511,6 @@ books:
     description: ""
     tags: []
     notes: ""
-    reading: true
     links:
       openlibrary: "https://openlibrary.org/works/OL81631W"
       wikipedia: ""
@@ -725,3 +724,23 @@ books:
     links:
       openlibrary: "https://openlibrary.org/works/OL37871931W"
       wikipedia: "https://en.wikipedia.org/wiki/Taiwan_Travelogue"
+
+  - order: 39
+    title: "The Maltese Falcon"
+    author: "Dashiell Hammett"
+    pages: 217
+    date_started: "2026-07-28"
+    date_finished: null
+    format: audio
+    year_published: 1930
+    genre: "Fiction, Detective and mystery stories"
+    publisher: "Vintage"
+    cover_url: ""
+    isbn: "9780679722649"
+    description: "Private detective Sam Spade is drawn into a deadly hunt for a jewel-encrusted statuette after his partner is murdered, matching wits with the alluring Brigid O'Shaughnessy and the sinister Casper Gutman. Hammett's 1930 classic defined the hard-boiled detective novel."
+    tags: []
+    notes: ""
+    reading: true
+    links:
+      openlibrary: ""
+      wikipedia: "https://en.wikipedia.org/wiki/The_Maltese_Falcon_(novel)"

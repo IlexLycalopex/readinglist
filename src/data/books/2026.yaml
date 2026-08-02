@@ -754,7 +754,7 @@ books:
     year_published: 2010
     genre: "Fiction, Fantasy"
     publisher: "Del Rey"
-    cover_url: ""
+    cover_url: "https://covers.openlibrary.org/b/isbn/9780345497499-L.jpg"
     isbn: "9780345497499"
     description: "When a giant preserved squid vanishes from London's Natural History Museum, curator Billy Harrow is pulled into an occult underworld of squid-worshipping cultists, warring gods and apocalyptic prophecies."
     tags: []
